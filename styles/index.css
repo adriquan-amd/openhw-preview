@@ -17,6 +17,7 @@ body {
 /* Navbar container */
 .navbar-container {
     width: 100%;
+
     background-color: #000000;
     padding: 15px 25px;
     box-sizing: border-box;
@@ -25,6 +26,7 @@ body {
 /* Navbar */
 .navbar {
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     max-width: 1425px;
@@ -135,4 +137,5 @@ body {
 .full-screen-div {
     width: 100vw; /* Full width of the viewport */
     height: 100vh; /* Full height of the viewport */
+
 }

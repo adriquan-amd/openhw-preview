@@ -16,3 +16,16 @@ function loadPage(pageId) {
 
 // 默认加载 home 页
 loadPage('home');
+
+// 给每个菜单项绑定点击事件
+document.querySelector('.menu-item-home').addEventListener('click', function() {
+    loadPage('home'); // 传入对应的页面ID（如 'home'）
+});
+
+document.querySelector('.menu-item-platforms').addEventListener('click', function() {
+    loadPage('platforms');
+});
+
+document.querySelector('.menu-item-rules').addEventListener('click', function() {
+    loadPage('rules');
+});
