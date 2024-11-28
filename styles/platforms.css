@@ -1,0 +1,302 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 1440px;
+    height: 673px;
+    margin: 0 auto;
+}
+.pic {
+    position: absolute;
+    width: 1436px;
+    height: 430px;
+    top: 99px;
+    left: 0;
+    background: url(assets/img/platform_banner.png)
+    no-repeat center;
+    background-size: cover;
+}
+.rectangle {
+    position: relative;
+    width: 186px;
+    height: 52px;
+    margin: 332px 0 0 160px;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    left: -30%;
+    z-index: 7;
+    border-radius: 8px;
+}
+.details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 14px;
+    left: 67px;
+    color: #000000;
+    font-family: Cabin, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+}
+.arrow-right {
+    position: absolute;
+    width: 2.52%;
+    height: 17.95%;
+    top: 44.87%;
+    left: 64.12%;
+    background: url(assets/img/Arrowright.svg)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 9;
+}
+.recommended {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 70px;
+    top: 53px;
+    left: 89px;
+    color: #ffffff;
+    font-family: Figtree, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+}
+.ryzen-ai-recommended {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 474px;
+    height: 240px;
+    top: 65px;
+    left: 81px;
+    color: #ffffff;
+    font-family: Cabin, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    z-index: 4;
+}
+.platforms {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 70px;
+    top: 123px;
+    left: 183px;
+    color: #ffffff;
+    font-family: Figtree, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+}
+.tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    position: absolute;
+    width: 1282px;
+    height: 49px;
+    top: 511px;
+    left: 60px;
+    background: #f7fffd;
+    z-index: 13;
+}
+.tab-group {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 0;
+    background: #000000;
+    z-index: 14;
+}
+.tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    position: relative;
+    height: 48px;
+    background: #000000;
+    z-index: 15;
+    overflow: hidden;
+}
+.state-layer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    position: relative;
+    min-height: 0;
+    padding: 14px 16px 14px 16px;
+    z-index: 16;
+    overflow: hidden;
+}
+.tab-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 4px;
+    position: relative;
+    width: 150px;
+    z-index: 17;
+}
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 150px;
+    height: 20px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0.1px;
+    z-index: 18;
+}
+.indicator {
+    flex-shrink: 0;
+    position: absolute;
+    height: 2px;
+    right: -0.5px;
+    bottom: 0;
+    left: 0;
+    background: #65558f;
+    z-index: 19;
+}
+.tab-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    position: relative;
+    height: 48px;
+    background: #000000;
+    z-index: 20;
+    overflow: hidden;
+}
+.state-layer-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    position: relative;
+    min-height: 0;
+    padding: 14px 16px 14px 16px;
+    z-index: 21;
+    overflow: hidden;
+}
+.tab-contents-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    gap: 4px;
+    position: relative;
+    width: 128px;
+    z-index: 22;
+}
+.adaptive-computing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 128px;
+    height: 20px;
+    color: #a7b8cd;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0.1px;
+    z-index: 23;
+}
+.tab-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    position: relative;
+    height: 48px;
+}

@@ -86,7 +86,7 @@
     position: absolute;
     width: 531px;
     height: 80px;
-    top: 210px;
+    top: 120%;
     left: 227px;
     border-radius: 50px;
     border: 1px solid;
@@ -327,7 +327,7 @@
     width: 760px;
     height: 46px;
     top: 172px;
-    left: 0;
+    left:-7.5%;
     font-family: "Inter-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
@@ -425,6 +425,7 @@
 
 .home .text-wrapper-11 {
     font-size: 24px;
+    left : 90%;
 }
 
 .home .div-banner {
@@ -433,7 +434,7 @@
     height: 810px;
     top: -81px;
     left: 2px;
-
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .home .overlap-6 {
@@ -441,11 +442,8 @@
     width: 1492px;
     height: 1000px;
     top: 49px;
-    box-shadow:
-            inset 30px 24px 34px 0px rgba(0, 0, 0, 0.34),
-            inset 30px 28px 38px 0px rgba(0, 0, 0, 0.40),
-            inset 30px 35px 45px 0px rgba(0, 0, 0, 0.48),
-            inset 30px 54px 61px 0px rgba(0, 0, 0, 0.67);
+
+
 }
 
 .home .element-pic {
@@ -476,8 +474,8 @@
 .home .inverted-image-2 {
     width: 230px;
     height: 82px;
-    top: 92px;
-    left: 107px;
+    top: 30%;
+    left: 20%;
     position: absolute;
     object-fit: cover;
 }
@@ -486,8 +484,8 @@
     position: absolute;
     width: 471px;
     height: 127px;
-    top: 267px;
-    left: 0;
+    top: 73%;
+    left: 0%;
     font-family: "Inter-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
@@ -501,8 +499,8 @@
     position: absolute;
     width: 566px;
     height: 338px;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: -10%;
     font-family: "Inter-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
@@ -552,8 +550,7 @@
 
 .home .macbook-pro-render {
     position: absolute;
-    width: 1120px;
-    height: 1000px;
+    width: 70%;
     top: 0;
     left: 372px;
     object-fit: cover;
