@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the body styles */
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #000000;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar container */
+.navbar-container {
+    width: 100%;
+    background-color: #000000;
+    padding: 15px 25px;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1425px;
+    margin: 0 auto;
+}
+
+/* Logo style */
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+/* Menu container */
+.menu {
+    display: flex;
+    justify-content: center; /* Center menu items */
+    gap: 20px; /* Space between menu items */
+}
+
+/* Menu item */
+.menu-item {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* Hover effect for menu items */
+.menu-item:hover {
+    color: #ff5722; /* Change color on hover */
+}
+
+/* Dropdown indicator */
+.dropdown-indicator {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+/* Icon box for the account icon */
+.icon-box {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* 对"RESULTS"菜单项进行单独的样式调整 */
+.menu-item-results {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; /* 给文字和箭头之间增加一点间隔 */
+}
+
+/* 小箭头样式 */
+.dropdown-indicator {
+    width: 3px;
+    height: 3px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+
+
+/* 对其他菜单项进行调整 */
+.menu-item-rules, .menu-item-platforms, .menu-item-home {
+
+    font-size: 11px;
+    letter-spacing: 1.3px;
+}
+
+
+
+.icon-box div {
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+/* Footer logo at the bottom */
+.footer-logo {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Footer logo image */
+.footer-logo img {
+    max-width: 100%; /* Set the footer logo width */
+    height: auto;
+}
+
+/* Page content */
+#page-content {
+    padding: 20px;
+    text-align: center;
+}
+.full-screen-div {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+}
