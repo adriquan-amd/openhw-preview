@@ -25,14 +25,14 @@ button {
 
 .main-container {
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 673px;
     margin: 0 auto;
 }
 .pic {
     position: absolute;
-    width: 1436px;
-    height: 430px;
+    width: 100%;
+    height: auto;
 
     left: 0;
 
@@ -138,7 +138,7 @@ button {
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: nowrap;
-    position: absolute;
+    position: relative;
     width: 1282px;
     height: 49px;
     top: 100%;
@@ -161,7 +161,6 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
     flex-wrap: nowrap;
     flex-grow: 1;
     flex-shrink: 0;
@@ -242,6 +241,8 @@ button {
     box-sizing: border-box;
 }
 
+
+
 input,
 select,
 textarea,
@@ -250,7 +251,7 @@ button {
 }
 
 .body-container {
-    padding-top: 0px;
+
     position: relative;
     width: 100%;
     height: 100%;
@@ -259,12 +260,13 @@ button {
     overflow: hidden;
     top:150%;
 
+
 }
 .recommended-hardware {
     display: block;
     position: relative;
     height: 40px;
-    margin: 0 0 0 67px;
+    margin: 12% 0 0 5%;
     color: #ffffff;
     font-family: Cabin, var(--default-font-family);
     font-size: 20px;
@@ -282,7 +284,7 @@ button {
     margin: -10px 0 0 44px;
     z-index: 21;
 }
-.ryzen-ai-gpus {
+.title {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -290,7 +292,7 @@ button {
     width: 543px;
     height: 173px;
     top: 0;
-    left: 18px;
+    left: 2%;
     color: #ffffff;
     font-family: Figtree, var(--default-font-family);
     font-size: 60px;
@@ -299,33 +301,48 @@ button {
     text-align: left;
     z-index: 17;
 }
-.rectangle {
+
+.title-adaptive {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     position: absolute;
-    width: 633px;
-    height: 475px;
-    top: 28px;
-    left: 625px;
-    background: url(./assets/images/dd9321f8-df3d-40e2-8f5d-c7c62e196207.png)
-    no-repeat center;
-    background-size: cover;
-    z-index: 21;
-    border-radius: 12px;
+    width: 700px;
+    height: 173px;
+    top: 0;
+    left: 2%;
+    color: #ffffff;
+    font-family: Figtree, var(--default-font-family);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    z-index: 17;
 }
+
+.frame{
+    position: absolute;
+    top: 100%
+}
+
 .frame-1 {
     position: absolute;
     width: 523px;
-    height: 522px;
+    height: auto;
+    min-height: 522px;
     top: 153px;
     left: 0;
     overflow: hidden;
 }
 .frame-2 {
+
     position: relative;
-    width: 469px;
-    height: 353px;
+    width: 100%;
+    height: auto;
     margin: 14px 0 0 20px;
     z-index: 6;
     overflow: hidden;
+    min-height: 40px;
 }
 .flex-row-e {
     position: absolute;
@@ -336,16 +353,17 @@ button {
     z-index: 10;
 }
 .line {
+
     position: relative;
     width: 403px;
     height: 1px;
-    margin: 38px 0 0 4px;
-    background: url(./assets/images/ac10a5de-6bf0-432c-ab79-98e13423c121.png)
-    no-repeat center;
+    left : -4%;
+    margin: 38px 0 0 0px;
+    background: no-repeat center;
     background-size: cover;
     z-index: 8;
 }
-.amd-radeon-gpus {
+.subtitle {
     position: absolute;
     width: 438px;
     height: 40px;
@@ -360,7 +378,7 @@ button {
     white-space: nowrap;
     z-index: 10;
 }
-.amd-radeon-gpus-3 {
+.title-font {
     position: relative;
     color: #ffffff;
     font-family: Cabin, var(--default-font-family);
@@ -370,14 +388,16 @@ button {
     text-align: left;
 }
 .flex-row-bcf {
-    position: absolute;
+    display: none;
+    position: relative;
     width: 433px;
-    height: 347px;
+    height:auto;
+    min-height: 347px;
     top: -1px;
     left: 7px;
     z-index: 11;
 }
-.rectangle-4 {
+.rectangle{
     position: absolute;
     width: 5px;
     height: 339px;
@@ -386,8 +406,7 @@ button {
     background: #ec570c;
     z-index: 11;
 }
-.amd-radeon-gpu {
-    display: flex;
+.text {
     align-items: flex-start;
     justify-content: flex-start;
     position: absolute;
@@ -405,120 +424,24 @@ button {
 }
 .trailing-icon {
     position: absolute;
-    width: 18px;
-    height: 18px;
-    top: -1px;
-    left: 396px;
-    background: url(assets/img/Trailing_icon.svg)
-    no-repeat center;
+    width: 15px;
+    height: 8px;
+    top: 10px;
+    left: 360px;
+    background: no-repeat center;
     background-size: cover;
     z-index: 9;
 }
-.frame-5 {
-    position: relative;
-    width: 443px;
-    height: 50px;
-    margin: 0 0 0 31px;
-    z-index: 1;
-    overflow: hidden;
-}
-.ryzen-ai {
-    position: absolute;
-    width: 416px;
-    height: 40px;
-    top: 0;
-    left: 23px;
-    font-family: Cabin, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    text-overflow: initial;
-    white-space: nowrap;
-    z-index: 4;
-}
-.ryzen-ai-6 {
-    position: relative;
-    color: #ffffff;
-    font-family: Cabin, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-}
-.trailing-icon-7 {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    top: 5px;
-    left: 383px;
-    background: #ffffff;
-    z-index: 2;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+.subtitle:hover .title-font {
+    color: #ff5722;
 }
 
-.line-8 {
-    position: absolute;
-    width: 407px;
-    height: 1px;
-    top: 39px;
-    left: 20px;
-    background: url(./assets/images/6abf54af-2a90-4ad4-bc65-2dfebb649e50.png)
-    no-repeat center;
-    background-size: cover;
-    z-index: 5;
-}
-.frame-9 {
-    position: relative;
-    width: 438px;
-    height: 65px;
-    margin: 15px 0 0 29px;
-    z-index: 12;
-    overflow: hidden;
-}
-.amd-instinct-accelerators {
-    position: absolute;
-    width: 416px;
-    height: 40px;
-    top: 3px;
-    left: 22px;
-    font-family: Cabin, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    text-overflow: initial;
-    white-space: nowrap;
-    z-index: 13;
-}
-.amd-instinct-accelerators-a {
-    position: relative;
-    color: #ffffff;
-    font-family: Cabin, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-}
-.trailing-icon-b {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    top: 6px;
-    left: 385px;
-    background: #ffffff;
-    z-index: 15;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+.subtitle:hover .trailing-icon {
+    color: #ff5722;
 }
 
-.line-d {
-    position: absolute;
-    width: 407px;
-    height: 1px;
-    top: 42px;
-    left: 22px;
-    background: url(./assets/images/658f3198-15a2-4901-8580-a734eebe6314.png)
-    no-repeat center;
-    background-size: cover;
-    z-index: 14;
+.flex-row-bcf.visible {
+    display: block;
+
 }

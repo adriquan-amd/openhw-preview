@@ -1,6 +1,5 @@
 function loadPage(pageId) {
     const pageContent = document.getElementById('page-content');
-
     // 使用 Fetch API 动态加载不同的 HTML 页面
     fetch(`pages/${pageId}.html`)
         .then(response => response.text())
@@ -29,3 +28,4 @@ document.querySelector('.menu-item-platforms').addEventListener('click', functio
 document.querySelector('.menu-item-rules').addEventListener('click', function() {
     loadPage('rules');
 });
+
