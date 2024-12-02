@@ -1,11 +1,18 @@
 function loadPage(pageId) {
     const pageContent = document.getElementById('page-content');
-    // 使用 Fetch API 动态加载不同的 HTML 页面
+    const head = document.head;
+
+    let cssPath = `styles/${pageId}.css`; // 每个页面都有独立的 CSS 文件
+    let jsPath = `scripts/${pageId}_scripts.js`; // 每个页面都有独立的 JS 文件
+
+    loadCss(cssPath);
+
     fetch(`pages/${pageId}.html`)
         .then(response => response.text())
         .then(html => {
-            // 插入加载的 HTML 内容到页面
             pageContent.innerHTML = html;
+
+            loadScript(jsPath);
         })
         .catch(error => {
             console.error('Error loading the page:', error);
@@ -13,19 +20,43 @@ function loadPage(pageId) {
         });
 }
 
-// 默认加载 home 页
+
+function loadCss(src) {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = src;
+    document.head.appendChild(link);
+}
+
+
+function loadScript(src) {
+    var script = document.createElement('script');
+    script.src = src;
+    script.type = 'text/javascript';
+    script.async = true;
+    script.onload = function() {
+        console.log(src + ' loaded successfully');
+    };
+    script.onerror = function() {
+        console.error('Error loading script: ' + src);
+    };
+    document.head.appendChild(script);
+}
 loadPage('home');
 
-// 给每个菜单项绑定点击事件
 document.querySelector('.menu-item-home').addEventListener('click', function() {
-    loadPage('home'); // 传入对应的页面ID（如 'home'）
+    loadPage('home');
 });
 
 document.querySelector('.menu-item-platforms').addEventListener('click', function() {
     loadPage('platforms');
+
 });
 
 document.querySelector('.menu-item-rules').addEventListener('click', function() {
     loadPage('rules');
 });
+
+
 

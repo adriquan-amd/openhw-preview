@@ -47,7 +47,7 @@ button {
     cursor: pointer;
     background: #ffffff;
     border: none;
-    left: -36.5%;
+    left: -106.5%;
     top: 3%;
     z-index: 7;
     border-radius: 8px;
@@ -77,7 +77,7 @@ button {
     height: 17.95%;
     top: 44.87%;
     left: 64.12%;
-    background: url(assets/img/Arrowright.svg)
+    background:
     no-repeat center;
     background-size: 100% 100%;
     z-index: 9;
@@ -366,7 +366,7 @@ button {
 .subtitle {
     position: absolute;
     width: 438px;
-    height: 40px;
+
     top: 0;
     left: 0;
     font-family: Cabin, var(--default-font-family);
@@ -390,29 +390,20 @@ button {
 .flex-row-bcf {
     display: none;
     position: relative;
-    width: 433px;
-    height:auto;
+    width: auto;
+    height: auto;
     min-height: 347px;
-    top: -1px;
     left: 7px;
     z-index: 11;
 }
-.rectangle{
-    position: absolute;
-    width: 5px;
-    height: 339px;
-    top: 0;
-    left: 0;
-    background: #ec570c;
-    z-index: 11;
-}
+
 .text {
     align-items: flex-start;
     justify-content: flex-start;
     position: absolute;
-    width: 407px;
-    height: 300px;
-    top: 47px;
+    width: 100%;        /* 让文本宽度适应父容器 */
+    height: auto;       /* 让文本高度自适应 */
+
     left: 26px;
     color: #ffffff;
     font-family: Cabin, var(--default-font-family);
@@ -422,6 +413,7 @@ button {
     text-align: left;
     z-index: 7;
 }
+
 .trailing-icon {
     position: absolute;
     width: 15px;
@@ -441,7 +433,3 @@ button {
     color: #ff5722;
 }
 
-.flex-row-bcf.visible {
-    display: block;
-
-}

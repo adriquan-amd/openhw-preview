@@ -290,7 +290,6 @@
     width: 594px;
     height: 216px;
     left: 62px;
-    background-image: url(./img/group.png);
     background-size: 100% 100%;
 }
 
@@ -523,7 +522,7 @@
     height: 391px;
     top: 189px;
     left: 623px;
-    background-image: url(./img/div-2.png);
+
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -543,7 +542,6 @@
     height: 393px;
     top: 187px;
     left: 626px;
-    background-image: url(./img/frame-480930.png);
     background-size: cover;
     background-position: 50% 50%;
 }
