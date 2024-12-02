@@ -1,3 +1,4 @@
+AOS.init();
 function loadPage(pageId) {
     const pageContent = document.getElementById('page-content');
     const head = document.head;
