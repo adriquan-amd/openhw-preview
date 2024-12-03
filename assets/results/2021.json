@@ -1,0 +1,204 @@
+[
+    {},
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/uplrkUejjHI?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-aa9szppy-vidframe",
+        "title": "Winner: Student Category Eskişehir Technical University XThreads: A Hardware-based Multi-core Parallel Programming Environment Using Pthread-like Programming Model",
+        "project_link": "https:\/\/github.com\/fatmazdgr\/XThread",
+        "supervisor": "(supervisor: dr. ismail san)",
+        "authors": "Fatma ÖZÜDOĞRU, Ersin ABBASOĞLU "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/ebidiu2HogM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-mblmutmm-vidframe",
+        "title": "Winner: Student Category Universitat Politècnica de Catalunya (UPC) Hardware-Software Co-design for Low-cost AI processing in Space Processors",
+        "project_link": "http:\/\/gitlab.bsc.es\/msolebon\/GRLIB-AI-extension.git",
+        "supervisor": "(supervisor: Leonidas Kosmidis)",
+        "authors": "MARC SOLÉ BONET "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/v0MMrC7AJHg?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-fpag18c4-vidframe",
+        "title": "Winner: PYNQ Category TU Munich Binary Neural Network-based COVID19 Face-Mask Wear and Positioning Predictor",
+        "project_link": "https:\/\/github.com\/NaelF\/BinaryCoP",
+        "supervisor": "(supervisor: dr. walter stechele)",
+        "authors": "Nael fasfous, Manoj-Rohit Vemparala, Alexander Frickenstein "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/FO_M2AHb1u4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-qeafl1ac-vidframe",
+        "title": "Winner: Compute Acceleration National Technical University of Athens (NTUA) Accelerated Image Reconstruction using Generative Adversarial Networks on Cloud FPGAs",
+        "project_link": "https:\/\/github.com\/dimdano\/gan-hls",
+        "supervisor": "(Supervisor: dimitrios soudris)",
+        "authors": "DIMITRIOS DANOPOULOS "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/zMqgmTOTiIU?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-2nmzbvwp-vidframe",
+        "title": "Winner: PhD Category TU Kaiserslautern HALF: HOLISTIC AUTO-ML FOR FPGAS",
+        "project_link": "https:\/\/github.com\/jney-eit\/XOHW21-144",
+        "supervisor": "(supervisor: norbert wehn)",
+        "authors": "JONAS NEY, VLADIMIR RYBALKIN "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/ArsOXOTzKNM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-oa3fd8kz-vidframe",
+        "title": "Winner: PhD Category Universidade do Minho TEEOD: Trusted Execution Environments On-Demand via Reconfigurable FPGA",
+        "project_link": "https:\/\/github.com\/sergioagp\/teeod",
+        "supervisor": "(supervisor: sandro pinto)",
+        "authors": "SERGIO PEREIRA, DAVID CERDEIRA, CRISTIANO RODRIGUES "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/CqBPsaFY_-0?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-jicz71ux-vidframe",
+        "title": "Heriot-Watt University Spectrum knowledge acquisition from a 5G Signal",
+        "supervisor": "(supervisor: souheil ben smida)",
+        "authors": "SIMONA SIBIO "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/OTt--FneTC4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-naoy10pb-vidframe",
+        "title": "Eskisehir Technical University HOBIT: Binarized neural network (BNN) hardware acceleration for edge devices",
+        "project_link": "https:\/\/github.com\/DHLSan\/HOBIT",
+        "supervisor": "(supervisor: dr. ismail san)",
+        "authors": "Samet Duru, Burak Akkuş "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/y7rXFSR5y-8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-mgyaij2a-vidframe",
+        "title": "Inonu University FPGA Realization of Approximate Fractional-Order Derivative Functions and Its Applications",
+        "project_link": "https:\/\/github.com\/muhammedtarikyildiz\/fractional-order-msbl-fpga\/",
+        "supervisor": "(supervisor: murat koseoglu)",
+        "authors": "Muhammed Tarık Yildiz, Elvan Celik "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/czhXDm4b7yk?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-xhj6wyqn-vidframe",
+        "title": "Eskisehir Technical University LLAlexNet: CNN Accelerator for Low Latency Cloud Integration",
+        "project_link": "https:\/\/github.com\/DHLSan\/LLAlexNet\/blob\/main\/README.md",
+        "supervisor": "(supervisor: dr. ismail san)",
+        "authors": "Arif Berkay Okumuş, Mehmet Selim Nazlı "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/P2iyTYlKXX0?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-pmoozyw1-vidframe",
+        "title": "Politecnico di Milano Genomic co-processor for long read assembly FPGA",
+        "project_link": "https:\/\/github.com\/marinamartiq\/xohw21-Darwin-public",
+        "supervisor": "(supervisor: marco domenico santambrogio)",
+        "authors": "Marina Marti, Alberto Zeni "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/py9bzGb1bHY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-vw8zq3bs-vidframe",
+        "title": "Politecnico di Milano GEM: Gradient Enabled Mutual-Information",
+        "project_link": "https:\/\/github.com\/luigifusco\/GEM-XOHW-2021",
+        "supervisor": "(supervisor: marco santambrogio)",
+        "authors": "Luigi Fusco, Eleonora D'Arnese "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/0q8aCukGHQY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-2lgap2dr-vidframe",
+        "title": "Politecnico di Milano Wapa: BWA-MEM implementation on FPGA",
+        "supervisor": "(supervisor: supervisor: marco d. santambrogio)",
+        "authors": "Sofia Breschi, Leonardo De Grandis, Alessia Della Valle "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/TrdNMubUr0s?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-kz6hqw4w-vidframe",
+        "title": "TOBB University of Economics and Technology & Nottingham Trent University Power Profiling custom application on VCS-1",
+        "project_link": "https:\/\/github.com\/BaturayOnural\/XOHWC-SundanceVCS1-Power-Profiling",
+        "supervisor": "(Supervisor: pedro miguel baptista machado)",
+        "authors": "Erhan Baturay Onural, Ivica Matic "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/BckjStwSHvg?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-upniyist-vidframe",
+        "title": "University of Malaga Accelerating Time Series Analysis Using an Alveo U50 FPGA",
+        "project_link": "https:\/\/github.com\/ivanfv\/SCAMP-FPGA",
+        "supervisor": "(supervisor: oscar plata)",
+        "authors": "Ivan Fernandez "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/hIh0c6ANM2E?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-6gcpe8co-vidframe",
+        "title": "Eskisehir Technical University ModArithAccel",
+        "project_link": "https:\/\/github.com\/DHLSan\/ModArithAccel",
+        "supervisor": "(supervisor: dr. ismail san)",
+        "authors": "İsmail Alperen AYTEKİN, İbrahim TOPALOĞLU "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/KNSgCsB4kco?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-4ut1ub8n-vidframe",
+        "title": "Brandenburg University of Technology FGPU: An Configurable Soft-Core SIMT Accelerator",
+        "project_link": "https:\/\/github.com\/munozher\/FGPU_configurable_SIMT",
+        "supervisor": "(supervisors: michael hubner, marcelo brandalero)",
+        "authors": "Hector Gerardo munoz hernandez, liliia kudelina, Mitko veleski "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/q6L80S3RxMc?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-sjgbz2ct-vidframe",
+        "title": "Eskişehir Technical University MPSCache: Efficient Multi-ported Scalable Reconfigurable Cache Design",
+        "project_link": "https:\/\/github.com\/DHLSan\/MPSCache-MultiPortedScalableCache",
+        "supervisor": "(Dr. ismail san)",
+        "authors": "Fatma ÖZÜDOĞRU, Seray ÖZCAN "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/rIsYl0i1ktQ?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-uucyodxn-vidframe",
+        "title": "Eskişehir Technical University HDACC: Hardware Acceleration of Brain-Inspired Hyperdimensional Computing for Hand Gesture Recognition using Electromyography (EMG) Signals",
+        "project_link": "https:\/\/github.com\/DHLSan\/HDAcc",
+        "supervisor": "(supervisor: ismail san)",
+        "authors": "Faruk Gökhan Sönmez, Melih Işık "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/mu5e4rd4wVE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-e0z1tfov-vidframe",
+        "title": "Jerusalem College of Technology (JCT) Implementation of Hummingbird Encryption Algorithm",
+        "project_link": "https:\/\/github.com\/eliecudkowicz\/Implementation-of-hummingbird-Encryption-Algorithm",
+        "supervisor": "(supervisor: Uri Stroh)",
+        "authors": "Elie Cudkowicz, Itamar Yunnian "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/uSpVegukgxo?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-rxytcikp-vidframe",
+        "title": "ETH Zurich StencilFlow: Mapping Large Stencil Programs to Spatial Computing Systems",
+        "project_link": "https:\/\/github.com\/spcl\/stencilflow",
+        "supervisor": "(supervisor: torsten hoefler)",
+        "authors": "JOHANNES DE FINE LICHT, ANDREAS KUSTER "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/s-FPJzREJCY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-wp9wrh7q-vidframe",
+        "title": "University of Zaragoza FPGA implementation of BCIs using QCNNs",
+        "project_link": "https:\/\/github.com\/eneriz-daniel\/MIBCI-QCNNs",
+        "supervisor": "(supervisor: Nicolas Medrano Marques)",
+        "authors": "Daniel Enériz Orta, Ana Caren Hernández Ruiz "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/UbXy80Om6K4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-hl03edw1-vidframe",
+        "title": "Eskisehir Technical University LLVGG16: Low Latency VGG16 Accelerator for Cloud Integration",
+        "project_link": "https:\/\/github.com\/DHLSan\/LLVGG16",
+        "supervisor": "(supervisor: dr. Ismail San)",
+        "authors": "Büşranur YILMAZ, Kirman SERDAR "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/Xz5_uO4a82A?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-1pfzodyv-vidframe",
+        "title": "Politecnico di Milano FLOW - WFA on FPGA",
+        "supervisor": "(supervisor: Marco d. santambrogio)",
+        "authors": "Beatrice Branchini, Luisa Cicolini, Giulia Gerometta "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/RQGsxYGu5q4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-4i840hrs-vidframe",
+        "title": "University of Edinburgh Valuation of financial derivatives on FPGA with HLS",
+        "project_link": "https:\/\/github.com\/markxio\/delta-hedging",
+        "supervisor": "(supervisor: dr. nick brown)",
+        "authors": "Mark Klaisoongeon "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/uwJWwSMZXAk?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-vqigply3-vidframe",
+        "title": "University of Oxford Accelerating Linear Solvers on FPGA",
+        "project_link": "https:\/\/github.com\/jacksoncd\/Accelerating-Linear-Solvers",
+        "supervisor": "(supervisor: noa zilberman)",
+        "authors": "JACKSON COOPER-DRIVER "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/ueQxrzq5CV8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-cthcqqgv-vidframe",
+        "title": "University of Aveiro 5G O-RAN Fronthaul Mini Switch",
+        "project_link": "https:\/\/github.com\/diogo-marques\/ORAN_FH_SW",
+        "supervisor": "(supervisor: Arnaldo Oliveira)",
+        "authors": "Diogo Costa Marques "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/EkTW2x7l_CM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-c9f0srx4-vidframe",
+        "title": "Eskisehir Technical UniversityPYNQeBNN: Hardware Accelerator Design for Embedded Binarized Neural Network (eBNN) on PYNQ Platform and its High-Level Python Integration",
+        "project_link": "https:\/\/github.com\/DHLSan\/PYNQeBNN",
+        "supervisor": "(Dr. Ismail San)",
+        "authors": "Cagla Sahinoglu "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/Yz9s4SajXfA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-nqfoxz48-vidframe",
+        "title": "Eskisehir Technical University FastHomNAND",
+        "project_link": "https:\/\/github.com\/DHLSan\/FastHomNAND",
+        "supervisor": "(Supervisor: Dr. Ismail San)",
+        "authors": "Batuhan Bulut "
+    },
+    {}
+]

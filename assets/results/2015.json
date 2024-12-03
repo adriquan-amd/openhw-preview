@@ -1,0 +1,66 @@
+[
+    {},
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/508xwc262f8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=1&loop=1&playlist=508xwc262f8&rel=0&playerapiid=vbid-ae28e-gbzqzfro-vidframe",
+        "title": "Winner: ZYNQ Category Technische Universitaet Chemnitz Zynq: Flexible Platform for Object Recognition (ZYFPOR)",
+        "supervisor": "(Marcel Putsche)",
+        "authors": "Murali Padmanabha, Christian Schott, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/x5UG7OSvk58?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=1&loop=1&playlist=x5UG7OSvk58&rel=0&playerapiid=vbid-ae28e-jvuuqmjt-vidframe",
+        "title": "Winner: FPGA Category University of Novi Sad FPGA: Multiple Encrypting Standard IP Core with AXI4 Interface",
+        "supervisor": "(Ivan Mezei)",
+        "authors": "Damjan Rakanovic, Stefan Mijic, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/x5UG7OSvk58?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=1&loop=1&playlist=x5UG7OSvk58&rel=0&playerapiid=vbid-ae28e-1tdmesnq-vidframe",
+        "title": "Ruhr University Bochum Zynq: Efficient Robot Navigation: Bird’s eye view and adapted A* Algorithm",
+        "supervisor": "(Diana Göhringer)",
+        "authors": "Jens Rettkowski, David Gburek, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/LbK1ALqoDAk?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=1&loop=1&playlist=LbK1ALqoDAk&rel=0&playerapiid=vbid-ae28e-xkwqkbpf-vidframe",
+        "title": "Ruhr University Bochum HLS: Driver Attention Detection using Zedboard",
+        "project_link": "https:\/\/github.com\/RUB-ESIT\/ZedBoard-Final-System-Design",
+        "supervisor": "(Michael Huebner)",
+        "authors": "Fynn Schwiegelshohn, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/fH60xha-u6o?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=1&loop=1&playlist=fH60xha-u6o&rel=0&playerapiid=vbid-ae28e-epxnkxyi-vidframe",
+        "title": "UJF GRENOBLE Zynq: Tango Gateway using Zedboard",
+        "project_link": "http:\/\/zedboard.org\/content\/zedboard-tango-control-system-gateway",
+        "supervisor": "(Raphael Ponsard)",
+        "authors": "Dino Zulic, Leo Lafiosca, Benjamin Reynier, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/blO5B3csqsM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=1&loop=1&playlist=blO5B3csqsM&rel=0&playerapiid=vbid-ae28e-a6d3rhbp-vidframe",
+        "title": "UJF GRENOBLE FPGA: Las Vegas",
+        "supervisor": "(Pascal Benoit)",
+        "authors": "Alain Enjalbert, Florian Hugues, Arnaud Nelissen, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/svI7nAp2KHE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-5bycjnv5-vidframe",
+        "title": "Technical University of Crete FPGA: Game of Complex Life",
+        "supervisor": "(Apostolos Dollas)",
+        "authors": "Nikolaos Kyparissas, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/Wb3nQ336Kt4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-b0tw7bqi-vidframe",
+        "title": "ISEN-Brest Zynq: Embedded Crypto-compression for Wireless Image Sensor Networks",
+        "supervisor": "(Maher Jridi)",
+        "authors": "Thibault Chapel, Victor Dorez, Antoine Le Botlan, Guenole Le Bougeant, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/m105JgbEmNE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-fubm2set-vidframe",
+        "title": "ITCS Erasmo da Rotterdam Zynq: Nessie: Open robot project for teaching\/learning",
+        "supervisor": "(Giulio Vitale)",
+        "authors": "Alessandro Rossetti, Samuele D'Armento, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/TrAWSdii2tQ?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=1&playlist=TrAWSdii2tQ&rel=0&playerapiid=vbid-ae28e-hei2avnb-vidframe",
+        "title": "Universidad Autonoma de Madrid Zynq: Zynq system for accurate timestamp on Gigabit Ethernet network",
+        "supervisor": "(Gustavo Sutter)",
+        "authors": "Mario Daniel Ruiz Noguera, "
+    },
+    {}
+]

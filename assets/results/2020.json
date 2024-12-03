@@ -1,0 +1,251 @@
+[
+    {},
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/m-dPfx9j9Tw?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-3lxsrawu-vidframe",
+        "title": "Winner: Student Category Uni. of Cambridge\/Uni. of Edinburgh P4DNS: In Network DNS",
+        "project_link": "https:\/\/github.com\/cucl-srg\/P4DNS",
+        "supervisor": "(Noa Zilberman)",
+        "authors": "Jackson Woodruff, Murali Ramanujam "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/jHUAb-_tmaQ?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-ga6zvw8c-vidframe",
+        "title": "Winner: Student Category Complutense Uni. of Madrid Multi-track & Multi-effect Sound Looper",
+        "project_link": "https:\/\/gitlab.com\/loopman-ndc\/loopman-hw",
+        "supervisor": "(J. M. Mendías)",
+        "authors": "Borja Morcillo "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/aolgu698L_8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-r2npkbi6-vidframe",
+        "title": "Winner: PhD Category ETH Zürich Portable Linear Algebra on FPGA using Data-Centric Parallel Programming",
+        "project_link": "https:\/\/github.com\/manuelburger\/daceBLAS_demo",
+        "supervisor": "(Torsten Hoefler)",
+        "authors": "Manuel Burger, Johannes de Fine Licht "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/zPZhwJ0PcVo?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-q2gejn2w-vidframe",
+        "title": "Winner: PhD Category Politecnico di Milano Personalized PageRank low-latency Recommender Systems",
+        "project_link": "https:\/\/bitbucket.org\/necst\/xohw2020_approximate-pagerank_public\/",
+        "supervisor": "(Marco Santambrogio)",
+        "authors": "Alberto Parravicini, Francesco Sgherzi "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/POzkQwJseMs?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-knkeqras-vidframe",
+        "title": "Winner: PYNQ Category University of Strathclyde Hardware Acceleration of Support Vector Machines on PYNQ",
+        "project_link": "https:\/\/github.com\/RyanMan1\/PYNQ-SVM-OpenHW-2020",
+        "supervisor": "(Torsten Hoefler)",
+        "authors": "Johannes de Fine Licht "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/1PKgX4OCz1Y?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-f6lxodog-vidframe",
+        "title": "Winner: Compute Acceleration ETH Zurich Flexible Communication Avoiding Matrix Multiplication on FPGA with HLS",
+        "project_link": "https:\/\/github.com\/spcl\/gemm_hls",
+        "supervisor": "(Torsten Hoefler)",
+        "authors": "Johannes de Fine Licht "
+    },
+    {},
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/KMIM3P-mCrg?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-4ixagmum-vidframe",
+        "title": "ETH Zürich Student\/Comp Acc: Massively Parallel N-Body Simulation on FPGA",
+        "project_link": "https:\/\/github.com\/spcl\/nbody_hls.git",
+        "supervisor": "(Torsten Hoefler)",
+        "authors": "Simon Meierhans, Johannes De Fine Licht "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/wVZGrSAV1GI?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-rqrxq1cd-vidframe",
+        "title": "Eskisehir Technical University PARS: Design Space Exploration for Low-Latency Ring-LWE via HLS",
+        "project_link": "https:\/\/github.com\/atakankalkar\/pars_designspaceexp_xohw20_170",
+        "supervisor": "(Ismail San)",
+        "authors": "Mehmet Atakan Kalkar, Adem Savaş "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/keHP1s3WArE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-fjmm8rma-vidframe",
+        "title": "AGH University of Science and Technology Object detection from point clouds using deep neural networks",
+        "project_link": "https:\/\/gitlab.com\/konrad966\/finn_net_executor",
+        "supervisor": "(Tomasz Kryjak)",
+        "authors": "Konrad Lis, Joanna Stanisz "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/PpKWyhohS5A?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-7s4ftzsi-vidframe",
+        "title": "JCT - Jerusalem College of Technology FPGA Implementation of the SEED Encryption Algorithm",
+        "project_link": "https:\/\/github.com\/arzadok\/SEED-Algorithm",
+        "supervisor": "(Uri Stroh)",
+        "authors": "Ariel Zadok "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/sdin0O2WmTE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-pr7qz5ar-vidframe",
+        "title": "Eskisehir Technical University ELON: Autonomous Parking via Deep Q Learning",
+        "project_link": "https:\/\/github.com\/AlicanOzeloglu\/ELON-Autonomous-Parking",
+        "supervisor": "(İsmail San)",
+        "authors": "Alican Ózeloĸlu, İsmihan Gül Gürbüz "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/eNI_t4pI4wY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-dkgiex4i-vidframe",
+        "title": "ENSIL-ENSCI Testing tool for FPGAs",
+        "project_link": "https:\/\/github.com\/amc18\/VHDL-TestingTool",
+        "supervisor": "(MEGHDADI Vahid)",
+        "authors": "Aymeric Guignard, Boris Legemble "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/2DyESQCIsOo?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-oynaopay-vidframe",
+        "title": "Istanbul Technical University Extending RISC-V instruction set for NTRU Algorithm",
+        "project_link": "https:\/\/github.com\/elifnurisman\/XOHW20_128_RISCV_ISA_Extension",
+        "supervisor": "(Sıddıka Berna Órs Yalçın)",
+        "authors": "Canberk Topal, Elif Nur İsman "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/jNLy6Ekm484?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-vjurxe9e-vidframe",
+        "title": "Complutense University of Madrid Piano MIDI Player Soc",
+        "project_link": "https:\/\/github.com\/fernandoka\/Digital-Piano-VHDL-MIDI-Player",
+        "supervisor": "(José Manuel Mendías Cuadros)",
+        "authors": "Fernando Candelario Herrero "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/bGizXE-Kc7k?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-bggarm13-vidframe",
+        "title": "Eskisehir Technical University Webcam-based Real-Time Optical Mark Reader",
+        "project_link": "https:\/\/github.com\/LapinBIanc\/Optical-Mark-Reader",
+        "supervisor": "(Ismail San)",
+        "authors": "Yunus Emre Kutuk, Hasan Karaca "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/dcv32AmGwDg?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-jxniytdq-vidframe",
+        "title": "Cairo University Neural Epilepsy detection",
+        "supervisor": "(Hassan Mostafa)Project Link",
+        "authors": "Heba Elhosary "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/iiC7OrYKr7g?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-xegvfluo-vidframe",
+        "title": "Eskisehir Technical University SelfBulance: A Self Driving Ambulance via Deep Q Learning: An SoC Solution",
+        "project_link": "https:\/\/github.com\/yasinalp\/SelfBulance",
+        "supervisor": "(İsmail San)",
+        "authors": "Yasin Alptekin, Asli Zoumpoul "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/Xfn9dUZfCqM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-jsf9up1g-vidframe",
+        "title": "Uni. Politécnica de Madrid FPGA acceleration of Spike-timing-dependent plasticity learning for Spiking Neural Networks",
+        "project_link": "https:\/\/github.com\/rafamedina97\/FPGA_SNN_STDP",
+        "supervisor": "(Dr. Pablo Ituero)",
+        "authors": "Rafael Medina Morillas "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/oM3hgEmobe8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-18ta4r14-vidframe",
+        "title": "University of Calabria Efficient SIMD 2D convolution engine",
+        "project_link": "https:\/\/github.com\/AMigali\/SIMD_CE",
+        "supervisor": "(Stefania Perri)",
+        "authors": "Andrea Migali, Roman Huzyuk, Mario Andrea Sangiovanni "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/yV21gI2vILk?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-59ypmjen-vidframe",
+        "title": "Cairo University Low Power Narrowband IoT Downlink Receiver",
+        "project_link": "https:\/\/drive.google.com\/drive\/folders\/1wMDDbvrvEECDqWwIL9QbnEUyt99ZIHV6?usp=sharing",
+        "supervisor": "(Hassan Mostafa)",
+        "authors": "Abdallah Mahmoud Abostait, Abanob Emil Subhy, Aya Ahmed Magdy Alhawary "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/y-_5PHlHSrw?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-p8jo2fr6-vidframe",
+        "title": "TU Dublin Development of PCIe Debug Kit",
+        "project_link": "https:\/\/drive.google.com\/file\/d\/1LVwmHcgJRZ9rERClQga4U1EiaqdzIdO_\/view?usp=sharing",
+        "supervisor": "(Patrick O'Friel)",
+        "authors": "Christian Jasper Arrol De Vera "
+    },
+    {},
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/CCn8W2tfqO8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-bo9axa8k-vidframe",
+        "title": "University of Calabria An efficient FPGA-based deconvolver for deep learning",
+        "project_link": "https:\/\/github.com\/csestito94\/Deconvolution_Layer_Processor_proj",
+        "supervisor": "(Stefania Perri)",
+        "authors": "Cristian Sestito "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/oK15voQDpzQ?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-ezpn9pm2-vidframe",
+        "title": "Universita' degli Studi di Padova NCO based CDR implementation in FPGA",
+        "project_link": "https:\/\/github.com\/FilMarini\/FPGA_CDR_core",
+        "supervisor": "(Dr. Ing. Marco Bellato)",
+        "authors": "Filippo Marini "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/J_iYlecAyW4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-3ealdjhp-vidframe",
+        "title": "Politecnico di Milano PhD\/Comp Acc: FIDELTA",
+        "project_link": "https:\/\/bitbucket.org\/necst\/xohw2020_fidelta_public",
+        "supervisor": "(Marco D. Santambrogio)",
+        "authors": "Alberto Giusti,Saverio Ricci "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/WC0OqL6aSHU?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-jyxzpaax-vidframe",
+        "title": "KU Leuven PhD\/Comp Acc: HEAWS - Homomorphic Encryption on AWS F1",
+        "project_link": "https:\/\/github.com\/KULeuven-COSIC\/HEAT",
+        "supervisor": "(Sujoy Sinha Roy, Ingrid Verbauwhede)",
+        "authors": "Furkan Turan "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/7Bn-XBZIsmA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-liesddk8-vidframe",
+        "title": "Politecnico di Milano PhD\/Comp Acc: X-drop on FPGA",
+        "project_link": "https:\/\/github.com\/albertozeni\/XDropXOHW-Public",
+        "supervisor": "(Marco D. Santambrogio)",
+        "authors": "Alberto Zeni, Guido Walter Di Donato "
+    },
+    {},
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/YeAkoiZharE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=1&playlist=YeAkoiZharE&rel=0&playerapiid=vbid-ae28e-tfeellpb-vidframe",
+        "title": "University of Strathclyde Pypix",
+        "project_link": "https:\/\/github.com\/spcl\/nbody_hls.git",
+        "supervisor": "(DR. LOUISE HELEN CROCKETT)",
+        "authors": "GEET ROSE JOSE, SPYRIDON BIZMPIKIS, JAMES MCCLEARY "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/93q-UO_UOXk?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-dpdc2rez-vidframe",
+        "title": "Politecnico di Milano Plaster",
+        "project_link": "https:\/\/github.com\/spcl\/nbody_hls.git",
+        "supervisor": "(MARCO D. SANTAMBROGIO)",
+        "authors": "LORENZO FARINELLI, DANIELE VALENTINO DE VINCENTI "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/NJG7mib3UBc?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-y87plbgw-vidframe",
+        "title": "University of Zaragoza Sensorial fusion via QNNs",
+        "project_link": "https:\/\/github.com\/spcl\/nbody_hls.git",
+        "supervisor": "(Nicolás Medrano)",
+        "authors": "Daniel Enériz Orta "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/KMIM3P-mCrg?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-uclolot6-vidframe",
+        "title": "ETH Zürich Student\/Comp Acc: Massively Parallel N-Body Simulation on FPGA",
+        "project_link": "https:\/\/github.com\/spcl\/nbody_hls.git",
+        "supervisor": "(Torsten Hoefler)",
+        "authors": "Simon Meierhans, Johannes De Fine Licht "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/9eotTi10MDs?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-872jf3hu-vidframe",
+        "title": "Politecnico di Milano Maeve - FPGA implementation of KMP algorithm",
+        "project_link": "https:\/\/bitbucket.org\/necst\/xohw2020_maeve_public",
+        "supervisor": "(Marco D. Santambrogio)",
+        "authors": "Sofia Breschi, Beatrice Branchini "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/2OnPt7JdyTc?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-wbeo6bu8-vidframe",
+        "title": "UAB (Barcelona) DNA sequence analysis FPGA acceleration",
+        "project_link": "https:\/\/github.com\/davidcastells\/KmerFilterAWS",
+        "supervisor": "(David Castells-Rufas)",
+        "authors": "Zaina Salym, Marc Codina "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/J_iYlecAyW4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-sm1wn30o-vidframe",
+        "title": "Politecnico di Milano PhD\/Comp Acc: FIDELTA",
+        "project_link": "https:\/\/bitbucket.org\/necst\/xohw2020_fidelta_public",
+        "supervisor": "(Marco D. Santambrogio)",
+        "authors": "Alberto Giusti,Saverio Ricci "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/WC0OqL6aSHU?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-xspf5ubp-vidframe",
+        "title": "KU Leuven PhD\/Comp Acc: HEAWS - Homomorphic Encryption on AWS F1",
+        "project_link": "https:\/\/github.com\/KULeuven-COSIC\/HEAT",
+        "supervisor": "(Sujoy Sinha Roy, Ingrid Verbauwhede)",
+        "authors": "Furkan Turan "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/7Bn-XBZIsmA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-dzbgpxd6-vidframe",
+        "title": "Politecnico di Milano PhD\/Comp Acc: X-drop on FPGA",
+        "project_link": "https:\/\/github.com\/albertozeni\/XDropXOHW-Public",
+        "supervisor": "(Marco D. Santambrogio)",
+        "authors": "Alberto Zeni, Guido Walter Di Donato "
+    },
+    {}
+]

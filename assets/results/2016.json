@@ -1,0 +1,99 @@
+[
+    {},
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/8Fyo2fv3iDA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-0ecshdic-vidframe",
+        "title": "Winner: PhD Embedded Category TU Kaiserslautern Novel Recurrant Neural Network for OCR",
+        "supervisor": "(Prof. Norbert Wehn)",
+        "authors": "Vladimir Rybalkin"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/OcxcNe2otxU?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-gmjgcnxn-vidframe",
+        "title": "Winner: PhD FPGA Category Politecnico di Milano exaFPGA: Iterative stencil cell loop acceleration",
+        "project_link": "http:\/\/extra.necst.it\/",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Giuseppe Natale"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/RZGHkCOCRC4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-ayi0nze8-vidframe",
+        "title": "Winner: Student Embedded Category Paderborn University Zynq-based HD EMG Prosthesis Controller",
+        "project_link": "https:\/\/github.com\/openhw-upb\/xil-54180",
+        "supervisor": "(Dr. Alexander Boschmann)",
+        "authors": "Linus Witschen, Georg Thombansen "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/64rYoY1MLhs?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-foevsrcc-vidframe",
+        "title": "Winner: Student FPGA Category Politecnico di Milano ProFAX: Protein folding on FPGA",
+        "project_link": "https:\/\/bitbucket.org\/necst\/profax-src",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Lorenzo Di Tucci, Giulia Guidi"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/uzUab5Y2mpQ?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-zajfijau-vidframe",
+        "title": "University of Bremen Approximate Computing on Zynq",
+        "supervisor": "(Dr. Daniel Grosse)",
+        "authors": "Arun Chandrasekharan "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/MyTeONDgKc4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-4bdq4oqs-vidframe",
+        "title": "NUI Galway Fast Open Neural Simulator (FONS) on Zynq",
+        "project_link": "https:\/\/github.com\/FinnK\/",
+        "supervisor": "(Dr. Fearghal Morgan)",
+        "authors": "Finn Krewer"
+    },
+    {
+        "title": "Bogazici University Real Time Multi Vehicle Map Matching Implementation on Zedboard",
+        "project_link": "https:\/\/github.com\/bouncaslab\/mmzed",
+        "supervisor": "(Assoc. Prof. Arda Yurdakul)",
+        "authors": "Gorker Alp Malazgirt"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/C3dBp93oORs?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-4z2yaobd-vidframe",
+        "title": "Ruhr University Bochum Vivado HLS solution of the inverse kinematics problem of a 4-DOF Robot",
+        "project_link": "https:\/\/github.com\/RUB-ESIT\/Arexx_robot",
+        "supervisor": "(Prof. Michael Huebner)",
+        "authors": "Fynn Schwiegelshohn"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/xal4XwPjpWI?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-edjfenvi-vidframe",
+        "title": "University of Aveiro FPGA Based All-Digital Multi-protocol RFID Reader",
+        "supervisor": "(Prof. Arnaldo Oliveira)",
+        "authors": "João Ricardo Borges dos Santos "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/B-yQHMwHsF0?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-zv9vcfaz-vidframe",
+        "title": "Politecnico di Milano BEye: Zynq based retinal vessel segmentation",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Marco Bacis, Lara Cavinato, Irene Fidone"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/OWwZnn-JFBo?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-zl2iin8b-vidframe",
+        "title": "KU Leuven Hardware Accelerated VPN using Zynq",
+        "supervisor": "(Prof. Ingrid Verbauwhede)",
+        "authors": "Furkan Turan "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/rUMDNFVOcZQ?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-3gf5usto-vidframe",
+        "title": "University of Wolverhampton Zynq based real-time open access image processing platform",
+        "supervisor": "(Dr. Shufan Yang)",
+        "authors": "Zheqi Yu"
+    },
+    {
+        "title": "Politehnica University of Bucharest High speed FPGA DAQ system with EDA and EKG extension",
+        "supervisor": "(Dr. Placinta Vlad Mihai)",
+        "authors": "Niculescu Vlad, Hutanu Ovidiu Emanuel"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/7x4AfLDRFcQ?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-vv5oxk7k-vidframe",
+        "title": "Politecnico di Milano Brain NE(CS)Twork on FPGA",
+        "project_link": "https:\/\/bitbucket.org\/account\/user\/necst\/projects\/BrainNECSTwork",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Enrico Reggiani, Marco Gucciardi, Eleonora D'Arnese"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/5Y-uUOp2stM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-zgpxum2u-vidframe",
+        "title": "TU Munich Hardware accelerated motion detection application on zedboard",
+        "supervisor": "(Prof. Ulf Schlichtmann)",
+        "authors": "Munish Jassi, Jian Lyu, Yong Hu "
+    },
+    {}
+]

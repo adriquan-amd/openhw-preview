@@ -443,3 +443,18 @@ button {
     color: #ff5722;
 }
 
+.parent-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image-container {
+    max-width: 300px;
+    height: auto;
+}
+
+#dynamic-image {
+    width: 100%; /* 图片填满容器宽度 */
+    height: auto;
+}

@@ -1,0 +1,227 @@
+[
+    {},
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/OLEO2Uykikw?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-04bc9f1e-3y2bhi2b-vidframe",
+        "title": "Winner: PhD Category Imperial College London fpgaConvNet-based YOLO accelerator",
+        "project_link": "https:\/\/github.com\/ptoupas\/amd-open-hardware-23",
+        "supervisor": "(supervisor: Professor Bouganis)",
+        "authors": "Petros Toupas, Alexander Montgomerie-Corcoran "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/mTOPOseUW5k?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ddf26b35-xyekod3h-vidframe",
+        "title": "Winner: PhD Category ETH Zurich HEROccamy: HEterogeneous Research platfOrm for the Occamy platform",
+        "project_link": "https:\/\/github.com\/pulp-platform\/hero\/tree\/heroccamy-xilinx",
+        "supervisor": "(SUPERVISOR: PROF. BENINI)",
+        "authors": "CYRIL KOENIG, NILS WISTOFF, GIANNA PAULIN "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/5V2f_cbL5zo?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-a627a99c-q2szuoic-vidframe",
+        "title": "Winner: Student Category Politecnico Di Milano Heterogeneous Highly Integrated Systems for Image Registration",
+        "project_link": "https:\/\/github.com\/Paolo309\/XOHW-23-Versal-Registration ",
+        "supervisor": "(SUPERVISOR: PROF SANTAMBROGIO)",
+        "authors": "PAOLO SALVATORE GALFANO, GIUSEPPE SORRENTINO "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/-n1rPmGHM_w?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-c2bfe1f8-vvwuwnud-vidframe",
+        "title": "Winner: Student Category Transilvania University of Brașov AI-augumented barcode reader using Xilinx Kria KV260",
+        "project_link": "https:\/\/github.com\/alex2kameboss\/xohw23-141.git",
+        "supervisor": "(SUPERVISOR:CĂTĂLIN BOGDAN CIOBANU)",
+        "authors": "ALEXANDRU PUȘCAȘU, IOANA AILENEI, MIHAI FLORIAN MIU "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/JPZgkxYSdg0?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-f1f80cf8-kyd5qtko-vidframe",
+        "title": "Winner: AI Student prize IMT Atlantique Embedded Few-Shot Learning",
+        "project_link": "https:\/\/github.com\/antoine-lavrard\/PEFSL",
+        "supervisor": "(SUPERVISOR: PROF. LÉONARDON)",
+        "authors": "JÉRÉMY MORLIER, LUCAS LECHEVESTRIER, AARON BURKHART, Antoine Lavrard-Meyer "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/LLHI3ttyQKA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-567d0475-hfn3hj0r-vidframe",
+        "title": "Winner AI PhD prize University College London Low-power, real-time accelerator for wearable optical brain-computer interface",
+        "project_link": "https:\/\/github.com\/WOLVS\/fNIRS-Motion-Detection-YOLO.git",
+        "supervisor": "(SUPERVISOR: DR YANG)",
+        "authors": "YUNYI ZHAO, YUNJIA XIA, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/b_Qjx3fD4z8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-38c55606-bwmajjam-vidframe",
+        "title": "Universitat Politècnica de Catalunya OmpSs@FPGA",
+        "project_link": "https:\/\/github.com\/bsc-pm-ompss-at-fpga\/",
+        "supervisor": "(supervisor: Dr. Álvarez Martínez)",
+        "authors": "Juan Miguel de Haro Ruiz, Antonio Filgueras, Pol Marcet, Pau Ribelles "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/MfsD1K4h56s?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-3c733266-mgk5jdtr-vidframe",
+        "title": "University of Modena and Reggio Emilia GenOv: Streamlining the Design and Optimization of Heterogeneous RISC-V-based FPGA Overlays",
+        "project_link": "https:\/\/github.com\/gbellocchi\/xil_open_hw_23",
+        "supervisor": "(supervisor: Andrea Marongiu)",
+        "authors": "Gianluca Bellocchi "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/3WRvb3Minpo?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-7d1f982e-udbzxbqa-vidframe",
+        "title": "The University of Edinburgh Fortran-HLS",
+        "project_link": "https:\/\/fpga. epcc.ed.ac.uk\/community\/fortran.html",
+        "supervisor": "(supervisor: Dr Brown)",
+        "authors": "Gabriel Rodriguez-Canal "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/fehHWrUoXVY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-c37da373-cymigb0o-vidframe",
+        "title": "Sapienza Universita di Roma Fast digital signal logger",
+        "project_link": "",
+        "supervisor": "(supervisor: Mastrandrea)",
+        "authors": "SAEID JAMILI "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/Br4vsFPNZY4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-97cff80e-qnxpwmxx-vidframe",
+        "title": "Technical University of Munich Fail-operational NoC for mixed-critical MPSoC",
+        "project_link": "https:\/\/github.com\/koenenwmn\/fail-operational-noc-demonstrator",
+        "supervisor": "(supervisor: Prof. Herkersdorf)",
+        "authors": "Max Koenen "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/aVdJZmJ_XEM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-f529cf13-dtkevknj-vidframe",
+        "title": "Politecnico di Milano Parallel Gauss-Siedel",
+        "project_link": "https:\/\/github.com\/NiccoloN\/psygs-gen",
+        "supervisor": "(supervisor: Prof. Santambrogio)",
+        "authors": "Niccolò Nicolosi, Francesco Renato Negri "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/MbFVlWWYtyY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-0fe4f62f-fugffboy-vidframe",
+        "title": "Politecnico di Milano Crypto on the Line: accelerated cryptographic operations via reconfigurable hardware",
+        "project_link": "",
+        "supervisor": "(supervisor: PROF. SANTAMBROGIO)",
+        "authors": "Roberto Bertolini, Filippo Carloni "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/Ot0lR--2X7I?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-nlwksgkr-vidframe",
+        "title": "Politecnico di Milano Hardware and Software Optimization for regular expressions execution exploiting compilation techniques",
+        "project_link": "https:\/\/github.com\/ironmanna\/xohw23-Hardware-and-Software-Optimization-for-regular-expression",
+        "supervisor": "(supervisor: PROF. SANTAMBROGIO)",
+        "authors": "Simone Mannarino, Franco Vinco "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/y_HwIpJFFAw?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-boefmqjq-vidframe",
+        "title": "Sapienza Universita di Roma Real-Time Stream Data Processing System Using Hyperdimensional Computing and HLS",
+        "project_link": "https:\/\/github.com\/SaeidJ88\/HDC_HLS_AMD.git",
+        "supervisor": "(supervisor: Antonio Mastrandrea)",
+        "authors": "Marco Angioli, Saeid Jamili "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/3J6ZI1N3YoA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-nuxwvbhu-vidframe",
+        "title": "AGH University of Science and Technology Detection-segmentation solution for controlling an autonomous vehicle in traffic on a city model on a Kria KV260 platform",
+        "project_link": "https:\/\/github.com\/vision-agh\/XOH23-MultiTaskV3 ",
+        "supervisor": "(supervisor: Dr. Tomasz Kryjak)",
+        "authors": "Mateusz Wąsala, Maciej Baczmański , Robert Synoczek, Kamil Ptak "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/D55JbZ45ar8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-bve7p6bc-vidframe",
+        "title": "University of Stuttgart Quantum Sensing: PYNQ-based Portable Nuclear Magnetic Resonance Spectrometer Powered by Deep Learning from AMD Xilinx",
+        "project_link": "https:\/\/github.com\/unizhibin\/Xilinx_Open_Hardware_2023",
+        "supervisor": "(SUPERVISOR: Zhibin Zhao)",
+        "authors": "Pratyush Shukla "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/JPZgkxYSdg0?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-suujfj6v-vidframe",
+        "title": "TU Berlin Prism Stream Processor",
+        "project_link": "https:\/\/github.com\/rdrehmel\/prism-sp",
+        "supervisor": "(SUPERVISOR: Prof. Heiß",
+        "authors": "Robert Drehmel "
+    },
+    {
+        "title": "Politecnico di Milano Accelerating Quantum Error Correction through FPGAs",
+        "project_link": "https:\/\/youtu.be\/GexVrHjFZVw",
+        "supervisor": "(SUPERVISOR: PROF SANTAMBROGIO)",
+        "authors": "Valentino Guerrini, Marco Venere "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/c6ThYfS_pMA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-yh1v7vf4-vidframe",
+        "title": "Jerusalem College of Technology FPGA implementation of MD6 hash algorithm",
+        "project_link": "https:\/\/github.com\/xohw\/MD6-FPGA-implementation.git",
+        "supervisor": "(SUPERVISOR: Uri Stroh)",
+        "authors": "Aviel Birduaker, Ofek Sharabi "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/tsO-xqLI834?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-w21trfhq-vidframe",
+        "title": "IT University of Copenhagen Delilah",
+        "project_link": "https:\/\/github.com\/delilah-csp\/",
+        "supervisor": "(Supervisor: Alexandru AMARICAI)",
+        "authors": "Andreea-Lavinia DINI, tefan MALANIK "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/l4DDVUo0_Lg?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-kgvmbqjz-vidframe",
+        "title": "University of Boumerdes Radix-2w Arithmetic for Scalar Multiplication in Elliptic Curve Digital Signature Algorithm",
+        "project_link": "https:\/\/github.com\/abdelghanibourenane\/HardwareAcceleratedECC-PointMultiplication",
+        "supervisor": "(Supervisor: Dr. Otmani)",
+        "authors": "Abdelghani Bourenane "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/aueXR1YdBX4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-r4yziaev-vidframe",
+        "title": "Politecnico di Torino DaCH: dataflow cache for HLS",
+        "project_link": "https:\/\/github.com\/brigio345\/DaCH",
+        "supervisor": "(Supervisor: Prof. Luciano)",
+        "authors": "Brignone Giovanni, Muhammad Usman Jamal "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/gAgc4S9Ra4w?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-x25slsz4-vidframe",
+        "title": "Universitat Politècnica de Catalunya Acceleration of Synthetic-Aperture Radar for On-board Space Systems",
+        "project_link": "https:\/\/gitlab.bsc.es\/msolebon\/SAR_XOHW23.git",
+        "supervisor": "(Supervisor: Dr. Kosmidis)",
+        "authors": "Marc Solé Bonet, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/-1EmmJNy2wA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-gbh2xc4n-vidframe",
+        "title": "Newcastle University Rapid Prototyping of Logic based Machine learning on PYNQ",
+        "project_link": "https:\/\/github.com\/tousifrahman\/MATADOR",
+        "supervisor": "(Supervisor: Dr Shafik)",
+        "authors": "Tousif Rahman, Gang Mao, Komal Kristnamurthy, Sidharth Maheshwari "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/46Il76LjH-Y?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-aipm2foh-vidframe",
+        "title": "Technion Israel Institute of Technology Accelerated Parsing and Processing of Gcode Commands for an FPGA Controlled Plotter",
+        "project_link": "https:\/\/github.com\/yz-ac\/Plotter_FPGA_Public",
+        "supervisor": "(Supervisor: Alexander Grinshpun)",
+        "authors": "Idan Raz, Yan Zeltser "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/Tbwb5Npy2_M?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-gii19hn5-vidframe",
+        "title": "University of Essex All-in-one Self-adaptive Computing Platform for Smart City",
+        "project_link": "https:\/\/github.com\/hassaanEssex\/xohw23-114",
+        "supervisor": "(Supervisor: Dr. Zhai)",
+        "authors": "Hassaan ur Rahman, Syed Muhammad Shariq Ali, Morgan Greenhill, Foteini Papadogianni, Akshay Gopinath "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/y4zIR7n_PmM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-f2zj1sst-vidframe",
+        "title": "University of Essex PYNQ wrapper for Flute RISC-V: Anomaly detection oriented runtime monitoring system",
+        "project_link": "https:\/\/github.com\/michalmonday\/xohw23-121",
+        "supervisor": "(Supervisor: Dr. Zhai)",
+        "authors": "Michal Borowski, Ludovico Poli, Ahmad Jaghasi "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/BBOFOf7fZgs?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-p35nvku1-vidframe",
+        "title": "Politecnico di Torino Subgraph isomorphism acceleration on FPGAs using High-Level Synthesis",
+        "project_link": "https:\/\/github.com\/robertoBosio\/subgraph-iso\/tree\/xohw23",
+        "supervisor": "(Supervisor: Prof. Lavagno)",
+        "authors": "Roberto Bosio, Filippo Minnella, Muhammad Usman Jamal "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/oz7razyEQFM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-fkmmeywb-vidframe",
+        "title": "ETH Zurich High-performance In-Network Computing with sPIN",
+        "project_link": "https:\/\/github.com\/KireinaHoro\/corundum\/tree\/openhw23",
+        "supervisor": "(Supervisor: PROF. Hoefler)",
+        "authors": "Pengcheng Xu, Mikhail Khalilov "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/u1tG6-Joe98?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-dbtorcld-vidframe",
+        "title": "Gebze Technical University DELTA-V",
+        "project_link": "https:\/\/github.com\/DELTAICLAB\/DELTA-V",
+        "supervisor": "(Supervisor: Dr. Çiçek)",
+        "authors": "Muhammet Enes Yanık, Murat Tökez, İlker Acar, Mehmet Akif Nişancı "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/qdSpiCwUwtE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-106f54ae-d6c4stfa-vidframe",
+        "title": "EPFL RISC-V-based FPGA platform for energy estimation of low-power applications",
+        "project_link": "https:\/\/github.com\/simone-machetti\/x-heep-femu.git",
+        "supervisor": "(Supervisor: Prof. Alonso David)",
+        "authors": "Machetti Simone, Rodríguez Álvarez Rubén, Nasturzio Saverio, Husnu Okan Çakir "
+    },
+    {}
+]

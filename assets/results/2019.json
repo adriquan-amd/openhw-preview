@@ -1,0 +1,163 @@
+[
+    {},
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/a7iEHEheDxs?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-mi9af6ud-vidframe",
+        "title": "Winner: AWS EC2 F1 prize Politecnico di Milano 5 Points to Rule Them All",
+        "project_link": "https:\/\/bitbucket.org\/necst\/xohw18_5points_public\/",
+        "supervisor": "(Prof. Christoforos Kachris)",
+        "authors": "Dimitrios Danopoulos"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/DWxwlZrrhYE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-rnbpevks-vidframe",
+        "title": "Winner: PhD Category OFFIS OFFIS Multirotor",
+        "project_link": "https:\/\/c4science.ch\/diffusion\/6914\/openaccess-fpgabeamformer.git",
+        "supervisor": "(Dr. Kim Gruettner)",
+        "authors": "Razi Seyyedi, Soeren Schreiner, Jan Cordes"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/QzAIxh7hmKs?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-4xvqi0km-vidframe",
+        "title": "Winner: PhD Category AGH University Object tracking in UltraHD resolution with correlation filter",
+        "project_link": "https:\/\/github.com\/tuura\/fantasi",
+        "supervisor": "(Assis. Prof. Tomasz Kryjak)",
+        "authors": "Marcin Kowalczyk"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/ZxFIcNTBmAY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-jmgaue4v-vidframe",
+        "title": "Winner: Student Category Paderborn University ReconROS: Integration of FPGAs into a ROS network",
+        "project_link": "https:\/\/github.com\/david6002\/VehicleMainControlUnit",
+        "supervisor": "(Jacob Fainguelernt)",
+        "authors": "David Chernyak, Lion Ben Nedeva"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/nW2ULdrCE80?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-oksy0hey-vidframe",
+        "title": "Winner: Student Category University of Stuttgart Stochastic Convolution Neural Network (LeNet5) on FPGA",
+        "project_link": "https:\/\/github.com\/nikkatsa7\/HOG_Zedboard",
+        "supervisor": "(Prof. Dr. Polian)",
+        "authors": "Ponnanna Kelettira Muthappa"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/J5LCA8uZQ2c?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-awqwrjh9-vidframe",
+        "title": "Winner: PYNQ Category NTUA Accelerated Naive Bayes on PYNQ",
+        "project_link": "https:\/\/github.com\/wbrueckner\/cv2pynq",
+        "supervisor": "(Prof. Christoforos Kachris)",
+        "authors": "Giorgos Tzanos"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/VSko1iRbBSE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-nuz9efcb-vidframe",
+        "title": "Politecnico di Milano IRON Image RegistratiOn oN FPGA",
+        "project_link": "https:\/\/github.com\/eejlny\/ultrasonic-levitation-with-Xilinx-Zynq",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Davide Conficconi, Eleonora D'Arnese, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/7KHcEuhpsQo?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-9iool9bf-vidframe",
+        "title": "TU Kaiserslautern 2-Dimensional LSTM Recurrent Neural Network",
+        "project_link": "https:\/\/github.com\/Pieter-Berteloot\/PYNQ_Projects",
+        "supervisor": "(Prof. Norbert Wehn)",
+        "authors": "Vladimir Rybalkin"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/4KmyYyRzcYY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-6bxmj4mt-vidframe",
+        "title": "HTWG Compact coprocessor for the elliptic curve point multiplication",
+        "supervisor": "(Prof. Dr. Freudenberger )",
+        "authors": "Malek Safieh, Johann-Philipp Thiers, "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/c6lc03ACdK0?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-eeapgyno-vidframe",
+        "title": "Politecnico di Milano CryptoGenomics",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Lorenzo Di Tucci, Amedeo Baragiola, Gabriele Bonzi "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/vSdzL06KnCA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-dd40zemf-vidframe",
+        "title": "University of Ulm Partial Reconfiguration for chip characterization",
+        "supervisor": "(Prof. Maurits Ortmanns)",
+        "authors": "Andreas Herkle, Holger Mandry "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/qaUb8duQhiA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-piopzdp8-vidframe",
+        "title": "UPC Active sonar transponder",
+        "project_link": "https:\/\/github.com\/angmouzakitis\/student_xohw18-187",
+        "supervisor": "(Prof. Jordi Cosp Vilella)",
+        "authors": "Muhammad Fahad Hassan-Mobshar"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/SDFFDxNRtvk?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-qx1jaszf-vidframe",
+        "title": "University of Extremadura Embedded computing FPGA Recommender systems",
+        "project_link": "https:\/\/github.com\/nkyparissas\/XOHW18",
+        "supervisor": "(Prof: Juan A. Gómez-Pulido)",
+        "authors": "Francisco Pajuelo-Holguera"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/Q_j168azsas?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-a3abe9ad-vidframe",
+        "title": "AGH University Detection of traffic signs using XNOR CNN",
+        "project_link": "https:\/\/github.com\/Castel44\/FPGA-based-platform-for-Lightweight-Cryptographic-Algorithms",
+        "supervisor": "(Assis. Prof. Tomasz Kryjak)",
+        "authors": "Dominika Przewłocka "
+    },
+    {
+        "title": "University of Mons Object detection using Tenserflow and BNN with PYNQ",
+        "project_link": "https:\/\/github.com\/albertozeni\/circFAXOHW18public",
+        "supervisor": "(Prof. Carlos Valderrama)",
+        "authors": "Monal Patel"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/4KWmQ_R6zJw?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-6oarcpyx-vidframe",
+        "title": "Politecnico di Milano Accelerating Neural Network on FPGA",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Giorgia Fiscaletti, Luca Stornaiuolo, Marco Speziali "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/P0m6diIbuiY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=1&playlist=P0m6diIbuiY&rel=0&playerapiid=vbid-ae28e-fcnwxpvl-vidframe",
+        "title": "University of Glasgow White Blood Microscopic Image Detection and Recognition PYNQ",
+        "project_link": "https:\/\/github.com\/jbush001\/NyuziProcessor",
+        "supervisor": "(Shufan Yang)",
+        "authors": "Honghao Wang"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/csjqzAHQjns?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-wovsxlse-vidframe",
+        "title": "University of Calabria Atrous Spatial Pyramid Pooling for Fully Convolutional Networks",
+        "supervisor": "(Prof: Stefania Perri)",
+        "authors": "Cristian Sestito "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/cbkhYxeMfGk?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-q968k0tt-vidframe",
+        "title": "Bielefeld University Turing Bombe Dependent Benchmark (TURBOdeb)",
+        "project_link": "https:\/\/github.com\/sergiogspereira\/TrustSecSiCode",
+        "supervisor": "(Dr.-Ing. Mario Porrmann)",
+        "authors": "Maximilian Exner, Tobias Niggemeyer"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/kF6gQWFEnHM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-k91i4vx7-vidframe",
+        "title": "Heidelberg University Hardware accelerated Posit Computation",
+        "project_link": "https:\/\/github.com\/ilaydayaman\/CNN_for_SLR",
+        "supervisor": "(Dr. Andreas Kugel)",
+        "authors": "Philip Döbler "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/mrNwk4dUV5g?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-kblzdvxy-vidframe",
+        "title": "Politecnico di Milano FPGA real-time Audience and Presentations Monitoring System",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Jessica Leoni, Valentina Corbetta, Asia Ciallella"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/ccHPjFOC2PM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-jyjywn8o-vidframe",
+        "title": "Politecnico di Milano Accelerating Modern Approaches of Dimension Reduction",
+        "project_link": "https:\/\/github.com\/germancq\/BOW\/",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Giorgio Colomban, Aaron Cettolin, Luca Carminati"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/KG-viGS7vow?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-5d5cuico-vidframe",
+        "title": "Eskisehir Technical University SUMER: Maze Solving Car via Deep Reinforcement Learning",
+        "supervisor": "(Assis. Prof. Ismail San)",
+        "authors": "Nevzat Taha Batmaz, Kaan Ibis, Serkan Kavak"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/nfsf__5VdeM?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-01p1iyso-vidframe",
+        "title": "Jerusalem college of technology CubeHash",
+        "supervisor": "(Uri Stroh)",
+        "authors": "Elchanan Schnaidman, Michael Eldin"
+    },
+    {}
+]

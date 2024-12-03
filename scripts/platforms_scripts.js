@@ -17,6 +17,10 @@ subtitles.forEach(subtitle => {
         } else {
             flexRowBcf.style.display = 'none';
         }
+
+        const imgName = subtitle.getAttribute('data-img');
+        dynamicImage.src = `assets/platforms/${imgName}`;
+        dynamicImage.alt = `Image for ${subtitle.textContent.trim()}`;
     });
 });
 
@@ -53,3 +57,5 @@ tabs.forEach(tab => {
         });
     });
 });
+
+

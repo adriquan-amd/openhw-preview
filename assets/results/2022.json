@@ -1,0 +1,137 @@
+[
+    {},
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/SAv9sLTYGaA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-d77f3ac1-sdeoe62o-vidframe",
+        "title": "Winner: PhD Category University of Novi Sad RISC-V vector processor for the acceleration of machine learning algorithms",
+        "project_link": "https:\/\/github.com\/Nikola2444\/RISC-V-vector-processor",
+        "supervisor": "(supervisor: Vuk Vranjković )",
+        "authors": "Nikola Kovačević, Đorđe Mišeljić, Aleksa Stojković "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/DHkACvQfh5M?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-939c51c4-nuxwvbhu-vidframe",
+        "title": "Winner: PhD Category The University of Edinburgh Enabling flexibility of FPGAs through Dynamic Partial Reconfiguration on a heterogeneous parallel programming model",
+        "project_link": "https:\/\/gitlab.com\/trasgo-group-valladolid\/controller-fpga_dpr",
+        "supervisor": "(supervisor: NICK BROWN)",
+        "authors": "Gabriel Rodriguez-Canal "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/r6SniqSB8uo?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-d9ccc50b-nlwksgkr-vidframe",
+        "title": "Winner: Student Category INSA Toulouse Securised processor for IoT - Mitigating buffer overflow based attacks",
+        "project_link": "https:\/\/git.etud.insa-toulouse.fr\/pfaure\/PSI.git",
+        "supervisor": "(supervisor: Daniela Dragomirescu)",
+        "authors": "Paul Faure "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/zLlkz4FTuO0?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-32aeb187-boefmqjq-vidframe",
+        "title": "Winner: Student Category Eskişehir Technical University TradeNIC: Trading-Specific SmartNIC Design For Low Latency and High Throughput Algorithmic Trading",
+        "project_link": "https:\/\/github.com\/DHLSan\/TradeNIC",
+        "supervisor": "(SUPERVISOR: Asst. Prof. DR. İsmail SAN)",
+        "authors": "İsmail Hakkı İPEK, Kerem SARI "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/m4sxj5PZv54?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-a4c5fb4b-bve7p6bc-vidframe",
+        "title": "Winner: PYNQ Category Politecnico di Milano 3D Image Registration",
+        "project_link": "https:\/\/github.com\/mar-ven\/xohw22-3D-Image-Registration",
+        "supervisor": "(SUPERVISOR: Prof. Marco Santambrogio)",
+        "authors": "Giuseppe Sorrentino, Marco Venere "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/KNA0InMNg9c?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-d94132be-xvvxrplm-vidframe",
+        "title": "Complutense University of Madrid PERCIVAL: Open-Source Posit RISC-V Core with Quire Capability",
+        "project_link": "https:\/\/github.com\/artecs-group\/PERCIVAL",
+        "supervisor": "(SUPERVISOR: Alberto Antonio Del Barrio García)",
+        "authors": "David Mallasén Quintana, Raul Murillo Montero "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/nvyxL31SzeY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-cb81d2e8-sdeoe62o-vidframe",
+        "title": "Transilvania University Computer vision application featuring neural networks using the Vitis Unified Software Platform",
+        "project_link": "https:\/\/github.com\/alex2kameboss\/xohw22-107",
+        "supervisor": "(SUPERVISOR: Catalin Ciobanu)",
+        "authors": "George Feldioreanu, Alexandru Pușcașu, Raul Milchiș "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/ZkwnT70UJsI?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-16ce71ea-yh1v7vf4-vidframe",
+        "title": "Politehnica University of Timișoara Neural Decoding Architecture for Parity Based Error Correction Codes",
+        "project_link": "https:\/\/github.com\/Grindy98\/nn-min-sum-decoding",
+        "supervisor": "(Supervisor: Alexandru AMARICAI)",
+        "authors": "Andreea-Lavinia DINI, tefan MALANIK "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/nrLR7NEsEJs?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-95837405-w21trfhq-vidframe",
+        "title": "Eskişehir Technical University BilKa: Design and Implement an SoC Architecture with a CRYSTALS-Kyber Accelerator",
+        "project_link": "https:\/\/github.com\/DHLSan\/BilKa",
+        "supervisor": "(Supervisor: ASST. PROF. DR. İSMAIL SAN)",
+        "authors": "Bilge Deniz ÖZÇELİK, Selahattin Kaan TOSUN "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/WHOWx3jlIoo?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-e52f2886-kgvmbqjz-vidframe",
+        "title": "Eskişehir Technical University FlashCore: Multi-Microblaze based System-on-Chip design and evaluate it with multi-threaded benchmarks",
+        "project_link": "https:\/\/github.com\/DHLSan\/FlashCore",
+        "supervisor": "(Supervisor: ASST. PROF. DR. İSMAIL SAN)",
+        "authors": "Zeynep Bilge, Berkehan Altın "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/gRno35-pOmE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-22a9c593-r4yziaev-vidframe",
+        "title": "Universidade do Minho Zero-RI5C Hardware security mechanism to mitigate classic software attacks",
+        "project_link": "https:\/\/github.com\/luiscarlos63\/Zero_Risc",
+        "supervisor": "(Supervisor: Sergio Pereira)",
+        "authors": "JOAO bENTO, Luis Conceicao "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/MTfLRtm-HsY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-42efad86-x25slsz4-vidframe",
+        "title": "Jerusalem College of Technology Anubis Crypto algorithm implementation on Xilinx FPGA",
+        "project_link": "https:\/\/github.com\/aharongilo\/Anubis-Crypto-algorithm-implementation-on-Xilinx-FPGA",
+        "supervisor": "(Supervisor: Uri Stroh)",
+        "authors": "Yosef Berger, Aharon Gilo "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/Hf0x3rgJJsg?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-1dd718c6-gbh2xc4n-vidframe",
+        "title": "University of ESSEX Non-intrusive on Chip Monitoring System for RISC-V processor",
+        "project_link": "https:\/\/github.com\/Byteahalf\/riscv_online_debug",
+        "supervisor": "(Supervisor: Xiaojun Zhai )",
+        "authors": "Jiacheng Zhu, Zhaoning Peng "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/b9Mz6KtWnw8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-91ccf42d-aipm2foh-vidframe",
+        "title": "The University of Edinburgh Acceleration of LU Decomposition on FPGAs",
+        "project_link": "https:\/\/github.com\/danchitnis\/LU-decomposition-FPGA",
+        "supervisor": "(Supervisor: Dr. Danial Chitnis )",
+        "authors": "Yichen Zhang "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/B7P8OKUexyI?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-73c1da65-gii19hn5-vidframe",
+        "title": "Strasbourg University Power optimization of the Ariane RISC-V soft-core CPU",
+        "project_link": "https:\/\/github.com\/riscmakers\/cva6-softcore-contest",
+        "supervisor": "(Supervisor: Jean-Baptiste Kammerer)",
+        "authors": "Justin Silver, Maxime Kahn, Yara Al-Ahmad "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/bmqVx-5AJFA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-6a7095a3-f2zj1sst-vidframe",
+        "title": "Polytechnic University of Catalonia Space Controller",
+        "project_link": "https:\/\/github.com\/jaquerinte\/space_controller_fpga",
+        "supervisor": "(Supervisor: Leonidas Kosmidis)",
+        "authors": "Ivan Rodriguez-Ferrandez "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/ZDj1cJXQHWE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-0cad45f8-p35nvku1-vidframe",
+        "title": "Politecnico Di Milano KSW2 - Genomic Alignment Acceleration",
+        "project_link": "https:\/\/github.com\/albertozeni\/ksw2-z-public",
+        "supervisor": "(Supervisor: PROF. MARCO SANTAMBROGIO)",
+        "authors": "Alberto Zeni, Alessia Della Valle "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/iSvRJso2HFc?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-0031c51a-fkmmeywb-vidframe",
+        "title": "Eskişehir Technical University Custom Barret Instruction on RISC-V for Modulo Reduction",
+        "project_link": "https:\/\/github.com\/DHLSan\/RVYNQ-v1",
+        "supervisor": "(Supervisor: ASST. PROF. DR. İSMAIL SAN)",
+        "authors": "Dogukan Gozler, Beyazit Isik "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/wfYoSmGbvA8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-4e86808b-dbtorcld-vidframe",
+        "title": "AGH University of Science and Technology Real time and energy efficient Siamese tracking",
+        "project_link": "https:\/\/github.com\/dprzewlocka\/XOH22-SiamTrack",
+        "supervisor": "(Supervisor: Tomasz Kryjak)",
+        "authors": "Dominika Przewłocka-Rus "
+    },
+    {}
+]

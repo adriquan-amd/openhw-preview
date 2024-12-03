@@ -1,0 +1,106 @@
+[
+    {},
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/rHxu6H7mkhU?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-o9vsmgoo-vidframe",
+        "title": "Winner: PhD Category Politecnico di Milano bibbidi N-BObbiDY booN-Body acceleration",
+        "project_link": "https:\/\/bitbucket.org\/necst\/xohw17_bibbidin-bobbidyboo_public\/",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Emanuele Del Sozzo, Marco Rabozzi, Marco Nanni"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/H82j-1Zce9k?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-b0orwmsn-vidframe",
+        "title": "Winner: PhD Category University of Castilla-La Mancha FPGAUnit: Hardware verification based on unit tests",
+        "project_link": "https:\/\/github.com\/juliancaba\/demo-xohw17",
+        "supervisor": "(Dr. D. Fernando Rincón Calle)",
+        "authors": "Julian Caba Jiménez"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/ix1NI7yq8O4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-9piqj91x-vidframe",
+        "title": "Winner: Pynq Category National Technical University of Athens Spynq: Apache Spark on Pynq",
+        "project_link": "https:\/\/github.com\/AcceleratedCloud\/SPynq",
+        "supervisor": "(Prof. Christoforos Kachris)",
+        "authors": "Elias Koromilas, Ioannis Stamelos"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/rXbWLmAkzZE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-6l3em84b-vidframe",
+        "title": "Winner: Student Category TU Vienna Hardware Implementation of Secret Sharing",
+        "supervisor": "(Sai Manoj Pudukotai Dinakarrao)",
+        "authors": "Jakob Stangl"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/ANxHyCAYGp0?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-76qk07cr-vidframe",
+        "title": "Winner: Student Category Tel Aviv University FPGA-Based Multi-Effect audio processing",
+        "project_link": "https:\/\/github.com\/Vladilit\/fpga-multi-effect",
+        "supervisor": "(Jacob Fainguelernt)",
+        "authors": "Vladi Litmanovich, Adi Mikler"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/07zuIZD0oY4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-y7vpfp1b-vidframe",
+        "title": "ETH Zurich Smart Storage Built with FPGAs",
+        "project_link": "https:\/\/github.com\/fpgasystems\/caribou",
+        "supervisor": "(Prof. Gustavo Alonso)",
+        "authors": "Zsolt Istvan, David Sidler"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/CXaXqRos8XY?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-pggbq6xz-vidframe",
+        "title": "Bielfield University Hardware accelerated calculation of hamming distances",
+        "project_link": "https:\/\/github.com\/martinkaiser\/xohw17",
+        "supervisor": "(Dr.-Ing. Mario Porrmann )",
+        "authors": "Martin Kaiser, Sarah Pilz, Florian Porrmann"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/DoA8hKBltV4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-ohwlejgo-vidframe",
+        "title": "Imperial College London Python on Zynq FPGA for Convolutional Neural Networks",
+        "project_link": "https:\/\/github.com\/awai54st\/PYNQ-Classification",
+        "supervisor": "(Prof. Peter Cheung)",
+        "authors": "Erwei Wang"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/0n4ceHb-Dag?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-mfllc9om-vidframe",
+        "title": "Politecnico di Milano numPYNQOptimizing numPy for PYNQ",
+        "project_link": "https:\/\/bitbucket.org\/necst\/xohw17_numpynq_public",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Riccardo Pressiani, Luca Stornaiuolo, Filippo Carloni"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/Vcef6GQb638?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-nxhy2t2k-vidframe",
+        "title": "WEMoS Politecnico di Milano",
+        "project_link": "https:\/\/bitbucket.org\/necst\/xohw17_wemos_public",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Bianca Falcone, Tommaso Ciceri, Simone Amico"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/Z37EZpHplYw?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-dwsqdli2-vidframe",
+        "title": "Politecnico di Milano BIE-PInCS",
+        "project_link": "https:\/\/bitbucket.org\/necst\/xohw17_bie-pincs_public",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Chiara Di Vece, Filippo Bracco, Tommaso Massari"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/MrUg1NcmiDQ?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-vfi8agbv-vidframe",
+        "title": "Politecnico di Milano Sibyl",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Francesco Rotondo, Tommaso Sardelli"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/hO7UGxA0XX4?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-atuenogj-vidframe",
+        "title": "Universitat Politècnica de Catalunya Low cost camera",
+        "supervisor": "(Jordi Cosp-Vilella)",
+        "authors": "Jordi Fornt-Mas, Lucía González-Sobrino, Alejandro Mora-Martínez"
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/DrXttlEuRjA?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-lorpjkuw-vidframe",
+        "title": "Politecnico di Milano TiReX",
+        "project_link": "https:\/\/bitbucket.org\/necst\/xohw17_tirex_public",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Davide Conficconi, Alessandro Comodi "
+    },
+    {
+        "video_url": "https:\/\/www.youtube.com\/embed\/J__eRYyKId8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-fzv2m7ge-vidframe",
+        "title": "Politecnico di Milano OXIgen",
+        "project_link": "https:\/\/bitbucket.org\/necst\/xohw17_oxigen_public",
+        "supervisor": "(Prof. Marco Santambrogio)",
+        "authors": "Marco Siracusa, Francesco Peverelli, Enrico Reggiani"
+    },
+    {}
+]
