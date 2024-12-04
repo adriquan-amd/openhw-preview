@@ -59,5 +59,10 @@ document.querySelector('.menu-item-rules').addEventListener('click', function() 
     loadPage('rules');
 });
 
+document.querySelector('.menu-item-results').addEventListener('click', function() {
+    loadPage('results');
+});
+
+
 
 
