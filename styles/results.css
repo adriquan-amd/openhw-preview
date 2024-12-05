@@ -59,8 +59,8 @@ button {
 .pic {
     flex-shrink: 0;
     position: relative;
-    width: 375.776px;
-    height: 300px;
+    width: 300px;
+    height: 180px;
     background:
     no-repeat center;
     background-size: cover;
