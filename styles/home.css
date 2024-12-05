@@ -474,7 +474,7 @@
     width: 230px;
     height: 82px;
     top: 30%;
-    left: 20%;
+    left: 15%;
     position: absolute;
     object-fit: cover;
 }
@@ -499,7 +499,7 @@
     width: 566px;
     height: 338px;
     top: 50%;
-    left: -10%;
+    left: 0%;
     font-family: "Inter-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
