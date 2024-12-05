@@ -1,6 +1,9 @@
 const urlParams = new URLSearchParams(window.location.search);
 const year = urlParams.get('year');  // 获取 URL 中的 'year' 参数
+const yearElement = document.getElementById('year-placeholder');
 
+// 将当前年份填充到该元素
+yearElement.textContent = year;
 if (year) {
     // 根据 'year' 参数构造 JSON 文件的路径
     const jsonFilePath = `assets/results/${year}.json`;  // 示例：'assets/results/2024.json'
@@ -53,7 +56,7 @@ if (year) {
 
                 // 创建 GitHub 仓库链接按钮
                 const button = document.createElement('a');
-                button.classList.add('btn', 'btn-info', 'btn-round');
+                button.classList.add('btn', 'btn-dark', 'btn-round');
                 button.href = project.project_link;
                 button.target = '_blank';
                 button.textContent = 'Project REPOSITORY';
