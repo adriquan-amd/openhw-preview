@@ -6,6 +6,15 @@
     "Source Han Sans CN", sans-serif;
 }
 
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #000000;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;  /* Ensure text is centered in body */
+}
+
 .main-container {
     overflow: hidden;
 }
