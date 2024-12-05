@@ -22,7 +22,7 @@ if (year) {
 
                 // 创建每个项目的卡片容器
                 const projectDiv = document.createElement('div');
-                projectDiv.classList.add('card', 'shadow-sm', 'border-0', 'mb-4');
+                projectDiv.classList.add('card', 'shadow-lg', 'border-0', 'mb-4');
 
                 // 创建视频元素（替换图片为视频）
                 const videoDiv = document.createElement('div');
