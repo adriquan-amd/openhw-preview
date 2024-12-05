@@ -12,7 +12,7 @@ fetch('assets/results/years.json')  // Assuming the JSON file is located in 'dat
             // Create a new <a> element for each year
             const dropdownItem = document.createElement('a');
             dropdownItem.classList.add('dropdown-item');
-            dropdownItem.href = `results.html?${year}`;  // Dynamically set the href attribute
+            dropdownItem.href = `results.html?year=${year}`;  // Dynamically set the href attribute
             dropdownItem.textContent = year;  // Set the text of the link
 
             // Append the dropdown item to the dropdown menu
