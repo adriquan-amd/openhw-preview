@@ -1,71 +1,75 @@
 const urlParams = new URLSearchParams(window.location.search);
-const year = urlParams.get('year');  // Get the 'year' parameter from the URL
-if (year) {
-    // 2. Construct the JSON file URL based on the 'year' parameter
-    const jsonFilePath = `assets/results/${year}.json`;  // Example: 'assets/results/2024.json'
+const year = urlParams.get('year');  // 获取 URL 中的 'year' 参数
 
-    // 3. Fetch the JSON file based on the year
+if (year) {
+    // 根据 'year' 参数构造 JSON 文件的路径
+    const jsonFilePath = `assets/results/${year}.json`;  // 示例：'assets/results/2024.json'
+
+    // 获取 JSON 文件
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
-            // Loop through each project and create corresponding HTML elements
-            const projectsContainer = document.getElementsByClassName('main-container')[0];
-            console.log(data)
-            data.forEach(project => {
-                // Create the main container for each project
-                const projectDiv = document.createElement('div');
-                projectDiv.classList.add('group');
+            if (data === null) return;
 
-                // Create video element
+            // 获取项目容器
+            const projectsContainer = document.getElementsByClassName('main-container')[0];
+            console.log(data);
+
+            data.forEach(project => {
+                // 创建父级 div
+                const colDiv = document.createElement('div');
+                colDiv.classList.add('col-md-6', 'col-lg-4');  // 使用 Bootstrap 的列类
+
+                // 创建每个项目的卡片容器
+                const projectDiv = document.createElement('div');
+                projectDiv.classList.add('card', 'shadow-sm', 'border-0', 'mb-4');
+
+                // 创建视频元素（替换图片为视频）
                 const videoDiv = document.createElement('div');
                 videoDiv.classList.add('pic');
                 const iframe = document.createElement('iframe');
                 iframe.src = project.video_url;
                 iframe.width = '100%';
-                iframe.height = '100%';
+                iframe.height = '200';  // 可调整视频高度
                 iframe.frameBorder = '0';
                 videoDiv.appendChild(iframe);
                 projectDiv.appendChild(videoDiv);
 
-                // Create the section for title and author information
-                const sectionDiv = document.createElement('div');
-                sectionDiv.classList.add('section');
-                const section2Div = document.createElement('div');
-                section2Div.classList.add('section-2');
+                // 创建卡片内容
+                const cardBody = document.createElement('div');
+                cardBody.classList.add('card-body');
 
-                const titleSpan = document.createElement('span');
-                titleSpan.classList.add('text');
-                titleSpan.textContent = project.title;
-                section2Div.appendChild(titleSpan);
+                // 创建项目标题
+                const title = document.createElement('h5');
+                title.classList.add('card-title');
+                title.textContent = project.title;
+                cardBody.appendChild(title);
 
-                const subtitleSpan = document.createElement('span');
-                subtitleSpan.classList.add('text-2');
-                subtitleSpan.textContent = `${project.authors} (supervisor: ${project.supervisor})`;
-                section2Div.appendChild(subtitleSpan);
+                // 创建作者和导师信息，换行显示
+                const authorInfo = document.createElement('p');
+                authorInfo.classList.add('card-text', 'text-muted');
+                authorInfo.innerHTML = `${project.authors}<br>(supervisor: ${project.supervisor})`;
+                cardBody.appendChild(authorInfo);
 
-                sectionDiv.appendChild(section2Div);
-                projectDiv.appendChild(sectionDiv);
+                // 创建 GitHub 仓库链接按钮
+                const button = document.createElement('a');
+                button.classList.add('btn', 'btn-info', 'btn-round');
+                button.href = project.project_link;
+                button.target = '_blank';
+                button.textContent = 'Project REPOSITORY';
+                cardBody.appendChild(button);
 
-                // Create button linking to the GitHub repository
-                const button = document.createElement('button');
-                button.classList.add('Button');
-                const buttonText = document.createElement('span');
-                buttonText.classList.add('text-3');
-                buttonText.textContent = 'Project REPOSITORY';
-                button.appendChild(buttonText);
+                // 将卡片内容添加到卡片容器
+                projectDiv.appendChild(cardBody);
 
-                const link = document.createElement('a');
-                link.href = project.project_link;
-                link.target = '_blank';
-                link.appendChild(button);
+                // 将整个项目卡片添加到父 div 中
+                colDiv.appendChild(projectDiv);
 
-                projectDiv.appendChild(link);
-
-                // Append the entire project div to the main container
-                projectsContainer.appendChild(projectDiv);
+                // 将包含卡片的父 div 添加到主容器中
+                projectsContainer.appendChild(colDiv);
             });
         })
-        .catch(error => console.error('Error loading JSON data:', error));
+        .catch(error => console.error('加载 JSON 数据时出错:', error));
 } else {
-    console.error('Year parameter is missing in the URL.');
+    console.error('URL 中缺少 year 参数。');
 }

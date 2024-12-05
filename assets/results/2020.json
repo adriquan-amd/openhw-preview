@@ -147,7 +147,6 @@
         "supervisor": "(Patrick O'Friel)",
         "authors": "Christian Jasper Arrol De Vera "
     },
-    {},
     {
         "video_url": "https:\/\/www.youtube.com\/embed\/CCn8W2tfqO8?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-bo9axa8k-vidframe",
         "title": "University of Calabria An efficient FPGA-based deconvolver for deep learning",
@@ -183,7 +182,6 @@
         "supervisor": "(Marco D. Santambrogio)",
         "authors": "Alberto Zeni, Guido Walter Di Donato "
     },
-    {},
     {
         "video_url": "https:\/\/www.youtube.com\/embed\/YeAkoiZharE?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=1&playlist=YeAkoiZharE&rel=0&playerapiid=vbid-ae28e-tfeellpb-vidframe",
         "title": "University of Strathclyde Pypix",
@@ -246,6 +244,6 @@
         "project_link": "https:\/\/github.com\/albertozeni\/XDropXOHW-Public",
         "supervisor": "(Marco D. Santambrogio)",
         "authors": "Alberto Zeni, Guido Walter Di Donato "
-    },
-    {}
+    }
+
 ]
