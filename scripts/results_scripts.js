@@ -76,3 +76,19 @@ if (year) {
 } else {
     console.error('URL 中缺少 year 参数。');
 }
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const tabs = document.querySelectorAll(".tab");
+
+    // Add click event listener to all tabs
+    tabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+            // Remove active class from all tabs
+            tabs.forEach(t => t.classList.remove("active"));
+
+            // Add active class to the clicked tab
+            tab.classList.add("active");
+        });
+    });
+});

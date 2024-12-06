@@ -315,3 +315,47 @@ button {
     position: relative;
     min-width: 0;}
 
+/* Container for the tabs */
+.tab-container {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    width:61.8%;
+    margin : 0 auto;
+}
+
+/* Style for each tab */
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+    font-weight: normal;
+}
+
+/* Active tab styles */
+.tab.active {
+    font-weight: bold;
+    color: #000;
+    position: relative;
+}
+
+/* Underline for active tab */
+.tab.active::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+}
+
+/* Tab hover effect */
+.tab:hover {
+    font-weight: bold;
+    color: #000;
+    position: relative;
+}
