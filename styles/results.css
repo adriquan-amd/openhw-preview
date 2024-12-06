@@ -19,7 +19,7 @@
 
 
 /* Container for the tabs */
-.tabit-container {
+.tab-container {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #ddd;
@@ -29,7 +29,7 @@
 }
 
 /* Style for each tab */
-.tab-it {
+.tab {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
@@ -38,14 +38,14 @@
 }
 
 /* Active tab styles */
-.tab-it.active {
+.tab.active {
     font-weight: bold;
     color: #000;
     position: relative;
 }
 
 /* Underline for active tab */
-.tab-it.active::after {
+.tab.active::after {
     content: '';
     display: block;
     height: 2px;
@@ -57,7 +57,7 @@
 }
 
 /* Tab hover effect */
-.tab-it:hover {
+.tab:hover {
     font-weight: bold;
     color: #000;
     position: relative;
