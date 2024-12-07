@@ -1,1 +1,50 @@
-[{"pdfTitle":"High-throughput imaging flow cytometry real-time analysis system based on time-stretch","pdfFileName":"wuhan.pdf"},{"pdfTitle":"Textile composition detection based on near infrared spectroscopy","pdfFileName":"nxd.pdf"},{"pdfTitle":"Research and FPGA implementation of RDMA NIC performance enhancement","pdfFileName":"cqu.pdf"},{"pdfTitle":"A linear tuning control system for laser array based on Xilinx Zynq","pdfFileName":"nju.pdf"},{"pdfTitle":"Multi-channel low-frequency astronomical radio observation system","pdfFileName":"xkd.pdf"},{"pdfTitle":"A neural network accelerator for lip recognition based on FPGA","pdfFileName":"lips.pdf"},{"pdfTitle":"Design of image compression accelerator for edge computing","pdfFileName":"xju.pdf"},{"pdfTitle":"Hardware accelerator design and FPGA implementation of drug docking algorithm","pdfFileName":"drug.pdf"},{"pdfTitle":"Hardware implementation of FAST and Betweenness algorithms based on HLS","pdfFileName":"ccc.pdf"},{"pdfTitle":"Schrodinger Equation Accelerator on PYNQ via HLS","pdfFileName":"tdse.pdf"},{"pdfTitle":"FPGA multimedia player based on RISC-V","pdfFileName":"riscv.pdf"},{"pdfTitle":"High Performance Millimeter Wave Edge Imaging System Based on Zynq7000","pdfFileName":"mimo.pdf"}]
+[
+  {
+    "title": "High-throughput imaging flow cytometry real-time analysis system based on time-stretch",
+    "pdfFileName": "wuhan.pdf"
+  },
+  {
+    "title": "Textile composition detection based on near infrared spectroscopy",
+    "pdfFileName": "nxd.pdf"
+  },
+  {
+    "title": "Research and FPGA implementation of RDMA NIC performance enhancement",
+    "pdfFileName": "cqu.pdf"
+  },
+  {
+    "title": "A linear tuning control system for laser array based on Xilinx Zynq",
+    "pdfFileName": "nju.pdf"
+  },
+  {
+    "title": "Multi-channel low-frequency astronomical radio observation system",
+    "pdfFileName": "xkd.pdf"
+  },
+  {
+    "title": "A neural network accelerator for lip recognition based on FPGA",
+    "pdfFileName": "lips.pdf"
+  },
+  {
+    "title": "Design of image compression accelerator for edge computing",
+    "pdfFileName": "xju.pdf"
+  },
+  {
+    "title": "Hardware accelerator design and FPGA implementation of drug docking algorithm",
+    "pdfFileName": "drug.pdf"
+  },
+  {
+    "title": "Hardware implementation of FAST and Betweenness algorithms based on HLS",
+    "pdfFileName": "ccc.pdf"
+  },
+  {
+    "title": "Schrodinger Equation Accelerator on PYNQ via HLS",
+    "pdfFileName": "tdse.pdf"
+  },
+  {
+    "title": "FPGA multimedia player based on RISC-V",
+    "pdfFileName": "riscv.pdf"
+  },
+  {
+    "title": "High Performance Millimeter Wave Edge Imaging System Based on Zynq7000",
+    "pdfFileName": "mimo.pdf"
+  }
+]

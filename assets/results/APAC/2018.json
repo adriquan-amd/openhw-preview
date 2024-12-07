@@ -1,1 +1,50 @@
-[{"pdfTitle":"Auto-controlled stadium system","pdfFileName":"stadium.pdf"},{"pdfTitle":"An imaging system through scattering media base on PYNQ","pdfFileName":"scatter.pdf"},{"pdfTitle":"Neuromorphic computing platform based on PYNQ cluster","pdfFileName":"nest.pdf"},{"pdfTitle":"SOPC-based Design and Realization of a Video Chaotic Secure Communication System","pdfFileName":"sopc.pdf"},{"pdfTitle":"AR based Smart Glasses","pdfFileName":"ar.pdf"},{"pdfTitle":"Moving target detection system based on ZYNQ","pdfFileName":"moving.pdf"},{"pdfTitle":"An Ultra-fast NoC Simulator based on Zynq","pdfFileName":"noc.pdf"},{"pdfTitle":"A new type of Lightning Electric Field Measurement and Transmission System for Board Structure","pdfFileName":"lightning.pdf"},{"pdfTitle":"Ultrasonic intra-body communication system","pdfFileName":"ultra.pdf"},{"pdfTitle":"Chip Physical Design EDA Tool on PYNQ","pdfFileName":"chips.jpg"},{"pdfTitle":"FPGA-based Intelligent Video Projection Fusion equipment","pdfFileName":"project.pdf"},{"pdfTitle":"Interactive learning system based on Augmented Reality and gesture recognition","pdfFileName":"gesture.pdf"}]
+[
+  {
+    "title": "Auto-controlled stadium system",
+    "pdfFileName": "stadium.pdf"
+  },
+  {
+    "title": "An imaging system through scattering media base on PYNQ",
+    "pdfFileName": "scatter.pdf"
+  },
+  {
+    "title": "Neuromorphic computing platform based on PYNQ cluster",
+    "pdfFileName": "nest.pdf"
+  },
+  {
+    "title": "SOPC-based Design and Realization of a Video Chaotic Secure Communication System",
+    "pdfFileName": "sopc.pdf"
+  },
+  {
+    "title": "AR based Smart Glasses",
+    "pdfFileName": "ar.pdf"
+  },
+  {
+    "title": "Moving target detection system based on ZYNQ",
+    "pdfFileName": "moving.pdf"
+  },
+  {
+    "title": "An Ultra-fast NoC Simulator based on Zynq",
+    "pdfFileName": "noc.pdf"
+  },
+  {
+    "title": "A new type of Lightning Electric Field Measurement and Transmission System for Board Structure",
+    "pdfFileName": "lightning.pdf"
+  },
+  {
+    "title": "Ultrasonic intra-body communication system",
+    "pdfFileName": "ultra.pdf"
+  },
+  {
+    "title": "Chip Physical Design EDA Tool on PYNQ",
+    "pdfFileName": "chips.jpg"
+  },
+  {
+    "title": "FPGA-based Intelligent Video Projection Fusion equipment",
+    "pdfFileName": "project.pdf"
+  },
+  {
+    "title": "Interactive learning system based on Augmented Reality and gesture recognition",
+    "pdfFileName": "gesture.pdf"
+  }
+]

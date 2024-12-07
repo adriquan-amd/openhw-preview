@@ -1,1 +1,38 @@
-[{"pdfTitle":"A multi-beam high-speed receiver system based on ZYNQ7000","pdfFileName":"beam.pdf"},{"pdfTitle":"Compiler for DNN Workloads on AMD GPUs","pdfFileName":"dnn.pdf"},{"pdfTitle":"DTLN: A Dual-signal LSTM transform speech enhancement system based on Zynq","pdfFileName":"dtln.pdf"},{"pdfTitle":"Filter-2D accelerator design based on VCK5000","pdfFileName":"f2d.pdf"},{"pdfTitle":"Guitar automatic tuner using AMD Spartan7","pdfFileName":"guitar.pdf"},{"pdfTitle":"A high-performance pixel-level fully pipelined hardware accelerator for CNNs","pdfFileName":"pixel.pdf"},{"pdfTitle":"Multi-operator fusion microscope autofocusing system based on Zynq","pdfFileName":"micro.pdf"},{"pdfTitle":"A multi-autonomous mobile robot controller for autonomous agent perception and collaboration","pdfFileName":"robot.pdf"},{"pdfTitle":"F-TFM: Accelerating total focusing method on FPGA","pdfFileName":"tfm.pdf"}]
+[
+  {
+    "title": "A multi-beam high-speed receiver system based on ZYNQ7000",
+    "pdfFileName": "beam.pdf"
+  },
+  {
+    "title": "Compiler for DNN Workloads on AMD GPUs",
+    "pdfFileName": "dnn.pdf"
+  },
+  {
+    "title": "DTLN: A Dual-signal LSTM transform speech enhancement system based on Zynq",
+    "pdfFileName": "dtln.pdf"
+  },
+  {
+    "title": "Filter-2D accelerator design based on VCK5000",
+    "pdfFileName": "f2d.pdf"
+  },
+  {
+    "title": "Guitar automatic tuner using AMD Spartan7",
+    "pdfFileName": "guitar.pdf"
+  },
+  {
+    "title": "A high-performance pixel-level fully pipelined hardware accelerator for CNNs",
+    "pdfFileName": "pixel.pdf"
+  },
+  {
+    "title": "Multi-operator fusion microscope autofocusing system based on Zynq",
+    "pdfFileName": "micro.pdf"
+  },
+  {
+    "title": "A multi-autonomous mobile robot controller for autonomous agent perception and collaboration",
+    "pdfFileName": "robot.pdf"
+  },
+  {
+    "title": "F-TFM: Accelerating total focusing method on FPGA",
+    "pdfFileName": "tfm.pdf"
+  }
+]
