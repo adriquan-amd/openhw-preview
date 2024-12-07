@@ -4,6 +4,8 @@ const yearElement = document.getElementById('year-placeholder');
 
 // 将当前年份填充到该元素
 yearElement.textContent = year + " RESULTS";
+let jsonDataEU = "";
+let jsonDataAPAC="";
 
 document.addEventListener("DOMContentLoaded", async () => {
     try {
@@ -15,13 +17,11 @@ document.addEventListener("DOMContentLoaded", async () => {
             // Construct file names
             const fileNameEU = "assets/results/europe/"+`${year}.json`;
             //const fileNameAPAC = "assets/results/APAC/"+`${year}.json`;
-            const fileNameAPAC = ""
+            const fileNameAPAC = "assets/results/APAC/"+`${year}.json`;
 
             console.log(`Loading JSON files: ${fileNameEU}, ${fileNameAPAC}`);
 
-            // 2. Fetch JSON files with error handling
-            let jsonDataEU = "";
-            let jsonDataAPAC = "";
+
 
             try {
                 const responseEU = await fetch(fileNameEU);
@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 const responseAPAC = await fetch(fileNameAPAC);
                 if (responseAPAC.ok) {
                     jsonDataAPAC = await responseAPAC.json();
+
                 } else {
                     console.warn(`Failed to load ${fileNameAPAC}: ${responseAPAC.statusText}`);
                 }
@@ -72,6 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Execute logic based on the active tab
             const activeTabId = tab.id; // Get the ID of the active tab
+
             handleTabChange(activeTabId);
         });
     });
@@ -89,8 +91,7 @@ function handleTabChange(tabId) {
             break;
         case "tab-apac":
             console.log("APAC tab is active!");
-            // Add your logic for the "APAC" tab here
-            renderProjects(jsonDataAPAC);
+            renderProjects_apac(jsonDataAPAC);
             break;
         default:
             console.log("Unknown tab is active!");
@@ -165,6 +166,92 @@ function renderProjects_eu(data) {
         colDiv.appendChild(projectDiv);
 
         // Append the parent div to the main container
+        projectsContainer.appendChild(colDiv);
+    });
+}
+
+
+
+function renderProjects_apac(data) {
+
+    if (data === null || !Array.isArray(data)) return;
+
+    // 获取项目容器
+    const projectsContainer = document.getElementsByClassName('main-container')[0];
+
+    // 清空现有内容
+    projectsContainer.innerHTML = "";
+
+    // 遍历数据并创建项目卡片
+    data.forEach(project => {
+        if (!project || (!project.title || (!project.pdfFileName && !project.video_url))) return;
+
+
+        const colDiv = document.createElement('div');
+        colDiv.classList.add('col-md-6', 'col-lg-4'); // 使用 Bootstrap 的列类
+
+
+        const projectDiv = document.createElement('div');
+        projectDiv.classList.add('card', 'shadow-lg', 'border-0', 'mb-4');
+
+
+        const mediaDiv = document.createElement('div');
+        mediaDiv.classList.add('pic');
+
+
+        if (project.pdfFileName) {
+
+            const pdfEmbed = document.createElement('embed');
+            pdfEmbed.src = `assets/pdf/${project.pdfFileName}`;
+            pdfEmbed.type = "application/pdf";
+            pdfEmbed.style.width = "100%"; // 宽度自适应
+            pdfEmbed.style.height = "300px"; // 设置高度
+            pdfEmbed.style.cursor = "pointer";
+
+            // 点击时打开 PDF 文件
+            pdfEmbed.addEventListener('click', () => {
+                window.open(`assets/pdf/${project.pdfFileName}`, '_blank');
+            });
+
+            mediaDiv.appendChild(pdfEmbed);
+        } else if (project.videourl) {
+
+            const iframe = document.createElement('iframe');
+            iframe.src = project.videourl;
+            iframe.width = '100%';
+            iframe.height = '200'; // 调整视频高度
+            iframe.frameBorder = '0';
+            mediaDiv.appendChild(iframe);
+        }
+
+        projectDiv.appendChild(mediaDiv);
+
+
+        const cardBody = document.createElement('div');
+        cardBody.classList.add('card-body');
+
+
+        const title = document.createElement('h5');
+        title.classList.add('card-title');
+        title.style.cursor = "pointer";
+        title.textContent = project.title;
+
+
+        if (project.pdfFileName) {
+            title.addEventListener('click', () => {
+                window.open(`assets/pdf/${project.pdfFileName}`, '_blank');
+            });
+        }
+
+        cardBody.appendChild(title);
+
+        // 将卡片内容添加到卡片容器
+        projectDiv.appendChild(cardBody);
+
+        // 将整个项目卡片添加到父 div 中
+        colDiv.appendChild(projectDiv);
+
+        // 将包含卡片的父 div 添加到主容器中
         projectsContainer.appendChild(colDiv);
     });
 }
