@@ -95,6 +95,8 @@ function handleTabChange(tabId) {
             console.log("APAC tab is active!");
             renderProjects_apac(jsonDataAPAC);
             break;
+        case "tab-na":
+            renderProjects_na();
         default:
             console.log("Unknown tab is active!");
             break;
@@ -106,7 +108,7 @@ function handleTabChange(tabId) {
  * @param {Array} data - Array of project data.
  */
 function renderProjects_eu(data) {
-    if (data === null || !Array.isArray(data)) return;
+
 
     // Get the project container
     const projectsContainer = document.getElementsByClassName('main-container')[0];
@@ -176,13 +178,14 @@ function renderProjects_eu(data) {
 
 function renderProjects_apac(data) {
 
-    if (data === null || !Array.isArray(data)) return;
+
 
     // 获取项目容器
     const projectsContainer = document.getElementsByClassName('main-container')[0];
 
     // 清空现有内容
     projectsContainer.innerHTML = "";
+
 
     // 遍历数据并创建项目卡片
     data.forEach(project => {
@@ -260,4 +263,11 @@ function renderProjects_apac(data) {
         // 将包含卡片的父 div 添加到主容器中
         projectsContainer.appendChild(colDiv);
     });
+}
+
+function renderProjects_na(){
+    const projectsContainer = document.getElementsByClassName('main-container')[0];
+
+    // 清空现有内容
+    projectsContainer.innerHTML = "";
 }
