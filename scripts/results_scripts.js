@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add click event listener to all tabs
     tabs.forEach(tab => {
         tab.addEventListener("click", () => {
+
             // Remove active class from all tabs
             tabs.forEach(t => t.classList.remove("active"));
 
@@ -73,6 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Execute logic based on the active tab
             const activeTabId = tab.id; // Get the ID of the active tab
+
 
             handleTabChange(activeTabId);
         });
@@ -87,7 +89,7 @@ function handleTabChange(tabId) {
     switch (tabId) {
         case "tab-eu":
             console.log("Europe tab is active!");
-            renderProjects_eu(jsonData);
+            renderProjects_eu(jsonDataEU);
             break;
         case "tab-apac":
             console.log("APAC tab is active!");
@@ -184,7 +186,8 @@ function renderProjects_apac(data) {
 
     // 遍历数据并创建项目卡片
     data.forEach(project => {
-        if (!project || (!project.title || (!project.pdfFileName && !project.video_url))) return;
+
+        if (!project || (!project.title || (!project.pdfFileName && !project.videourl))) return;
 
 
         const colDiv = document.createElement('div');
@@ -200,7 +203,6 @@ function renderProjects_apac(data) {
 
 
         if (project.pdfFileName) {
-
             const pdfEmbed = document.createElement('embed');
             pdfEmbed.src = `assets/pdf/${project.pdfFileName}`;
             pdfEmbed.type = "application/pdf";
@@ -216,13 +218,17 @@ function renderProjects_apac(data) {
             mediaDiv.appendChild(pdfEmbed);
         } else if (project.videourl) {
 
+
             const iframe = document.createElement('iframe');
             iframe.src = project.videourl;
             iframe.width = '100%';
             iframe.height = '200'; // 调整视频高度
             iframe.frameBorder = '0';
+
+
             mediaDiv.appendChild(iframe);
         }
+
 
         projectDiv.appendChild(mediaDiv);
 
