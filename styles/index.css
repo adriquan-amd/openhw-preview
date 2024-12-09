@@ -171,3 +171,8 @@ body {
     background-color: #555555;  /* 滚动条悬停时的颜色 */
 }
 
+
+#dropdownMenu {
+    max-height: calc(5 * 40px); /* 假设每个item高度为40px，根据实际高度调整 */
+    overflow-y: auto;           /* 启用垂直滚动 */
+}
