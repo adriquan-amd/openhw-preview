@@ -216,7 +216,7 @@ function renderProjects_apac(data) {
     }
 
     data.forEach(project => {
-        if (!project || (!project.title || (!project.pdfFileName && !project.videourl))) return;
+        if (!project || (!project.title || (!project.pdfFileName && !project.videourl && !project.imgName))) return;
 
         const colDiv = document.createElement('div');
         colDiv.classList.add('col-md-6', 'col-lg-4');
@@ -227,7 +227,21 @@ function renderProjects_apac(data) {
         const mediaDiv = document.createElement('div');
         mediaDiv.classList.add('pic');
 
-        if (project.pdfFileName) {
+        if (project.imgName) {
+            const img = document.createElement('img');
+            img.src = `assets/project_images/${project.imgName}`;
+            img.alt = project.title;
+            img.style.width = "100%";
+            img.style.height = "200px";
+            img.style.objectFit = "cover";
+            img.style.cursor = "pointer";
+
+            img.addEventListener('click', () => {
+                window.open(project.websiteUrl, '_blank');
+            });
+
+            mediaDiv.appendChild(img);
+        } else if (project.pdfFileName) {
             const pdfEmbed = document.createElement('embed');
             pdfEmbed.src = `assets/pdf/${project.pdfFileName}`;
             pdfEmbed.type = "application/pdf";
@@ -260,11 +274,9 @@ function renderProjects_apac(data) {
         title.style.cursor = "pointer";
         title.textContent = project.title;
 
-        if (project.pdfFileName) {
-            title.addEventListener('click', () => {
-                window.open(`assets/pdf/${project.pdfFileName}`, '_blank');
-            });
-        }
+        title.addEventListener('click', () => {
+            window.open(project.websiteUrl, '_blank');
+        });
 
         cardBody.appendChild(title);
         projectDiv.appendChild(cardBody);
