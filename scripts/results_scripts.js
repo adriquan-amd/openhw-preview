@@ -174,77 +174,91 @@ function renderProjects_eu(data) {
     });
 }
 
-
-
 function renderProjects_apac(data) {
-
-
-
-    // 获取项目容器
     const projectsContainer = document.getElementsByClassName('main-container')[0];
-
-    // 清空现有内容
     projectsContainer.innerHTML = "";
 
+    // Check if data is a list of titles
+    if (Array.isArray(data) && typeof data[0] === "string") {
+        const table = document.createElement('table');
+        table.classList.add('table');
 
-    // 遍历数据并创建项目卡片
+        const thead = document.createElement('thead');
+        thead.classList.add('thead-dark');
+        thead.innerHTML = `
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+            </tr>
+        `;
+        table.appendChild(thead);
+
+        const tbody = document.createElement('tbody');
+
+        data.forEach((title, index) => {
+            const row = document.createElement('tr');
+
+            const numberCell = document.createElement('th');
+            numberCell.scope = "row";
+            numberCell.textContent = index + 1;
+
+            const titleCell = document.createElement('td');
+            titleCell.textContent = title;
+
+            row.appendChild(numberCell);
+            row.appendChild(titleCell);
+            tbody.appendChild(row);
+        });
+
+        table.appendChild(tbody);
+        projectsContainer.appendChild(table);
+        return;
+    }
+
     data.forEach(project => {
-
         if (!project || (!project.title || (!project.pdfFileName && !project.videourl))) return;
 
-
         const colDiv = document.createElement('div');
-        colDiv.classList.add('col-md-6', 'col-lg-4'); // 使用 Bootstrap 的列类
-
+        colDiv.classList.add('col-md-6', 'col-lg-4');
 
         const projectDiv = document.createElement('div');
         projectDiv.classList.add('card', 'shadow-lg', 'border-0', 'mb-4');
 
-
         const mediaDiv = document.createElement('div');
         mediaDiv.classList.add('pic');
-
 
         if (project.pdfFileName) {
             const pdfEmbed = document.createElement('embed');
             pdfEmbed.src = `assets/pdf/${project.pdfFileName}`;
             pdfEmbed.type = "application/pdf";
-            pdfEmbed.style.width = "100%"; // 宽度自适应
-            pdfEmbed.style.height = "300px"; // 设置高度
+            pdfEmbed.style.width = "100%";
+            pdfEmbed.style.height = "300px";
             pdfEmbed.style.cursor = "pointer";
 
-            // 点击时打开 PDF 文件
             pdfEmbed.addEventListener('click', () => {
                 window.open(`assets/pdf/${project.pdfFileName}`, '_blank');
             });
 
             mediaDiv.appendChild(pdfEmbed);
         } else if (project.videourl) {
-
-
             const iframe = document.createElement('iframe');
             iframe.src = project.videourl;
             iframe.width = '100%';
-            iframe.height = '200'; // 调整视频高度
+            iframe.height = '200';
             iframe.frameBorder = '0';
-
 
             mediaDiv.appendChild(iframe);
         }
 
-
         projectDiv.appendChild(mediaDiv);
-
 
         const cardBody = document.createElement('div');
         cardBody.classList.add('card-body');
-
 
         const title = document.createElement('h5');
         title.classList.add('card-title');
         title.style.cursor = "pointer";
         title.textContent = project.title;
-
 
         if (project.pdfFileName) {
             title.addEventListener('click', () => {
@@ -253,14 +267,9 @@ function renderProjects_apac(data) {
         }
 
         cardBody.appendChild(title);
-
-        // 将卡片内容添加到卡片容器
         projectDiv.appendChild(cardBody);
 
-        // 将整个项目卡片添加到父 div 中
         colDiv.appendChild(projectDiv);
-
-        // 将包含卡片的父 div 添加到主容器中
         projectsContainer.appendChild(colDiv);
     });
 }

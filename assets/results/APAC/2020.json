@@ -1,0 +1,52 @@
+[
+  {
+    "imgName": "fudan.png",
+    "websiteUrl": "http://openasic.org/",
+    "title": "开源H.265视频编码芯片IP核"
+  },
+  {
+    "imgName": "shanghaitech.png",
+    "websiteUrl": "https://github.com/jiangwx/SkrSkr",
+    "title": "基于边缘计算的轻量神经网络的设计空间探索"
+  },
+  {
+    "imgName": "jiangnan.png",
+    "websiteUrl": "https://github.com/clancylea/SNN-simulator-NEST_14.0-xilinx_FPGA_cluster",
+    "title": "基于PYNQ的类脑计算平台"
+  },
+  {
+    "imgName": "IK.png",
+    "websiteUrl": "https://github.com/CICS-ICT/ik-acceleration",
+    "title": "逆运动学算法的硬件加速"
+  },
+  {
+    "imgName": "output0.png",
+    "websiteUrl": "https://github.com/Memory-bread/SSD_IN_PYNQ",
+    "title": "基于PYNQ的深度卷积网络加速设计"
+  },
+  {
+    "imgName": "68747470733a2f2f67697465652e636f6d2f743277313939372f696d672d6265642f7261772f6d61737465722f696d672f32303230303830313131333434302e706e67.png",
+    "websiteUrl": "https://github.com/Psyduckcoco/lenet-5",
+    "title": "基于FPGA加速的手写数字识别网络部署"
+  },
+  {
+    "imgName": "pulsar.png",
+    "websiteUrl": "https://github.com/kongxiangcong/Pulsar-FPGA",
+    "title": "基于FPGA的软硬件协同的脉冲星搜寻任务"
+  },
+  {
+    "imgName": "3.png",
+    "websiteUrl": "https://github.com/bjrjk/HLS-LZ77",
+    "title": "基于HLS的LZ77数据压缩算法实现"
+  },
+  {
+    "imgName": "4.png",
+    "websiteUrl": "https://github.com/dhm2013724/yolov2_xilinx_fpga",
+    "title": "基于FPGA异构平台神经网络加速器的设计与实现"
+  },
+  {
+    "imgName": "pic1.jpg",
+    "websiteUrl": "https://github.com/Gatsby253/HLS-MD5.git",
+    "title": "MD5算法的FPGA实现"
+  }
+]
