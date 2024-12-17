@@ -1,4 +1,4 @@
-
+var sections = document.querySelectorAll('.mb-5');
 var tabs = document.querySelectorAll('.tab');
 
 
