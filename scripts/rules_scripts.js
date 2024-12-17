@@ -1,5 +1,4 @@
 
-var sections = document.querySelectorAll('.body-container');
 var tabs = document.querySelectorAll('.tab');
 
 
