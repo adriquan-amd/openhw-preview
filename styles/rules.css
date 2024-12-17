@@ -99,8 +99,10 @@ button {
 }
 
 .tab.active {
-    background-color: gray;
+    background-color: gray; 
+    
     color: white;
+    border-color: #90a4ae;
 }
 
 .tab {

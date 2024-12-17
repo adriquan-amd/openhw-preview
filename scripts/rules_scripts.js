@@ -1,21 +1,24 @@
 var sections = document.querySelectorAll('.mb-5');
 var tabs = document.querySelectorAll('.tab');
 
+window.addEventListener('scroll', () => {
+    let windowHeight = window.innerHeight;
+    let windowMiddle = windowHeight / 2;
 
-var observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-        const targetTab = document.querySelector(`.tab[data-target="#${entry.target.id}"]`);
-        if (entry.isIntersecting) {
+    sections.forEach(section => {
+        const rect = section.getBoundingClientRect(); 
+
+    
+        if (rect.top < windowMiddle && rect.bottom > windowMiddle) {
+            const targetTab = document.querySelector(`.tab[data-target="#${section.id}"]`);
+
+
+            tabs.forEach(tab => tab.classList.remove('active'));
+
+
             targetTab.classList.add('active');
-        } else {
-            targetTab.classList.remove('active');
         }
     });
-}, { threshold: 0.5 });
-
-
-sections.forEach(section => {
-    observer.observe(section);
 });
 
 tabs.forEach(tab => {
@@ -23,10 +26,9 @@ tabs.forEach(tab => {
         const targetId = tab.getAttribute('data-target');
         const targetElement = document.querySelector(targetId);
 
-
         targetElement.scrollIntoView({
             behavior: 'smooth',
-            block: 'start'
+            block: 'center' 
         });
     });
 });
