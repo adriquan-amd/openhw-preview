@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 const responseAPAC = await fetch(fileNameAPAC);
                 if (responseAPAC.ok) {
                     jsonDataAPAC = await responseAPAC.json();
+                    renderProjects_apac(jsonDataAPAC)
 
                 } else {
                     console.warn(`Failed to load ${fileNameAPAC}: ${responseAPAC.statusText}`);
