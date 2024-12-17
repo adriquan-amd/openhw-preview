@@ -59,49 +59,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    const tabs = document.querySelectorAll(".tab");
-
-    // Add click event listener to all tabs
-    tabs.forEach(tab => {
-        tab.addEventListener("click", () => {
-
-            // Remove active class from all tabs
-            tabs.forEach(t => t.classList.remove("active"));
-
-            // Add active class to the clicked tab
-            tab.classList.add("active");
-
-            // Execute logic based on the active tab
-            const activeTabId = tab.id; // Get the ID of the active tab
 
 
-            handleTabChange(activeTabId);
-        });
-    });
-});
 
-/**
- * Handles logic based on the active tab ID.
- * @param {string} tabId - The ID of the active tab.
- */
-function handleTabChange(tabId) {
-    switch (tabId) {
-        case "tab-eu":
-            console.log("Europe tab is active!");
-            renderProjects_eu(jsonDataEU);
-            break;
-        case "tab-apac":
-            console.log("APAC tab is active!");
-            renderProjects_apac(jsonDataAPAC);
-            break;
-        case "tab-na":
-            renderProjects_na();
-        default:
-            console.log("Unknown tab is active!");
-            break;
-    }
-}
 
 /**
  * Renders project cards in the main container based on the given data.
@@ -175,7 +135,7 @@ function renderProjects_eu(data) {
 }
 
 function renderProjects_apac(data) {
-    const projectsContainer = document.getElementsByClassName('main-container')[0];
+    const projectsContainer = document.getElementsByClassName('main-container')[1];
     projectsContainer.innerHTML = "";
 
     // Check if data is a list of titles
