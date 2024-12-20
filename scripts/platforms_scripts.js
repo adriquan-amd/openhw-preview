@@ -1,31 +1,6 @@
-var subtitles = document.querySelectorAll('.subtitle');
-var allFlexRows = document.querySelectorAll('.flex-row-bcf');
 
 
-subtitles.forEach(subtitle => {
-    subtitle.addEventListener('click', function() {
-        const frame2 = subtitle.closest('.frame-2');
-        const flexRowBcf = frame2.querySelector('.flex-row-bcf');
-        allFlexRows.forEach(flexRow => {
-            flexRow.style.display = 'none';
-        });
-
-
-
-        if (flexRowBcf.style.display === 'none' || flexRowBcf.style.display === '') {
-            flexRowBcf.style.display = 'block';
-        } else {
-            flexRowBcf.style.display = 'none';
-        }
-
-        const imgName = subtitle.getAttribute('data-img');
-        dynamicImage.src = `assets/platforms/${imgName}`;
-        dynamicImage.alt = `Image for ${subtitle.textContent.trim()}`;
-    });
-});
-
-
-var sections = document.querySelectorAll('.body-container');
+var sections = document.querySelectorAll('.container1');
 var tabs = document.querySelectorAll('.tab');
 
 
@@ -59,5 +34,24 @@ tabs.forEach(tab => {
 });
 
 
+const accordionItems = document.querySelectorAll('.accordion-item');
+const images = document.querySelectorAll('.image-container img');
 
+
+accordionItems.forEach((item, index) => {
+  const header = item.querySelector('.accordion-header');
+
+  header.addEventListener('click', () => {
+
+    accordionItems.forEach((i) => i.classList.remove('active'));
+    images.forEach((img) => img.classList.remove('active'));
+
+
+    item.classList.add('active');
+    const currentImage = images[index];
+    currentImage.classList.add('active'); 
+    currentImage.setAttribute('data-aos', 'slide-left'); 
+    AOS.refresh();
+  });
+});
 
