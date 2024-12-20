@@ -1,57 +1,44 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
-/* Set the body styles */
 body {
     font-family: 'Space Grotesk', sans-serif;
     color: white;
     padding: 0;
     margin: 0;
-    text-align: center;  /* Ensure text is centered in body */
+    text-align: center;
 }
 
-
-/* Navbar container */
 .navbar-container {
     width: 100%;
-
     background-color: #000000;
     padding: 15px 25px;
     box-sizing: border-box;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
     max-width: 1425px;
     margin: 0 auto;
 }
 
-/* Logo style */
 .logo {
     font-size: 24px;
     font-weight: 700;
     color: white;
 }
 
-/* Menu container */
 .menu {
     display: flex;
-    justify-content: center; /* Center menu items */
-    gap: 20px; /* Space between menu items */
-
+    justify-content: center;
+    gap: 20px;
 }
 
-/* Menu item */
 .menu-item {
     font-size: 14px;
     font-weight: 700;
@@ -61,19 +48,16 @@ body {
     cursor: pointer;
 }
 
-/* Hover effect for menu items */
 .menu-item:hover {
-    color: #ff5722; /* Change color on hover */
+    color: #ff5722;
 }
 
-/* Dropdown indicator */
 .dropdown-indicator {
     width: 5px;
     height: 5px;
     margin-left: 5px;
 }
 
-/* Icon box for the account icon */
 .icon-box {
     width: 24px;
     height: 24px;
@@ -82,9 +66,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-
-
 
 .menu-item-results {
     font-size: 11px;
@@ -95,7 +76,6 @@ body {
     gap: 5px;
 }
 
-/* 小箭头样式 */
 .dropdown-indicator {
     width: 3px;
     height: 3px;
@@ -104,16 +84,10 @@ body {
     display: inline-flex;
 }
 
-
-
-/* 对其他菜单项进行调整 */
 .menu-item-rules, .menu-item-platforms, .menu-item-home {
-
     font-size: 11px;
     letter-spacing: 1.3px;
 }
-
-
 
 .icon-box div {
     width: 20px;
@@ -123,56 +97,47 @@ body {
 
 .footer-logo {
     width: 50%;
-    text-align: center;  /* Centering text in footer */
+    text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: center;  /* Horizontally center the logo */
-    align-items: center;      /* Vertically center the logo */
-    margin: 0 auto;           /* Make sure it stays centered */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
-/* Footer logo image */
 .footer-logo img {
-    max-width: 100%; /* Set the footer logo width */
+    max-width: 100%;
     height: auto;
 }
 
-
-/* Page content */
 #page-content {
-
     text-align: center;
 }
+
 .full-screen-div {
-    width: 100vw; /* Full width of the viewport */
-    height: 100vh; /* Full height of the viewport */
-
+    width: 100vw;
+    height: 100vh;
 }
 
-/* 自定义滚动条样式 */
 ::-webkit-scrollbar {
-    width: 5px;  /* 滚动条的宽度 */
-    height:5px; /* 水平滚动条的高度 */
+    width: 5px;
+    height: 5px;
 }
 
-/* 滚动条轨道 */
 ::-webkit-scrollbar-track {
-    background-color: #000000;  /* 滚动条轨道的背景色 */
+    background-color: #000000;
 }
 
-/* 滚动条 */
 ::-webkit-scrollbar-thumb {
-    background-color: #333333;  /* 滚动条的颜色 */
-    border-radius: 10px;  /* 滚动条的圆角 */
+    background-color: #333333;
+    border-radius: 10px;
 }
 
-/* 滚动条的悬停状态 */
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #555555;  /* 滚动条悬停时的颜色 */
+    background-color: #555555;
 }
-
 
 #dropdownMenu {
-    max-height: calc(5 * 40px); /* 假设每个item高度为40px，根据实际高度调整 */
-    overflow-y: auto;           /* 启用垂直滚动 */
+    max-height: calc(5 * 40px);
+    overflow-y: auto;
 }
