@@ -191,41 +191,53 @@ button {
     1rem;
 }
 
-.tab-container {
-    width: 100%;
-    max-width: 800px;
+
+/* Container for the tabs */
+.tabu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    width:61.8%;
+    margin : 0 auto;
+
+}
+
+/* Style for each tab */
+.tabu {
+    position: relative;
+    justify-content: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
     text-align: center;
-    position: relative;
-  }
+    font-weight: normal;
+}
 
-
-  .tab-title {
-    font-size: 1.5rem;
+/* Active tab styles */
+.tabu.active {
     font-weight: bold;
-    display: inline-block;
-    padding: 0 10px;
-    background-color: #fff;
+    color: #000;
     position: relative;
-    z-index: 2;
-  }
+}
 
- 
-  .tab-line {
+/* Underline for active tab */
+.tabu.active::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #000;
     position: absolute;
-    top: 50%;
+    bottom: -1px;
     left: 0;
     right: 0;
-    height: 1px;
-    background-color: #ccc;
-    z-index: 1;
-  }
+}
 
-
-  .tab-title::after {
-    content: "";
-    display: block;
-    margin: 5px auto 0;
-    width: 50px;
-    height: 3px;
-    background-color: #000;
-  }
+/* Tab hover effect */
+.tabu:hover {
+    font-weight: bold;
+    color: #000;
+    position: relative;
+}
