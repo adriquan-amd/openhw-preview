@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Space Grotesk', sans-serif;
-    background-color: #000000;
+    background-color: black;
     color: white;
     padding: 0;
     margin: 0;
@@ -54,7 +54,6 @@ button {
     height: 52px;
     margin: 332px 0 0 160px;
     cursor: pointer;
-    background: #ffffff;
     border: none;
     left: -106.5%;
     top: 3%;
@@ -62,24 +61,6 @@ button {
     border-radius: 8px;
 }
 
-
-.details {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 24px;
-    top: 14px;
-    left: 67px;
-    color: #000000;
-    font-family: Cabin, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 10;
-}
 .arrow-right {
     position: absolute;
     width: 2.52%;
@@ -99,7 +80,7 @@ button {
     height: 70px;
     top: 15%;
     left: 89px;
-    color: #ffffff;
+    color: white;
     font-family: Figtree, var(--default-font-family);
     font-size: 40px;
     font-weight: 700;
@@ -117,7 +98,7 @@ button {
     height: 240px;
     top: 18%;
     left: 81px;
-    color: #ffffff;
+    color: white;
     font-family: Cabin, var(--default-font-family);
     font-size: 20px;
     font-weight: 400;
@@ -133,7 +114,7 @@ button {
     height: 70px;
     top: 25%;
     left: 183px;
-    color: #ffffff;
+    color:white;
     font-family: Figtree, var(--default-font-family);
     font-size: 40px;
     font-weight: 700;
@@ -142,100 +123,62 @@ button {
     white-space: nowrap;
     z-index: 3;
 }
-.tabs {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: nowrap;
+
+.tabs-container {
+    position:relative ;
+    width: 90%; 
+    left: 5%;
+    position: -webkit-sticky; 
+    background-color: rgba(0, 0, 0, 1);
     position: sticky;
-    width: 1282px;
-    height: 49px;
     top: 0;
-    left: 60px;
-    background: #000000;
-    z-index: 13;
-}
-.tab-group {
+  }
+  
+  .tabs {
     display: flex;
-    align-items: flex-start;
-    align-self: stretch;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    position: relative;
-    top:0;
-    min-width: 0;
-    background: #000000;
-    z-index: 10;
-}
+    position: fixed;
+    background-color: black;
 
-.tab.active {
-    background-color: #ffcc00;
-    color: white;
-}
-
-.tab {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 0;
-    position: relative;
-    height: 48px;
-    background: #000000;
-    z-index: 15;
-    overflow: hidden;
-    cursor: pointer;
-}
-.state-layer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 0;
-    position: relative;
-    min-height: 0;
-    padding: 14px 16px 14px 16px;
-    z-index: 16;
-    overflow: hidden;
-}
-.tab-contents {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 0;
-    gap: 4px;
-    position: relative;
-    width: 150px;
-    z-index: 17;
-}
-.label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 150px;
-    height: 20px;
-    color: #ffffff;
-    font-family: Roboto, var(--default-font-family);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
+    border-bottom: 1px solid #ddd;
+    position: relative; 
+    width: 100%;
+    transition: all 0.3s ease; 
+    z-index: 1000;
+  }
+  
+  
+  .tab {
+    flex: 1;
     text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.1px;
-    z-index: 18;
-}
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    opacity: 1;
+    background-color: black;
+  }
+  
+  .tab.active {
+    font-weight: bold;
+  }
+
+
+  
+  .tab.active::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    background-color: #e9dd07; 
+    position: absolute;
+    bottom: 0;
+    left: 25%; 
+  }
+  
+  .tab:hover {
+    background-color: #f8f8f8; /* 悬浮效果 */
+  }
 .indicator {
     flex-shrink: 0;
     position: absolute;
@@ -249,221 +192,102 @@ button {
 
 
 
-.main-container {
-    overflow: hidden;
-}
-
-.main-container,
-.main-container * {
-    box-sizing: border-box;
-}
-
-
-
-input,
-select,
-textarea,
-button {
-    outline: 0;
-}
-
-.body-container {
-
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    font-size: 0px;
-    overflow: hidden;
-    top:150%;
-
-
-}
-.recommended-hardware {
-    display: block;
-    position: relative;
-    height: 40px;
-    margin: 12% 0 0 5%;
-    color: #ffffff;
-    font-family: Cabin, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 19;
-
-}
-.flex-row {
-    position: relative;
-    width: 1258px;
-    height: 675px;
-    margin: -10px 0 0 44px;
-    z-index: 21;
-}
-.title {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    width: 543px;
-    height: 173px;
-    top: 0;
-    left: 2%;
-    color: #ffffff;
-    font-family: Figtree, var(--default-font-family);
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
-    text-align: left;
-    z-index: 17;
-}
-
-.title-adaptive {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    width: 700px;
-    height: 173px;
-    top: 0;
-    left: 2%;
-    color: #ffffff;
-    font-family: Figtree, var(--default-font-family);
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
-    text-align: left;
-    z-index: 17;
-}
-
-.frame{
-    position: absolute;
-    top: 100%
-}
-
-.frame-1 {
-    position: absolute;
-    width: 523px;
-    height: auto;
-    min-height: 522px;
-    top: 153px;
-    left: 0;
-    overflow: hidden;
-}
-.frame-2 {
-
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: 14px 0 0 20px;
-    z-index: 6;
-    overflow: hidden;
-    min-height: 40px;
-}
-.flex-row-e {
-    position: absolute;
-    width: 438px;
-    height: 40px;
-    top: -8px;
-    left: 31px;
-    z-index: 10;
-}
-.line {
-
-    position: relative;
-    width: 403px;
-    height: 1px;
-    left : -4%;
-    margin: 38px 0 0 0px;
-    background: no-repeat center;
-    background-size: cover;
-    z-index: 8;
-}
-.subtitle {
-    position: absolute;
-    width: 438px;
-    height: 40px;
-    top: 0;
-    left: 0;
-    font-family: Cabin, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    text-overflow: initial;
-    white-space: nowrap;
-    z-index: 10;
-}
-.title-font {
-    position: relative;
-    color: #ffffff;
-    font-family: Cabin, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-}
-.flex-row-bcf {
-    display: none;
-    position: relative;
-    width: auto;
-    height: auto;
-    min-height: 347px;
-    left: 7px;
-    z-index: 11;
-    top: 40px;
-    border: 2px solid black;
-}
-
-.text {
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    width: 440px;
-    height: auto;       /* 让文本高度自适应 */
-    top:0;
-    left: 26px;
-    color: #ffffff;
-    font-family: Cabin, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    z-index: 7;
-}
-
-.trailing-icon {
-    position: absolute;
-    width: 15px;
-    height: 8px;
-    top: 10px;
-    left: 360px;
-    background: no-repeat center;
-    background-size: cover;
-    z-index: 9;
-}
-
-.subtitle:hover .title-font {
-    color: #ff5722;
-}
-
-.subtitle:hover .trailing-icon {
-    color: #ff5722;
-}
-
-.parent-container {
+  
+.container1 {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-}
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  /* 左侧内容样式 */
+  .content-left {
+    flex: 1;
+    max-width: 55%;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .accordion {
+    border-top: 1px solid #ddd;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    width: 150%;
+  }
+  
+  .accordion-header {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .accordion-header:hover {
+    color: #0078d7;
+  }
+  
+  .accordion-content {
+    display: none;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  /* 激活状态样式 */
+  .accordion-item.active .accordion-content {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* 右侧图片样式 */
+  .content-right {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    display: none;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container img.active {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* 动画效果 */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
-.image-container {
+  .sidebar {
+    flex: 1;
     max-width: 300px;
-    height: auto;
-}
-
-#dynamic-image {
-    width: 100%; /* 图片填满容器宽度 */
-    height: auto;
-}
+    margin-right: 20px;
+  }
