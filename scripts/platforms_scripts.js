@@ -1,5 +1,4 @@
-
-
+AOS.init();
 var sections = document.querySelectorAll('.container1');
 var tabs = document.querySelectorAll('.tab');
 
