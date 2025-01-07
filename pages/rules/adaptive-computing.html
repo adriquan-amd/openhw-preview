@@ -18,14 +18,12 @@
     <script src="/scripts/bootstrap-toc.js"></script>
     <script src="/scripts/bootstrap.min.js"></script>
     <script src="/scripts/popper.min.js"></script>
+    <script src="/scripts/prism.js"></script>
 </head>
 <body>
 <nav id="toc" class="fixedsidebar d-none d-lg-block" data-toggle="toc">
     <h5 class="mt-4 mb-4 pt-1"><a class="text-dark" href="./index.html"><strong>ADAPTIVE COMPUTING</strong> RULES</a></h5>
-    <ul class="nav navbar-nav">
-        
-        
-    </ul>
+    
 </nav>
 
 
@@ -102,13 +100,14 @@
                 
 
 
-                
+           
 
                 <!-- Main Content -->
                 <div class="container my-5">
-                    <!-- Contest Description -->
+                
+            
                     <section class="mb-5" >
-                        <h2 class="fw-bold" id="contest-description">Contest Description</h2>
+                        <h2 class="fw-bold">Contest Description</h2>
                         <p>
                             The Design Contest is an international contest open to students studying in a technical
                             school, college, university, or other educational institution, subject to the eligibility
@@ -231,7 +230,7 @@
 
 
 
-        <div class="mt-5" style="height: 2rem;"></div>
+        <div class="mt-5" style="height: 8rem;"></div>
 
 
     </div>
@@ -261,6 +260,21 @@
 
     <script src="script.js"></script>
     <script src="scripts/rules_scripts.js"></script>
+    <script>
+        $(function() {
+          new ClipboardJS('.btn');
+          var navSelector = '#toc';
+          var $myNav = $(navSelector);
+          Toc.init({
+              $nav: $('#toc'),
+              $scope: $('#docsarea > section:lt(12)')
+            });
+          $('body').scrollspy({ 
+            target: navSelector,
+            offset: 100
+          });        
+        });
+    </script>
 </body>
 
 </html>
