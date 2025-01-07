@@ -1,0 +1,97 @@
+/* Reset and Base Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 1438px;
+    height: 224px;
+    margin: 0 auto;
+    padding: 45px 170px 45px 170px;
+    background: url(assets/img/banner_rules.png)
+    no-repeat center;
+    background-size: contain ;
+    border: 1px solid #000000;
+    overflow: hidden;
+}
+.rules {
+    display: flex;
+    margin-left: 38%;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 98px;
+    height: 20px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0.1px;
+}
+
+
+.container1 {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Product Section */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: linear-gradient(145deg, #1a1a1a, #000);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+}
+
+.product p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
