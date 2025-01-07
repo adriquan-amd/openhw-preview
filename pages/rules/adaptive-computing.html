@@ -20,9 +20,19 @@
     <script src="/scripts/bootstrap.min.js"></script>
     <script src="/scripts/popper.min.js"></script>
 </head>
+<body>
+<nav id="toc" class="fixedsidebar d-none d-lg-block" data-toggle="toc">
+    <h5 class="mt-4 mb-4 pt-1"><a class="text-dark" href="./index.html"><strong>ADAPTIVE COMPUTING</strong> RULES</a></h5>
+    <ul class="nav navbar-nav">
+        
+        
+    </ul>
+</nav>
 
-<body class="bg-black">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+
+<main class="content-withfixedsidebar">
+    
+    <nav class="topnav navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container">
             <a class="navbar-brand" href="/index.html"><i class="fas fa-anchor mr-2"></i><strong>OPEN HARDWARE</strong>
             </a>
@@ -67,48 +77,11 @@
     </nav>
 
 <div>
-    <nav id="toc" class="fixedsidebar d-none d-lg-block" data-toggle="toc">
-        <h5 class="mt-4 mb-4 pt-1"><a class="text-dark" href="./index.html"><strong>ADAPTIVE COMPUTING</strong> RULES</a></h5>
-        <ul class="nav navbar-nav">
-            <li><a class="nav-link active" href="#quick-start">Quick Start</a>
-                <ul class="nav navbar-nav">
-                    <li><a class="nav-link active" href="#file-structure">File Structure</a></li>
-                    <li><a class="nav-link" href="#basic-template">Basic Template</a></li>
-                </ul>
-            </li>
-            <li><a class="nav-link" href="#install-gulp">Install Gulp</a></li>
-            <li><a class="nav-link" href="#customize-with-scss">Customize with SCSS</a></li>
-            <li><a class="nav-link" href="#components">Components</a>
-                <ul class="nav navbar-nav">
-                    <li><a class="nav-link" href="#colors">Colors</a></li>
-                    <li><a class="nav-link" href="#alerts">Alerts</a></li>
-                    <li><a class="nav-link" href="#animations">Animations</a></li>
-                    <li><a class="nav-link" href="#avatars">Avatars</a></li>
-                    <li><a class="nav-link" href="#badges">Badges</a></li>
-                    <li><a class="nav-link" href="#buttons">Buttons</a></li>
-                    <li><a class="nav-link" href="#call-to-action">Call to action</a></li>
-                    <li><a class="nav-link" href="#cards">Cards</a></li>
-                    <li><a class="nav-link" href="#carousel">Carousel</a></li>
-                    <li><a class="nav-link" href="#footer">Footer</a></li>
-                    <li><a class="nav-link" href="#forms">Forms</a></li>
-                    <li><a class="nav-link" href="#features">Features</a></li>
-                    <li><a class="nav-link" href="#headers">Headers</a></li>
-                    <li><a class="nav-link" href="#icons">Icons</a></li>
-                    <li><a class="nav-link" href="#jumbotron">Jumbotron</a></li>
-                    <li><a class="nav-link" href="#modals">Modals</a></li>
-                    <li><a class="nav-link" href="#navbars">Navbars</a></li>
-                    <li><a class="nav-link" href="#pagination">Pagination</a></li>
-                    <li><a class="nav-link" href="#popovers">Popovers</a></li>
-                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
-                    <li><a class="nav-link" href="#table">Table</a></li>
-                    <li><a class="nav-link" href="#tooltips">Tooltips</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+   
     <div class="main-container shadow-sm border-1 bg-black">
-
+        <div class="row align-items-center justify-content-center text-center">
         <span class="rules">RULES FOR ADAPTIVE COMPUTING</span>
+        </div>
     </div>
 
 
@@ -140,66 +113,12 @@
 
 
 
-                <div class="tabs shadow-sm border-1" data-aos="slide-left">
-                    <div class="tab-group">
-                        <div class="tab" data-target="#contest-description">
-                            <div class="state-layer">
-                                <div class="tab-contents">
-                                    <span class="label">CONTEST DESCRIPTION</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab" data-target="#important-dates">
-                            <div class="state-layer">
-                                <div class="tab-contents">
-                                    <span class="label">IMPORTANT DATES</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab" data-target="#registration">
-                            <div class="state-layer">
-                                <div class="tab-contents">
-                                    <span class="label">REGISTRATION</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab" data-target="#entry-levels">
-                            <div class="state-layer">
-                                <div class="tab-contents">
-                                    <span class="label">ENTRY-LEVELS</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab" data-target="#teams">
-                            <div class="state-layer">
-                                <div class="tab-contents">
-                                    <span class="label">TEAMS</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab" data-target="#supervisors">
-                            <div class="state-layer">
-                                <div class="tab-contents">
-                                    <span class="label">SUPERVISORS</span>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-                    <div class="divider">
-                        <div class="divider-b"></div>
-                    </div>
-                </div>
 
                 <!-- Main Content -->
                 <div class="container my-5">
                     <!-- Contest Description -->
                     <section class="mb-5" id="contest-description">
-                        <h2 class="fw-bold">Contest Description</h2>
+                        <h1 class="fw-bold">Contest Description</h2>
                         <p>
                             The Design Contest is an international contest open to students studying in a technical
                             school, college, university, or other educational institution, subject to the eligibility
@@ -313,9 +232,7 @@
 
 
                     </div>
-                    <div class="divider">
-                        <div class="divider-b"></div>
-                    </div>
+                  
                 </div>
 
 
@@ -405,7 +322,7 @@
             </div>
         </div>
     </footer>
-
+</main>
 
 
 
