@@ -1,32 +1,12 @@
-
-:root {
-    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-    "Source Han Sans CN", sans-serif;
-}
-
+/* Reset and Base Styles */
 body {
- 
-    background-color: #000000;
-
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
 }
 
-.main-container {
-    overflow: hidden;
-}
 
-.main-container,
-.main-container * {
-    box-sizing: border-box;
-}
-
-input,
-select,
-textarea,
-button {
-    outline: 0;
-}
 
 .main-container {
     display: flex;
@@ -46,13 +26,13 @@ button {
 }
 .rules {
     display: flex;
+    margin-left: 38%;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
     flex-basis: auto;
     position: relative;
-    width: 98px;
-    height: 20px;
+  
     color: #ffffff;
     font-family: Roboto, var(--default-font-family);
     font-size: 32px;
@@ -63,181 +43,54 @@ button {
     letter-spacing: 0.1px;
 }
 
-.pic_banner {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    left: 0;
-    no-repeat:center;
-    background-size: contain;
-}
 
-.tabs {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    position: sticky;
-    width: 100%;
-    height: 49px;
-    top: 0;
-
-    background: white;
-    z-index: 13;
-}
-.tab-group {
-    display: flex;
-    align-items: flex-start;
-    align-self: stretch;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    position: relative;
-    top:0;
-    min-width: 0;
-    background: #000000;
-    z-index: 10;
-}
-
-.tab.active {
-    background-color: gray; 
-    
-    color: white;
-    border-color: #90a4ae;
-}
-
-.tab {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 0;
-    position: relative;
-    height: 48px;
-    background: white;
-    z-index: 15;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.state-layer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 0;
-    position: relative;
-    min-height: 0;
-    padding: 14px 16px 14px 16px;
-    z-index: 16;
-    overflow: hidden;
-}
-.tab-contents {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 0;
-    gap: 4px;
-    position: relative;
-    width: 150px;
-    z-index: 17;
-}
-.label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 150px;
-    height: 20px;
-    color: black;
-    font-family: Roboto, var(--default-font-family);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
+.container1 {
     text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.1px;
-    z-index: 18;
+    padding: 20px;
 }
 
 
-.custom-title {
-    font-size: 2.75rem; /* Adjust font size for bold title */
-    font-weight: bold;
-    color: #333; /* Adjust text color for a solid look */
-}
-.custom-subtitle {
-    font-size: 0.9rem; 
-    color: #6c757d; /* Light grey text */
-}
-.custom-date {
-    color: #d1d1d1; /* Date text color */
-}
-.custom-hr {
-    border: 0;
-    height: 3px;
-    background-color: #ddd; /* Light grey line */
-    margin-top: 
-    1rem;
-}
 
-
-/* Container for the tabs */
-.tabu-container {
+/* Product Section */
+.products {
     display: flex;
     justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid #ddd;
-    font-family: Arial, sans-serif;
-    width:61.8%;
-    margin : 0 auto;
-
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-/* Style for each tab */
-.tabu {
-    position: relative;
-    justify-content: center;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    color: #666;
-    text-align: center;
-    font-weight: normal;
+.product {
+    background: linear-gradient(145deg, #1a1a1a, #000);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    transition: transform 0.3s ease;
 }
 
-/* Active tab styles */
-.tabu.active {
-    font-weight: bold;
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+}
+
+.product p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+
+
+.btn:hover {
+    background: #fff;
     color: #000;
-    position: relative;
-}
-
-/* Underline for active tab */
-.tabu.active::after {
-    content: '';
-    display: block;
-    height: 2px;
-    background-color: #000;
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    right: 0;
-}
-
-/* Tab hover effect */
-.tabu:hover {
-    font-weight: bold;
-    color: #000;
-    position: relative;
 }
