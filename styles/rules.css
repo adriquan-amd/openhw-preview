@@ -12,11 +12,9 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    justify-content: center;
     gap: 10px;
     position: relative;
-    width: 1438px;
-    height: 224px;
-    margin: 0 auto;
     padding: 45px 170px 45px 170px;
     background: url(assets/img/banner_rules.png)
     no-repeat center;
@@ -26,7 +24,6 @@ body {
 }
 .rules {
     display: flex;
-    margin-left: 38%;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;

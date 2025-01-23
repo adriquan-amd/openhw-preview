@@ -12,11 +12,17 @@
     <link rel="stylesheet" href="styles/bootstrap-toc.css" >
     <link rel="stylesheet" href="styles/home.css" >
     <link rel="stylesheet" href="styles/main.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
     <script src="scripts/jquery.min.js"></script>
     <script src="scripts/home_scripts.js"></script>
     <script src="scripts/bootstrap-toc.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+
 </head>
 <body>
 <!-- header with nav -->
@@ -73,46 +79,53 @@
   </div>
 
 
-  <div style ="height: 50vh;">
+  <div style ="height: 80vh;">
 
 
   </div>
 
+<div class="bg-white">
+    <div style ="height: 10vh;">
 
-  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+
+    </div>
+
+    <div class="carousel-title">OpenHW 2024</div>
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" style="width: 90%;     margin: 0 auto; ">
     <ol class="carousel-indicators" ></ol>
     <div class="carousel-inner shadow-sm rounded"></div>
 
   </div>
+  <div style ="height: 30vh;">
 
+
+  </div>
+
+</div>
     <div style ="height: 15vh;">
 
 
     </div>
   
-
-
-
-    <div class="container1" data-aos="fade-in">
-        <!-- 标题 -->
-
     
-        <img class="title" src="assets/img/logo.png">
+    
 
-       
-        <p class="card-text mb-auto text-white">
-            
 
-AMD is the high performance and adaptive computing leader, powering the products and services that help solve the world’s most important challenges. Our technologies advance the future of the data center, embedded, gaming and PC markets.
-        </p>
+    <div class="container1 d-flex" data-aos="fade-in" style="flex-direction: row; gap: 20px; text-align: left;">
+        <!-- 左侧：标题图片 -->
+        <div class="left-section">
+            <img class="title" src="assets/img/logo.png" alt="AMD Logo" style="max-width: 200px;">
+        </div>
+    
+        <!-- 右侧：文字内容 -->
+        <div class="right-section text-start">
+            <p class="card-text mb-auto text-white">
+                AMD is the high performance and adaptive computing leader, powering the products and services that help solve the world’s most important challenges. Our technologies advance the future of the data center, embedded, gaming and PC markets.
+            </p>
+        </div>
     </div>
-    
 
-
-  
-</div> 
-
-<div style ="height: 15vh;">
+<div style ="height: 30vh;">
 
 
 </div>
@@ -134,11 +147,18 @@ AMD is the high performance and adaptive computing leader, powering the products
         Check back in Autumn 2024 for details of the next edition of the competition.
     </p>
 
+
+</div>
+
+<div class="container2" >
+    <div style ="height: 15vh;">
+
+
+    </div>
     <!-- 联系方式 -->
     <p class="description">For questions about the competition, please contact:</p>
     <a href="mailto:aup@amd.com" class="btn btn-outline-white btn-round">aup@amd.com</a>
 </div>
-
 
 <footer class="bg-black pb-5 pt-4">
     <div class="container">
@@ -152,5 +172,13 @@ AMD is the high performance and adaptive computing leader, powering the products
 </footer>
 
 <script src="script.js"></script>
+<script>
+    new Glide('.glide', {
+        type: 'carousel',
+        startAt: 0,
+        perView: 1,
+        gap: 5
+    }).mount();
+</script>
 </body>
 </html>
