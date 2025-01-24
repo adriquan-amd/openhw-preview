@@ -221,3 +221,83 @@ body {
   color: #000; /* 设置黑色字体 */
   margin-bottom: 20px; /* 和轮播图之间的间距 */
 }
+
+.carousel-indicators {
+  display: flex;
+  justify-content: space-around; /* 平均分布 */
+  align-items: center;
+  position: relative;
+  bottom: -10px; /* 调整位置 */
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 90%; /* 适配轮播宽度 */
+}
+
+.carousel-indicators li {
+  font-size: 14px; /* 指示器文字大小 */
+  color: #ccc; /* 默认颜色 */
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 0;
+  flex: 1; /* 平分宽度 */
+  position: relative;
+}
+
+.carousel-indicators li.active {
+  color: #fff; /* 选中颜色 */
+}
+
+.carousel-indicators li.active::after {
+  content: ""; /* 下划线 */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; /* 下划线宽度 */
+  height: 2px;
+  background-color: #fff; /* 选中颜色 */
+}
+
+.carousel-indicators li:hover {
+  color: #fff; /* 悬停颜色 */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 列布局 */
+  gap: 20px; /* 网格间距 */
+  margin: 20px auto; /* 自动水平居中 */
+  width: 90%; /* 宽度占页面的 90% */
+}
+
+/* 卡片样式调整 */
+.card {
+  border-radius: 10px; /* 圆角 */
+  overflow: hidden; /* 确保内容不超出边界 */
+  position: relative;
+}
+
+.card .card-img {
+  object-fit: cover; /* 确保图片保持比例 */
+  height: 200px; /* 图片高度 */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.btn-round {
+  border-radius: 30px; /* 按钮圆角 */
+}
+
+.text-muted {
+  color: #d6d6d6 !important; /* 调整文本颜色 */
+}
+
+.highlight {
+  border: 2px solid #00ff00; /* 高亮边框 */
+  box-shadow: 0 4px 15px rgba(0, 255, 0, 0.7); /* 高亮阴影 */
+  transform: scale(1.05); /* 放大效果 */
+  transition: all 0.3s ease;
+}

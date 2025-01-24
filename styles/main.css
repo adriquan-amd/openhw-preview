@@ -5363,6 +5363,9 @@ button.bg-success:focus {
 .bg-info {
   background-color: #09ebaf !important; }
 
+.bg-cream {
+  background-color: #fefcf4  !important; }
+
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
@@ -9380,6 +9383,10 @@ a {
 
 .bg-warning {
   fill: #ffde03 !important; }
+
+.bg-cream {
+  fill: #fefcf4  !important; 
+}
 
 .bg-danger {
   fill: #ff5916 !important; }
