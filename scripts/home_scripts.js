@@ -31,31 +31,36 @@ $(document).ready(function () {
         const data = await responseEU.json();
 
         data.forEach(item => {
-            if (!item.video_url) return; // 确保有视频 URL
+            if (!item.video_url) return; // Ensure there is a video URL
 
-            // 创建卡片元素
+            // Create card element
             const card = document.createElement("div");
             card.className = "card overlay text-white shadow-lg border-0";
 
-            // 创建视频容器
+            // Create video container
             const videoDiv = document.createElement("div");
             videoDiv.className = "pic";
 
-            // 创建 iframe 作为视频播放器
+            // Create iframe as video player
             const iframe = document.createElement("iframe");
             iframe.style.zIndex = "1000";
             iframe.style.position = "relative";
             iframe.className = "card-img";
             iframe.allowFullscreen = true;
             iframe.setAttribute("allow", "fullscreen");
-            iframe.src = item.video_url.replace("watch?v=", "embed/"); // 确保 URL 格式正确
+
+            // Modify URL to hide controls
+            const videoURL = item.video_url;
+            iframe.src = videoURL;
+            iframe.frameBorder = "0";
+            iframe.src = videoURL;
             iframe.frameBorder = "0";
             iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
             iframe.allowFullscreen = true;
             iframe.style.width = "100%";
             iframe.style.height = "200px";
 
-            // 组装卡片
+            // Assemble card
             videoDiv.appendChild(iframe);
             card.appendChild(videoDiv);
             container.appendChild(card);
