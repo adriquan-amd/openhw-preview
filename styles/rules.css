@@ -36,6 +36,7 @@ body {
     font-weight: 700;
     line-height: 20px;
     text-align: center;
+
     white-space: nowrap;
     letter-spacing: 0.1px;
 }
@@ -43,7 +44,7 @@ body {
 
 .container1 {
     text-align: center;
-    padding: 20px;
+    padding: 10vh;
 }
 
 
@@ -52,7 +53,7 @@ body {
 .products {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10vh;
     flex-wrap: wrap;
 }
 
@@ -60,9 +61,11 @@ body {
     background: linear-gradient(145deg, #1a1a1a, #000);
     border-radius: 10px;
     padding: 20px;
-    max-width: 300px;
     box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    width: 70vh;
+    height: 45vh;
+    position: relative; 
 }
 
 .product:hover {
@@ -85,7 +88,9 @@ body {
     color: #ccc;
 }
 
-
+.product a {
+    top: 20vh;  /* 设置链接距离容器顶部的 80% */
+}
 
 .btn:hover {
     background: #fff;
