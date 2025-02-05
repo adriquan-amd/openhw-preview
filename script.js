@@ -1,7 +1,7 @@
 AOS.init();
 
 
-fetch('/assets/results/years.json')  // Assuming the JSON file is located in 'data/years.json'
+fetch('assets/results/years.json')  // Assuming the JSON file is located in 'data/years.json'
     .then(response => response.json())
     .then(data => {
         // Get the dropdown menu container
