@@ -74,3 +74,24 @@ section li{
 }
 
 
+container2 section {
+    width:80%;
+    padding-right: 20vh;
+}
+
+ul {
+    padding-left: 5vh; /* 添加左边缩进 */
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+btn-outline-dark {
+    padding-left: 40%;
+}
+
+.father{
+    text-align: center;
+}
