@@ -11,6 +11,7 @@ fetch('assets/results/years.json')  // Assuming the JSON file is located in 'dat
         data.years.forEach(year => {
             // Create a new <a> element for each year
             const dropdownItem = document.createElement('a');
+            
             dropdownItem.classList.add('dropdown-item');
             dropdownItem.href = `results.html?year=${year}`;  // Dynamically set the href attribute
             dropdownItem.textContent = year;  // Set the text of the link
@@ -18,5 +19,6 @@ fetch('assets/results/years.json')  // Assuming the JSON file is located in 'dat
             // Append the dropdown item to the dropdown menu
             dropdownMenu.appendChild(dropdownItem);
         });
+        console.log(data.years)
     })
     .catch(error => console.error('Error loading JSON data:', error));

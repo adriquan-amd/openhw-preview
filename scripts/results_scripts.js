@@ -205,7 +205,7 @@ function renderProjects_apac(data) {
             img.src = `assets/project_images/${project.imgName}`;
             img.alt = project.title;
             img.style.width = "100%";
-            img.style.height = "200px";
+            img.style.aspectRatio = "16 / 9";
             img.style.objectFit = "cover";
             img.style.cursor = "pointer";
 
@@ -219,7 +219,7 @@ function renderProjects_apac(data) {
             pdfEmbed.src = `assets/pdf/${project.pdfFileName}`;
             pdfEmbed.type = "application/pdf";
             pdfEmbed.style.width = "100%";
-            pdfEmbed.style.height = "300px";
+            pdfEmbed.style.aspectRatio = "16 / 9";
             pdfEmbed.style.cursor = "pointer";
 
             pdfEmbed.addEventListener('click', () => {
@@ -231,7 +231,7 @@ function renderProjects_apac(data) {
             const iframe = document.createElement('iframe');
             iframe.src = project.videourl;
             iframe.width = '100%';
-            iframe.height = '200';
+            iframe.style.aspectRatio = "16 / 9";
             iframe.frameBorder = '0';
 
             mediaDiv.appendChild(iframe);
