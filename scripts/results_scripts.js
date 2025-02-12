@@ -96,6 +96,17 @@ function renderProjects_eu(data) {
         iframe.src = project.video_url;
         iframe.width = '100%';
         iframe.style.aspectRatio = "16 / 9";
+        iframe.allowFullscreen = true;
+
+
+
+
+        if (project.video_url && project.video_url.trim() !== "") {
+           iframe.src = project.video_url;
+        } else {
+           iframe.src = "about:blank"; // 设置为空白页面
+           iframe.style.backgroundColor = "#ffffff"; // 确保 iframe 本身也是白色
+        }
         videoDiv.appendChild(iframe);
         projectDiv.appendChild(videoDiv);
 
@@ -123,18 +134,24 @@ function renderProjects_eu(data) {
         buttonContainer.classList.add('btn-container'); 
 
         // 创建按钮
-        const button = document.createElement('a');
-        button.classList.add('btn', 'btn-dark', 'btn-round');
-        button.href = project.project_link;
-        button.target = '_blank';
-        button.textContent = 'View Repository';
+        if (project.project_link) {  
+            const button = document.createElement('a');
+            button.classList.add('btn', 'btn-dark', 'btn-round');
+            button.href = project.project_link;
+            button.target = '_blank';
+            button.textContent = 'View Repository';
+            
+            cardBody.appendChild(button); 
 
-        // 把按钮放入 div 容器
-        buttonContainer.appendChild(button);
+            buttonContainer.appendChild(button);
 
-        // 再把 div 容器添加到 cardBody
+            
+
+        }
         cardBody.appendChild(buttonContainer);
+        
 
+        
 
         // Add card content to card container
         projectDiv.appendChild(cardBody);

@@ -62,5 +62,6 @@
     justify-content: center; /* 水平居中 */
     align-items: center; /* 垂直居中（如果有多个元素） */
     width: 100%; /* 让容器占满父级 */
-    margin-top: -2vh /* 适当调整间距 */
+    margin-top: -2vh ;/* 适当调整间距 */
+    height: 3vh
 }

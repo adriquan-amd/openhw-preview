@@ -42,7 +42,6 @@
         "supervisor": "(Torsten Hoefler)",
         "authors": "Johannes de Fine Licht "
     },
-    {},
     {
         "video_url": "https:\/\/www.youtube.com\/embed\/KMIM3P-mCrg?controls=0&html5=1&showinfo=0&modestbranding=1&enablejsapi=1&mute=0&loop=0&rel=0&playerapiid=vbid-ae28e-4ixagmum-vidframe",
         "title": "ETH Zürich Student\/Comp Acc: Massively Parallel N-Body Simulation on FPGA",
