@@ -96,7 +96,8 @@ function renderProjects_eu(data) {
         iframe.src = project.video_url;
         iframe.width = '100%';
         iframe.style.aspectRatio = "16 / 9";
-        iframe.allowFullscreen = true;
+        iframe.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+
 
 
 
