@@ -95,8 +95,7 @@ function renderProjects_eu(data) {
         const iframe = document.createElement('iframe');
         iframe.src = project.video_url;
         iframe.width = '100%';
-        iframe.height = '200'; // Adjust video height
-        iframe.frameBorder = '0';
+        iframe.style.aspectRatio = "16 / 9";
         videoDiv.appendChild(iframe);
         projectDiv.appendChild(videoDiv);
 
@@ -108,7 +107,10 @@ function renderProjects_eu(data) {
         const title = document.createElement('h5');
         title.classList.add('card-title');
         title.textContent = project.title;
+
+
         cardBody.appendChild(title);
+
 
         // Create author and supervisor info (new line display)
         const authorInfo = document.createElement('p');
@@ -116,13 +118,23 @@ function renderProjects_eu(data) {
         authorInfo.innerHTML = `${project.authors}<br>(supervisor: ${project.supervisor})`;
         cardBody.appendChild(authorInfo);
 
-        // Create GitHub repository link button
+       
+        const buttonContainer = document.createElement('div');
+        buttonContainer.classList.add('btn-container'); 
+
+        // 创建按钮
         const button = document.createElement('a');
         button.classList.add('btn', 'btn-dark', 'btn-round');
         button.href = project.project_link;
         button.target = '_blank';
         button.textContent = 'View Repository';
-        cardBody.appendChild(button);
+
+        // 把按钮放入 div 容器
+        buttonContainer.appendChild(button);
+
+        // 再把 div 容器添加到 cardBody
+        cardBody.appendChild(buttonContainer);
+
 
         // Add card content to card container
         projectDiv.appendChild(cardBody);
