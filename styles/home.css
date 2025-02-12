@@ -280,7 +280,7 @@ body {
 
 .card .card-img {
   object-fit: cover; /* 确保图片保持比例 */
-  height: 200px; /* 图片高度 */
+
 }
 
 .card-body {

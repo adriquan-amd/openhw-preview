@@ -57,8 +57,8 @@ $(document).ready(function () {
             iframe.frameBorder = "0";
             iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
             iframe.allowFullscreen = true;
-            iframe.style.width = "100%";
-            iframe.style.height = "200px";
+            iframe.width = '100%';
+            iframe.style.aspectRatio = "16 / 9";
 
             // Assemble card
             videoDiv.appendChild(iframe);
