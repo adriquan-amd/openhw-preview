@@ -74,10 +74,19 @@ body {
 
 
   .hero-text {
-    font-size: 2rem;
-    font-weight: bold;
-  }
 
+    font-size: 1rem;
+    font-weight: 600;
+    width: 50vh;
+
+  }
+  .col {
+    display: flex;
+    flex-direction: column; /* 竖直排列 */
+    align-items: center; /* 让所有元素在 Y 轴对齐 */
+    text-align: center; /* 让文字居中 */
+    gap: 20px; /* 设置元素之间的间距 */
+}
   .container1 {
     max-width: 800px;
     margin: 0 auto;
