@@ -45,6 +45,7 @@ body {
 .container1 {
     text-align: center;
     padding: 10vh;
+
 }
 
 
@@ -58,14 +59,16 @@ body {
 }
 
 .product {
-    background: linear-gradient(145deg, #1a1a1a, #000);
+    background-color: transparent;
     border-radius: 10px;
+    border-color: #343a40; 
     padding: 20px;
     box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
     transition: transform 0.3s ease;
-    width: 70vh;
-    height: 45vh;
+    width: 60vh;
+    height: 35vh;
     position: relative; 
+    outline: 1px solid;
 }
 
 .product:hover {
@@ -84,8 +87,8 @@ body {
 
 .product p {
     font-size: 1rem;
-    margin-bottom: 20px;
-    color: #ccc;
+    margin-bottom: -3vh;
+    color: gray;
 }
 
 .product a {

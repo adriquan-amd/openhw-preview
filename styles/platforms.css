@@ -67,22 +67,12 @@ button {
     background-size: 100% 100%;
     z-index: 9;
 }
-.recommended {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 70px;
-    top: 15%;
-    left: 89px;
+.display-3{
     color: white;
     font-family: Figtree, var(--default-font-family);
     font-size: 40px;
     font-weight: 700;
     line-height: 70px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 2;
 }
 .ryzen-ai-recommended {
     display: flex;
