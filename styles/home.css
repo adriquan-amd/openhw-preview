@@ -310,3 +310,12 @@ body {
   transform: scale(1.05); /* 放大效果 */
   transition: all 0.3s ease;
 }
+
+.container1 ul {
+  list-style-type: disc;
+  padding-left: 0; /* 去掉默认 padding */
+  margin-left: 1.2em; /* 控制 bullet 点对齐 */
+}
+.container1 ul li {
+  padding-left: 0.3em; /* 让文本稍微缩进，保持对齐感 */
+}

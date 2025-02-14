@@ -22,3 +22,9 @@ fetch('assets/results/years.json')  // Assuming the JSON file is located in 'dat
         console.log(data.years)
     })
     .catch(error => console.error('Error loading JSON data:', error));
+
+
+    document.getElementById("showAlert").addEventListener("click", function(event) {
+        event.preventDefault(); // 防止跳转
+        document.getElementById("alert-Box").style.display = "block"; // 显示警告框
+    });

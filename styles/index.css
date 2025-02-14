@@ -146,3 +146,13 @@ body {
 
 
 
+.alert-box {
+    display: none; 
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
