@@ -233,7 +233,6 @@ button {
     margin-top: 10px;
     font-size: 16px;
     color: white;
-    font-family: Roboto, var(--default-font-family);
   }
   
   .accordion-item.active .accordion-content {

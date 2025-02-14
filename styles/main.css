@@ -10,9 +10,15 @@
 *::before,
 *::after {
   box-sizing: border-box; }
-
+  @font-face {
+    font-family: 'CustomFont'; /* 你可以自定义这个字体名称 */
+    src: url('../assets/fonts/fa-sharp-solid-900.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 html {
-  font-family: sans-serif;
+  font-family: 'CustomFont', sans-serif; 
+
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
