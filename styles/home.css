@@ -82,6 +82,7 @@ body {
 
   }
   .col {
+    top: -10vh;
     display: flex;
     flex-direction: column; /* 竖直排列 */
     align-items: center; /* 让所有元素在 Y 轴对齐 */
