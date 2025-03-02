@@ -249,9 +249,14 @@ function renderProjects_apac(data) {
             const iframe = document.createElement('iframe');
             iframe.src = project.videourl;
             iframe.width = '100%';
-            iframe.style.aspectRatio = "16 / 9";
-            iframe.frameBorder = '0';
+            iframe.style.aspectRatio = '16 / 9';
+            iframe.scrolling = 'no';
+            iframe.border = '0';
+            iframe.frameBorder = 'no';
+            iframe.frameSpacing = '0';
+            iframe.allowFullscreen = true;
 
+            
             mediaDiv.appendChild(iframe);
         }
 
