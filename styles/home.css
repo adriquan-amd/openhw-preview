@@ -25,7 +25,7 @@
 
 body {
     background-color: #000000;
-
+    box-sizing: border-box;
     width: 100%;
 }
 
@@ -297,3 +297,14 @@ body {
   height: 100%;
   object-fit: cover; /* 让 GIF 填充整个区域 */
 }
+
+
+    .arrow:hover svg line {
+        stroke: #FF4500 !important; /* 使用 !important 强制生效 */
+        transition: stroke 0.3s;
+    }
+  
+    .arrow:hover {
+        transform: scale(1.2); /* hover时放大 */
+        transition: transform 0.3s;
+    }

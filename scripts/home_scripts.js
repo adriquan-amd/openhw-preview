@@ -69,3 +69,47 @@ $(document).ready(function () {
         console.error("Error loading JSON:", error);
     }
 });
+
+
+
+const contents = [
+  {
+      main: "Our Latest Competition",
+      sub: "Registration is now open for the 2025 Adaptive Computing Track!",
+      left: "calc(14.86vw)"
+  },
+  {
+      main: "New Challenges Await",
+      sub: "Join us in exploring the latest in adaptive computing!",
+      left: "calc(14.86vw + 3.34vw)"
+  }
+];
+
+let currentIndex = 0; 
+window.onload = function() {
+  // 元素选择器
+  const textMain = document.getElementById("text-main");
+  const textSub = document.getElementById("text-sub");
+  const borderFg = document.getElementById("border-fg");
+
+  // 更新内容和线位置的函数
+  function updateContent() {
+    textMain.textContent = contents[currentIndex].main;
+    textSub.textContent = contents[currentIndex].sub;
+    borderFg.style.left = contents[currentIndex].left;
+  }
+
+  // 左箭头点击事件
+  document.getElementById("left-arrow").addEventListener("click", () => {
+    currentIndex = (currentIndex - 1 + contents.length) % contents.length;
+    updateContent();
+  });
+
+  // 右箭头点击事件
+  document.getElementById("right-arrow").addEventListener("click", () => {
+    currentIndex = (currentIndex + 1) % contents.length;
+    updateContent();
+  });
+
+
+}

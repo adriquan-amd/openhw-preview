@@ -137,7 +137,7 @@ function renderProjects_eu(data) {
         // 创建按钮
         if (project.project_link) {  
             const button = document.createElement('a');
-            button.classList.add('btn', 'btn-dark', 'btn-round');
+            button.classList.add('btn', 'btn-danger', 'btn-round');
             button.href = project.project_link;
             button.target = '_blank';
             button.textContent = 'View Repository';
