@@ -308,3 +308,31 @@ body {
         transform: scale(1.2); /* hover时放大 */
         transition: transform 0.3s;
     }
+
+
+    .faq-item {
+        padding-top: 20px;
+        padding-bottom: 22px;
+        padding-left: 21px;
+        padding-right: 30px;
+        background: rgba(12, 81, 63, 0.02);
+        border-radius: 8px;
+        border: 1px #E7EEEC solid;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        min-width: 500px;
+        max-width: 500px;
+        margin-bottom: 16px; /* 增加间距，让每个框之间更好看 */
+    }
+
+    .faq-text {
+        color: #0C513F;
+        font-size: 18px;
+        font-family: Plus Jakarta Sans;
+        font-weight: 800;
+        line-height: 28px;
+        white-space: nowrap; /* 禁止换行 */
+        word-wrap: break-word;
+    }
+
