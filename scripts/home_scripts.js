@@ -79,8 +79,13 @@ const contents = [
       left: "calc(14.86vw)"
   },
   {
-      main: "New Challenges Await",
-      sub: "Join us in exploring the latest in adaptive computing!",
+      main: "Outstanding Works",
+      sub: "Discover groundbreaking solutions and cutting-edge designs",
+      left: "calc(14.86vw + 3.34vw)"
+  },
+  {
+    main: "Outstanding Works",
+      sub: "Discover groundbreaking solutions and cutting-edge designs",
       left: "calc(14.86vw + 3.34vw)"
   }
 ];
@@ -135,12 +140,12 @@ window.addEventListener("scroll", () => {
         if (scrollVh >= 10 && currentSection === 0) {
             currentSection = 1;  // 切换到 section1
             sections[1].scrollIntoView({ behavior: "smooth" });
-        } else if (scrollVh >= 140 && currentSection === 1) {
+        } else if (scrollVh >= 110 && currentSection === 1) {
             currentSection = 2;  // 切换到 section2
             sections[2].scrollIntoView({ behavior: "smooth" });
         }
     } else {  // 上滑
-        if (scrollVh < 140 && currentSection === 2) {
+        if (scrollVh < 190 && currentSection === 2) {
             currentSection = 1;  // 切换回 section1
             sections[1].scrollIntoView({ behavior: "smooth" });
         } else if (scrollVh < 90 && currentSection === 1) {
