@@ -310,29 +310,57 @@ body {
     }
 
 
+
     .faq-item {
-        padding-top: 20px;
-        padding-bottom: 22px;
-        padding-left: 21px;
-        padding-right: 30px;
+        padding: 20px 21px;
         background: rgba(12, 81, 63, 0.02);
         border-radius: 8px;
         border: 1px #E7EEEC solid;
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: space-between;
+        align-items: center;
         min-width: 500px;
         max-width: 500px;
-        margin-bottom: 16px; /* 增加间距，让每个框之间更好看 */
+        margin-bottom: 16px;
+        cursor: pointer;
+        width: 25vw;
+        transition: background 0.3s, border-color 0.3s, color 0.3s;
+        position: relative;
     }
 
     .faq-text {
         color: #0C513F;
         font-size: 18px;
-        font-family: Plus Jakarta Sans;
         font-weight: 800;
         line-height: 28px;
-        white-space: nowrap; /* 禁止换行 */
+        white-space: nowrap;
         word-wrap: break-word;
+        transition: color 0.3s;
     }
 
+
+    .faq-item.selected {
+        background: black;
+        border-color: #FFC501;
+        width: 35vw;
+    }
+
+    .faq-item.selected .faq-text {
+        color: white;
+    }
+
+    .faq-item .svg-icon {
+  
+
+        transition: opacity 0.3s, transform 0.3s;
+        position: absolute;
+        right: -40px;  /* 在边框右侧 */
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 20000;
+    }
+
+    .faq-item.selected .svg-icon {
+        opacity: 1;
+        transform: translateY(-50%) translateX(10px);  /* 向右平滑出现 */
+    }

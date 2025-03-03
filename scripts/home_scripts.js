@@ -160,3 +160,14 @@ window.addEventListener("scroll", () => {
 }
 
 
+function toggleSelected(element) {
+  document.querySelectorAll('.faq-item').forEach(item => {
+      if (item !== element) {
+          item.classList.remove('selected');
+      }
+  });
+
+  element.classList.toggle('selected');
+
+
+}
