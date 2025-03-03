@@ -54,3 +54,5 @@ accordionItems.forEach((item, index) => {
   });
 });
 
+
+

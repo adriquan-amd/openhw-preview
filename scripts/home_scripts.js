@@ -111,5 +111,47 @@ window.onload = function() {
     updateContent();
   });
 
+  let lastScrollTop = 0;  // 记录上一次滚动位置
+let currentSection = 0;  // 当前显示的 section (0, 1, 2)
 
+const sections = [
+    document.getElementById("section0"),
+    document.getElementById("section1"),
+    document.getElementById("section2")
+];
+
+window.addEventListener("scroll", () => {
+    const currentScroll = window.scrollY;  // 当前滚动的像素值
+    const windowHeight = window.innerHeight;
+
+    // 计算滚动的相对 vh 值
+    const scrollVh = currentScroll / windowHeight * 100;
+
+    // 判断滚动方向: true 表示下滑, false 表示上滑
+    const isScrollingDown = currentScroll > lastScrollTop;
+
+    // 根据滚动方向和滚动位置切换 section
+    if (isScrollingDown) {  // 下滑
+        if (scrollVh >= 10 && currentSection === 0) {
+            currentSection = 1;  // 切换到 section1
+            sections[1].scrollIntoView({ behavior: "smooth" });
+        } else if (scrollVh >= 140 && currentSection === 1) {
+            currentSection = 2;  // 切换到 section2
+            sections[2].scrollIntoView({ behavior: "smooth" });
+        }
+    } else {  // 上滑
+        if (scrollVh < 140 && currentSection === 2) {
+            currentSection = 1;  // 切换回 section1
+            sections[1].scrollIntoView({ behavior: "smooth" });
+        } else if (scrollVh < 90 && currentSection === 1) {
+            currentSection = 0;  // 切换回 section0
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    }
+
+    // 更新上一次的滚动位置
+    lastScrollTop = currentScroll;
+});
 }
+
+
