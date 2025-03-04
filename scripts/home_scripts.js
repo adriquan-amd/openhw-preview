@@ -76,19 +76,23 @@ const contents = [
   {
       main: "Our Latest Competition",
       sub: "Registration is now open for the 2025 Adaptive Computing Track!",
-      left: "calc(16.86vw)"
+      left: "calc(16.86vw)",
+      img: "assets/img/banner_gram.png"
   },
   {
       main: "Outstanding Works",
       sub: "Discover groundbreaking solutions and cutting-edge designs",
-      left: "calc(16.86vw + 3.34vw)"
+      left: "calc(16.86vw + 3.34vw)",
+      img: "assets/img/hierachical.png"
   },
   {
     main: "Recommended Platforms",
       sub: "Ryzen AI, selected AMD GPUS, and the following Academic boards, Alveo and partner platforms are recommended.",
-      left: "calc(16.86vw + 6.68vw)"
+      left: "calc(16.86vw + 6.68vw)",
+      img: "assets/img/pic.png"
   }
 ];
+
 
 let currentIndex = 0; 
 window.onload = function() {
@@ -96,12 +100,18 @@ window.onload = function() {
   const textMain = document.getElementById("text-main");
   const textSub = document.getElementById("text-sub");
   const borderFg = document.getElementById("border-fg");
+  const sliderImg = document.getElementById("slider-img");  // 图片元素选择器
 
   // 更新内容和线位置的函数
   function updateContent() {
     textMain.textContent = contents[currentIndex].main;
     textSub.textContent = contents[currentIndex].sub;
     borderFg.style.left = contents[currentIndex].left;
+    sliderImg.src = contents[currentIndex].img;  // 更新图片路径
+    sliderImg.style.opacity = 0;  // 淡出效果
+    setTimeout(() => {
+      sliderImg.style.opacity = 1;  // 淡入效果
+    }, 100);
   }
 
   // 左箭头点击事件
@@ -116,7 +126,10 @@ window.onload = function() {
     updateContent();
   });
 
-}
+  // 初始化内容
+  updateContent();
+};
+
 
 const faqAnswers = {
   "faq-0": `
