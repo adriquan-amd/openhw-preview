@@ -83,7 +83,7 @@ function renderProjects_eu(data) {
 
         // Create parent div
         const colDiv = document.createElement('div');
-        colDiv.classList.add('col-md-6', 'col-lg-4'); // Using Bootstrap's column classes
+        colDiv.classList.add('col-md-6', 'col-lg-2'); // Using Bootstrap's column classes
 
         // Create project card container
         const projectDiv = document.createElement('div');
@@ -210,7 +210,7 @@ function renderProjects_apac(data) {
         if (!project || (!project.title || (!project.pdfFileName && !project.videourl && !project.imgName))) return;
 
         const colDiv = document.createElement('div');
-        colDiv.classList.add('col-md-6', 'col-lg-4');
+        colDiv.classList.add('col-md-6', 'col-lg-2');
 
         const projectDiv = document.createElement('div');
         projectDiv.classList.add('card', 'shadow-lg', 'border-0', 'mb-4');
