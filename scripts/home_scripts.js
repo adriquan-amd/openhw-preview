@@ -201,20 +201,30 @@ const faqAnswers = {
 
 
 function toggleSelected(element) {
-  // 移除其他选中的 .faq-item
-  document.querySelectorAll('.faq-item').forEach(item => {
-      if (item !== element) {
-          item.classList.remove('selected');
-      }
-  });
+    // 移除其他选中的 .faq-item
+    document.querySelectorAll('.faq-item').forEach(item => {
+        if (item !== element) {
+            item.classList.remove('selected');
+        }
+    });
 
-  // 切换当前点击的项的选中状态
-  element.classList.toggle('selected');
+    // 切换当前点击的项的选中状态
+    element.classList.toggle('selected');
 
-  // 获取当前点击项的 data-id
-  const faqId = element.getAttribute('data-id');
+    // 获取当前点击项的 data-id
+    const faqId = element.getAttribute('data-id');
+    const ansElement = document.getElementById("ans");
 
-  // 获取对应答案并更新到 id="ans" 的元素中 (支持 HTML)
-  const ansElement = document.getElementById("ans");
-  ansElement.innerHTML = faqAnswers[faqId] || "<p>Select a question to see the answer here.</p>";
+    // 手动控制淡出
+    ansElement.style.transition = "opacity 0.3s";
+    ansElement.style.opacity = 0;  // 先淡出
+
+    setTimeout(() => {
+        // 更新内容
+        ansElement.innerHTML = faqAnswers[faqId] || "<p>Select a question to see the answer here.</p>";
+        
+        // 手动触发淡入
+        ansElement.style.transition = "opacity 0.5s";  // 设置淡入速度
+        ansElement.style.opacity = 1;                  // 淡入效果
+    }, 300);  // 300ms 与淡出速度一致，确保内容更新时已完全淡出
 }
