@@ -349,15 +349,13 @@ body {
     }
 
     .faq-item .svg-icon {
-  
-
-        transition: opacity 0.3s, transform 0.3s;
-        position: absolute;
-        right: -40px;  /* 在边框右侧 */
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 20000;
-    }
+      position: absolute;
+      left: 90%;                /* 横向放在 90% 的位置 */
+      top: 50%;                 /* 垂直居中 */
+      transform: translateY(-50%);  /* 修正居中位置 */
+      transition: opacity 0.3s, transform 0.3s;
+      opacity: 0;
+  }
 
     .faq-item.selected .svg-icon {
         opacity: 1;

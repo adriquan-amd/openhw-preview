@@ -147,19 +147,19 @@
             <div style="width: 36.18vw; height: 33.15vh; left: 0vw; top: 26.77vh; position: absolute">
                 <div style="width: 36.18vw; left: 0vw; top: 4.15vh; position: absolute; color: #170F49; font-size: 50px; font-weight: 700; line-height: 62px; word-wrap: break-word">Open Hardware Competition</div>
                 <div style="width: 34.7vw; left: 0vw; top: 20.09vh; position: absolute; color: #6F6C90; font-size: 18px; font-weight: 400; line-height: 30px; word-wrap: break-word">The AMD Open Hardware is an annual design competition that gives university students the opportunity to showcase their technical and creative skills with adaptive compute technology.</div>
-                <div style="width: 34.7vw; left: 0vw; top: 34.09vh; position: absolute; color: #6F6C90; font-size: 18px; font-weight: 400; line-height: 30px; word-wrap: break-word">For questions about the competition:</div>
+                <div style="width: 34.7vw; left: 0vw;top: 34.09vh; position: absolute; color: #6F6C90; font-size: 18px; font-weight: 400; line-height: 30px; word-wrap: break-word">For questions about the competition:</div>
 
-                <div style="width: 21.25vw; height: 1.39vh; left: 0vw; top: 0vh; position: absolute; justify-content: center; align-items: center; gap: 0.69vw; display: inline-flex">
+                <div style="  width: 21.25vw; height: 1.39vh; left: 0vw; top: 0vh; position: absolute; justify-content: center; align-items: center; gap: 0.69vw; display: inline-flex">
                     <div style="width: 1.53vw; height: 0.14vh; background: #FD5B00; border-radius: 30px"></div>
-                    <div style="color: #FD5B00; font-size: 18px; font-weight: 700; text-transform: uppercase; line-height: 20px; letter-spacing: 1.80px; word-wrap: break-word">AMD University Program Design Competition</div>
+                    <div style=" color: #FD5B00; font-size: 18px; font-weight: 700; text-transform: uppercase; line-height: 24px; letter-spacing: 1.80px; word-wrap: break-word">AMD University Program Design Competition</div>
                 </div>
-                <div style="width: 23.47vw; height: 3.91vh; left: 0vw; top: 41.22vh; position: absolute; justify-content: center; align-items: center; gap: 1.67vw; display: inline-flex">
+                <div style="width: 23.47vw; height: 3.91vh; left: 2.7vw; top: 41.22vh; position: absolute; justify-content: center; align-items: center; gap: 1.67vw; display: inline-flex">
                     <a href="mailto:aup@amd.com" class="btn btn-danger btn-round" style="padding-left: 2.78vw; padding-right: 2.78vw; padding-top: 18px; padding-bottom: 18px;">
                         <div style="text-align: center; color: white; font-size: 18px; font-weight: 700; line-height: 20px; word-wrap: break-word">Contact us</div>
                     </a>
                     
                 </div>
-                <div style=" padding-left: 9vw;  padding-top: 65vh; padding-bottom: 18px; z-index: 1000000; ">
+                <div style=" padding-left:12vw;  padding-top: 65vh; padding-bottom: 18px; z-index: 1000000; ">
                     <div style="text-align: center; color: #FD5B00;  font-size: 18px; font-weight: 400; line-height: 20px; word-wrap: break-word; display: inline-flex; align-items: center; gap: 8px;">
                         <span>See more</span>
                         <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -196,7 +196,8 @@
               <div style="align-self: stretch; padding-bottom: 344px; padding-right: 2vw; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
          
     
-                <div class="faq-item card shadow-sm selected" onclick="toggleSelected(this)">
+
+                <div class="faq-item card shadow-sm selected" data-id="faq-0" onclick="toggleSelected(this)">
                     <div class="faq-text" >What are the ongoing competitions?</div>
                     <div class="svg-icon">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -211,7 +212,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="faq-item card shadow-sm" onclick="toggleSelected(this)">
+                <div class="faq-item card shadow-sm" data-id="faq-1" onclick="toggleSelected(this)">
                     <div class="faq-text" onclick="toggleSelected(this)">What are the available tracks and levels?</div>
                     <div class="svg-icon">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -228,7 +229,7 @@
                 </div>
                 
 
-                <div class="faq-item card shadow-sm" onclick="toggleSelected(this)">
+                <div class="faq-item card shadow-sm" data-id="faq-2" onclick="toggleSelected(this)">
                     <div class="faq-text">What is the registration deadline?</div>
                     <div class="svg-icon">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -244,7 +245,7 @@
                     </div>
                 </div>
                 
-                <div class="faq-item card shadow-sm" onclick="toggleSelected(this)">
+                <div class="faq-item card shadow-sm" data-id="faq-3" onclick="toggleSelected(this)">
                     <div class="faq-text">Can I explore the previous works?</div>
                     <div class="svg-icon">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -260,7 +261,7 @@
                     </div>
                 </div>
                 
-                <div class="faq-item card shadow-sm" onclick="toggleSelected(this)">
+                <div class="faq-item card shadow-sm" data-id="faq-4" onclick="toggleSelected(this)">
                     <div class="faq-text">How can I participate?</div>
                     <div class="svg-icon">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -298,7 +299,8 @@
                 </defs>
                 </svg>
                 </div>
-                <div style="width: 490.36px; color: black; font-size: 24px;  font-weight: 400; line-height: 36px; word-wrap: break-word">Chowdeck is a technology company that provides logistics services to both vendors and consumers. This potentially allows food vendors to deliver meals seamlessly while also providing consumers with an easy platform to order meals from their favourite restaurants in their city.</div>
+                <div id="ans" style="width: 490.36px; color: black; font-size: 24px;  font-weight: 400; line-height: 36px; word-wrap: break-word"> <h4>Global Competition</h4>
+                    <p><strong>New for 2025 - Open Hardware is now global!</strong> Participants from all around the world are welcome to participate.</p></div>
               </div>
             </div>
           </div>
