@@ -361,3 +361,24 @@ body {
         opacity: 1;
         transform: translateY(-50%) translateX(10px);  /* 向右平滑出现 */
     }
+
+    #ans h4 {
+
+      font-size: 26px;                             /* 增大字号 */
+      font-weight: 600;                            /* 适中加粗 */
+
+      letter-spacing: 0.5px;                       /* 字母间距，防止拥挤 */
+      text-transform: uppercase;                   /* 全部大写，增强强调 */
+      border-bottom: 2px solid rgba(12, 81, 63, 0.2);  /* 底边线条装饰 */
+      padding-bottom: 5px;                         /* 底部内间距，和线条分隔 */
+      margin-bottom: 20px;                         /* 底部间距，保持层次感 */
+      padding: 10px;                               /* 内间距，防止文字贴边 */
+      border-radius: 5px;                          /* 圆角效果，柔和 */
+      transition: color 0.3s, border-color 0.3s;   /* 鼠标悬停效果 */
+  }
+  
+  #ans h4:hover {
+      color: #FD5B00;                              /* 悬停变橙色 */
+      border-color: #FD5B00;                       /* 底边线同步变橙色 */
+  }
+  

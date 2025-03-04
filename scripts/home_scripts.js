@@ -165,32 +165,35 @@ const faqAnswers = {
       <p><strong>New for 2025 - Open Hardware is now global!</strong> Participants from all around the world are welcome to participate.</p>
   `,
   "faq-1": `
-      <h4>Tracks & Levels</h4>
+      <h4>Tracks</h4>
       <ul>
           <li><strong>Adaptive Computing:</strong> Explore the power of FPGAs, Zynq, Zynq Ultrascale+, RFSoC, and Versal.</li>
           <li><strong>Coming soon - Accelerated Computing:</strong> Unleash the potential of AMD ROCm-supported Ryzen AI and Radeon/Instinct GPUs.</li>
       </ul>
-      <h4>Two Levels</h4>
+      
+  `,
+  "faq-2":`
+    <h4>Two Levels</h4>
       <ul>
           <li><strong>Student:</strong> Undergraduates</li>
           <li><strong>PhD:</strong> PhD candidates</li>
       </ul>
       <p>Enter individually or in teams of up to five people.</p>
   `,
-  "faq-2": `
+  "faq-3": `
       <h4>Key Dates</h4>
       <ul>
           <li><strong>Register by:</strong> 31 March 2025</li>
           <li><strong>Submit your entry by:</strong> 31 August 2025</li>
       </ul>
   `,
-  "faq-3": `
+  "faq-4": `
       <h4>Explore Past Successes</h4>
-      <p class="description text-dark">
+      <p >
           The 2024 edition of the competition is now over. Please see the <a href="results.html?year=2024" class="link">Results</a> page to see a gallery of the 2024 winners and finalists.
       </p>
   `,
-  "faq-4": `
+  "faq-5": `
       <h4>Ready to Participate?</h4>
       <p>For detailed rules, eligibility criteria, and any questions, please visit our dedicated <a href="adaptive-computing.html" class="link">Rules</a>.</p>
   `
