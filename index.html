@@ -21,6 +21,13 @@
 
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/popper.min.js"></script>
+    <!-- 引入 UIkit CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.15.19/css/uikit.min.css" />
+
+<!-- 引入 UIkit JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.15.19/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.15.19/js/uikit-icons.min.js"></script>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
@@ -76,7 +83,7 @@
 
 <div class="bg-light">
 
-    <section id="section0" class="bg-black" style="width: 100vw; height: 92vh; position: relative; overflow: hidden;">
+    <section id="section0"  class="bg-black" style="width: 100vw; height: 92vh; position: relative; overflow: hidden;">
         <div class="image-slider" style="position: relative; width: 50.36vw; height: 80.29vh; left: 42.83vw; top: 20vh; overflow: hidden;">
             <img class="slider-img" src="assets\img\banner_gram.png" style="width: 100%; height: 100%; position: absolute; " />
            
@@ -84,13 +91,13 @@
         
         <div style="width: 32.29vw; height: 49.09vh; left: 7.54vw; top: 20.35vh; position: absolute">
             <img src="assets/img/logo.jpg" 
-            style="left: 4.07vw; top: 0vh; position: absolute; width: 20.29vw;">
+            style="left: 6.27vw; top: 0vh; position: absolute; width: 15.29vw;">
             
-            <div style="width: 32.29vw; left: 0vw; top: 16.83vh; position: absolute; opacity: 0.70; color: white; font-size: 16px; font-weight: 500; word-wrap: break-word">
+            <div style="width: 32.29vw; left: 0vw; top: 13.83vh; position: absolute; opacity: 0.70; color: white; font-size: 16px; font-weight: 500; word-wrap: break-word">
                 AMD is the high performance and adaptive computing leader, powering the products and services that help solve the world’s most important challenges. Our technologies advance the future of the data center, embedded, gaming and PC markets.
             </div>
 
-            <div style="left: 9vw; top: 45.83vh; position: absolute; font-size: 20px; color: white; opacity: 0.70;" >
+            <div style="left: 9.8vw; top: 45.83vh; position: absolute; font-size: 20px; color: white; opacity: 0.70;" >
                 <span>See more</span>
                 <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M19 5L12.7071 11.2929C12.3166 11.6834 11.6834 11.6834 11.2929 11.2929L5 5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -126,11 +133,11 @@
       
     
         <div style="width: 42.83vw; height: 9.64vh; left: 7.54vw; top: 77.68vh; position: absolute">
-            <div data-aos="fade-in" id="text-sub" style="width: 33.47vw; left: 0vw; top: 5.21vh; position: absolute; opacity: 0.70; color: white; font-size: 14px; font-weight: 400; word-wrap: break-word">
+            <div id="text-sub" style="width: 33.47vw; left: 0vw; top: 5.21vh; position: absolute; opacity: 0.70; color: white; font-size: 14px; font-weight: 400; word-wrap: break-word">
                 Registration is now open for the 2025 Adaptive Computing Track!
             </div>
             
-            <div data-aos="fade-in" id="text-main" style="left: 0vw; top: 0vh; position: absolute; color: white; font-size: 20px; font-weight: 500; word-wrap: break-word">
+            <div id="text-main" style="left: 0vw; top: 0vh; position: absolute; color: white; font-size: 20px; font-weight: 500; word-wrap: break-word">
                 Our Latest Competition
             </div>
             
@@ -139,13 +146,14 @@
         </div>
     </section>
 
-
-<section id="section1" style="scroll-snap-type: y mandatory;">
+    <div style="height: 10vh;"></div>
+<section id="section1" uk-scrollspy="cls:uk-animation-slide-bottom; repeat: true" style="scroll-snap-type: y mandatory;">
     <div style="width: 100vw; height: 100vh; position: relative "data-aos="slide-up">
         <div style="width: 100vw; height: 100vh; left: 0vw; top: 13.33vh; position: absolute; background: white"></div>
         <div style="width: 93.09vw; height: 86.65vh; left: 6.91vw; top: 0vh; position: absolute">
             <div style="width: 36.18vw; height: 33.15vh; left: 0vw; top: 26.77vh; position: absolute">
                 <div style="width: 36.18vw; left: 0vw; top: 4.15vh; position: absolute; color: #170F49; font-size: 50px; font-weight: 700; line-height: 62px; word-wrap: break-word">Open Hardware Competition</div>
+                <div style="height: 10vh; left: 0vw; top: 8.15vh; position: absolute;"></div>
                 <div style="width: 34.7vw; left: 0vw; top: 20.09vh; position: absolute; color: #6F6C90; font-size: 18px; font-weight: 400; line-height: 30px; word-wrap: break-word">The AMD Open Hardware is an annual design competition that gives university students the opportunity to showcase their technical and creative skills with adaptive compute technology.</div>
                 <div style="width: 34.7vw; left: 0vw;top: 34.09vh; position: absolute; color: #6F6C90; font-size: 18px; font-weight: 400; line-height: 30px; word-wrap: break-word">For questions about the competition:</div>
 
@@ -182,10 +190,12 @@
     
 </section>
 
+<div style="height: 10vh;">
 
-<div id="section2"  style="width: 100vw; height: 100vh; position: relative">
+</div>
+<div id="section2" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true"  style="width: 100vw; height: 100vh; position: relative">
 
-    <div style="width: 100vw; height: 90vh; left: 0px; top: 5vh; position: absolute; background: black"></div>
+    <div style="width: 100vw; height: 95vh; left: 0px; top: 5vh; position: absolute; background: black"></div>
 
     <div style=" height: 70vh; left: 0px; top: 0px; position: absolute">
         <div style="width: 80vw; left: 10vw; height: 100vh; padding-top: 10vh; padding-left: 5vw; padding-right: 5vw; top: 0px; position: absolute; background: white; border-radius: 16px; overflow: hidden; border: 4px black solid; justify-content: flex-start; align-items: flex-start; display: inline-flex; box-sizing: border-box;">
@@ -325,7 +335,6 @@
     </div>
     
 </div>
-
 
 
 
