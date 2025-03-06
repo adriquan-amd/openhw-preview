@@ -227,10 +227,6 @@ function renderProjects_apac(data) {
             img.style.objectFit = "cover";
             img.style.cursor = "pointer";
 
-            img.addEventListener('click', () => {
-                window.open(project.websiteUrl, '_blank');
-            });
-
             mediaDiv.appendChild(img);
         } else if (project.pdfFileName) {
             const pdfEmbed = document.createElement('embed');
@@ -241,7 +237,7 @@ function renderProjects_apac(data) {
             pdfEmbed.style.cursor = "pointer";
 
             pdfEmbed.addEventListener('click', () => {
-                window.open(`assets/pdf/${project.pdfFileName}`, '_blank');
+                window.open(`assets/pdf/${project.pdfFileName}`,  `${project.pdfFileName}`);
             });
 
             mediaDiv.appendChild(pdfEmbed);
@@ -269,10 +265,16 @@ function renderProjects_apac(data) {
         title.classList.add('card-title');
         title.style.cursor = "pointer";
         title.textContent = project.title;
+        if (project.pdfFileName) {
+            window.open(project.websiteUrl, `assets/pdf/${project.pdfFileName}`);
+        }
 
-        title.addEventListener('click', () => {
+        else {title.addEventListener('click', () => {
+            
             window.open(project.websiteUrl, '_blank');
         });
+    }
+        
 
         cardBody.appendChild(title);
         projectDiv.appendChild(cardBody);

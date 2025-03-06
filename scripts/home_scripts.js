@@ -77,19 +77,19 @@ const contents = [
       main: "Our Latest Competition",
       sub: "Registration is now open for the 2025 Adaptive Computing Track!",
       left: "calc(16.86vw)",
-      img: "assets/img/banner_gram.png"
+      img: "assets/img/AMD Austin Campus.jpg"
   },
   {
       main: "Outstanding Works",
       sub: "Discover groundbreaking solutions and cutting-edge designs",
       left: "calc(16.86vw + 3.34vw)",
-      img: "assets/img/hierachical.png"
+      img: "assets/img/AMD Shanghai.jpg"
   },
   {
     main: "Recommended Platforms",
       sub: "Ryzen AI, selected AMD GPUS, and the following Academic boards, Alveo and partner platforms are recommended.",
       left: "calc(16.86vw + 6.68vw)",
-      img: "assets/img/pic.png"
+      img: "assets/img/1119936_Raphael_02_0036_4K.png"
   }
 ];
 

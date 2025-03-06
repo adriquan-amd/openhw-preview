@@ -85,7 +85,7 @@
 
     <section id="section0"  class="bg-black" style="width: 100vw; height: 92vh; position: relative; overflow: hidden; display: flex">
         <div class="image-slider" style="position: relative; width: 50.36vw; height: 80.29vh; left: 42.83vw; top: 20vh; overflow: hidden;">
-            <img class="slider-img" id="slider-img" src="assets\img\banner_gram.png" style="width: 100%; position: absolute; " />
+            <img class="slider-img" id="slider-img" src="assets\img\banner_gram.png" style="width: 100%; position: absolute; height: 100%; object-fit: cover;"  />
            
         </div>
         
@@ -108,12 +108,13 @@
 
     
         <div style="width: 42.83vw; height: 17.71vh; left: 0vw; top: 74.29vh; position: absolute; 
-        background: linear-gradient(90deg, #FD5B00, #FF7E00, #FFB000); 
+        background: linear-gradient(90deg, #000000, #333333, #666666); 
         border-top: 2px solid rgba(255, 255, 255, 0.3);
         box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);">
-        </div>
+</div>
 
-        <div style="width: 6.7vw; height: 17.71vh; left: 42.83vw; top: 74.29vh; position: absolute; background: black; min-height: 100px;  "></div>
+
+        <div style="width: 6.7vw; height: 17.71vh; left: 42.83vw; top: 74.29vh; position: absolute; min-height: 100px; background: #666666;  "></div>
         
         <a  class="btn arrow" id="right-arrow" onclick="event.preventDefault()" style="height: 2.77vh; left: 44.75vw; top: 78vh; position: absolute; cursor: pointer;  z-index: 100;">
             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="23" viewBox="0 0 13 23" fill="none">
@@ -146,7 +147,7 @@
         </div>
     </section>
 
-    <div style="height: 10vh;"></div>
+
 <section id="section1" uk-scrollspy="cls:uk-animation-slide-bottom; repeat: true" style="scroll-snap-type: y mandatory;">
     <div style="width: 100vw; height: 100vh; position: relative "data-aos="slide-up">
         <div style="width: 100vw; height: 100vh; left: 0vw; top: 13.33vh; position: absolute; background: white"></div>
@@ -180,9 +181,13 @@
             </div>
            
             <div style="width: 51.04vw; height: 100vh; left: 42.05vw; top: 0vh; position: absolute;">
-                <div style="width: 51.04vw; height: 100vh; left: 0vw; top: 0vh; position: absolute; background: #C4C4C4;"></div>
-                <img style="width: 51.04vw; position: absolute; bottom: 0; left: 0; z-index: 1000;" src="assets/img/banner_gram.png" />
+                <div style="width: 51.04vw; height: 100vh; left: 0vw; top: 0vh; position: absolute; 
+                     background: linear-gradient(180deg, rgba(240, 240, 240, 0.8), rgba(200, 200, 200, 0.8));"></div>
+                     <img style="width: 51.04vw; position: absolute; bottom: 0; left: 0; z-index: 1000;" src="assets\img\Picture1.png" />
             </div>
+            
+            
+            
         </div>
         
     </div>
@@ -337,17 +342,22 @@
 </div>
 
 
+<div style="height: 15vh;">
+
+</div>
 
 
 
 
-<footer class="bg-black pb-5 pt-4">
-
+<footer class="bg-black pb-5 ">
+    <svg style="-webkit-transform:rotate(-180deg); -moz-transform:rotate(-180deg); -o-transform:rotate(-180deg); transform:rotate(-180deg); margin-top: -1px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 1440 126" style="enable-background:new 0 0 1440 126;" xml:space="preserve">
+        <path class="bg-light" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"/>
+        </svg>
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-md-12">
-			<span class="d-block mt-3 text-gray">©	AUP OPEN HARDWARE COMPETITION<a>.
-            </span>
+                <span class="d-block mt-3 text-gray">© AUP OPEN HARDWARE COMPETITION</a>.
+                </span>
             </div>
         </div>
     </div>
