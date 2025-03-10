@@ -312,7 +312,7 @@ body {
 
 
     .faq-item {
-        padding: 20px 21px;
+        padding: 12px 13px;
         background: rgba(12, 81, 63, 0.02);
         border-radius: 8px;
         border: 1px #E7EEEC solid;
@@ -322,14 +322,15 @@ body {
 
         margin-bottom: 16px;
         cursor: pointer;
-        width: 25vw;
+        width: 500px;
         transition: background 0.3s, border-color 0.3s, color 0.3s;
         position: relative;
+  
     }
 
     .faq-text {
         color: #0C513F;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 800;
         line-height: 28px;
         white-space: nowrap;
@@ -337,11 +338,28 @@ body {
         transition: color 0.3s;
     }
 
+    @media (max-width: 768px) {
+      .faq-text {
+          font-size: 14px;
+          line-height: 22px;
+      }
+      #ans {
+          font-size: 14px;
+          line-height: 28px;
+          width: 80%; /* 宽度自适应减少溢出 */
+          padding: 5vh 2vw; /* 减少 padding 避免溢出 */
+      }
+      .faq-item {
+          font-size: 14px;
+          padding: 10px;
+      }
+  }
+
 
     .faq-item.selected {
         background: black;
         border-color: #FFC501;
-        width: 30vw;
+        width: 450px
     }
 
     .faq-item.selected .faq-text {
