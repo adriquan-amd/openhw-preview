@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Acoustic Camera Based on Zynq",
+      "pdfFileName": "Acoustic.pdf"
+    },
+    {
+      "title": "A Real-time Continuous Projection Calibration Platform Based on ZYNQ7015 ",
+      "pdfFileName": "Areal-time.pdf"
+    },
+    {
+      "title": "TBRR : Tennis Ball Retriever Robot Based on FPGA",
+      "pdfFileName": "tbrr.pdf"
+    },
+    {
+      "title": "Diffuser: An FPGA Accelerator for Diffusion Model with Dynamic Step Quantization",
+      "pdfFileName": "diffuser.pdf"
+    },
+    {
+      "title": "Accelerating Large Model Inference on FPGA",
+      "pdfFileName": "accelerating.pdf"
+    },
+    {
+      "title": "Intelligent medical-assisted robot based on FPGA",
+      "pdfFileName": "intelligent.pdf"
+    },
+    {
+      "title": "3D Medical Image Reconstruction Based on PYNQ",
+      "pdfFileName": "3D.pdf"
+    },
+    {
+      "title": "An FPGA-based Medical Image Enhancement Super-Resolution System",
+      "pdfFileName": "AnFPGA.pdf"
+    },
+    {
+      "title": "FPGA-Based Vision and Laser Pest Control System",
+      "pdfFileName": "fpga-based.pdf"
+    }
+  ]
