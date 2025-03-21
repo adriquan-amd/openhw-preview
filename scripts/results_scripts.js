@@ -266,7 +266,12 @@ function renderProjects_apac(data) {
         title.style.cursor = "pointer";
         title.textContent = project.title;
         if (project.pdfFileName) {
-            window.open(`assets/pdf/${project.pdfFileName}`, '_blank');
+            title.addEventListener('click', () => {
+                console.log("dianji")
+            
+                window.open(`assets/pdf/${project.pdfFileName}`, '_blank');
+            });
+           
 
         }
 
