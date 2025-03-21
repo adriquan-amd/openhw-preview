@@ -266,7 +266,8 @@ function renderProjects_apac(data) {
         title.style.cursor = "pointer";
         title.textContent = project.title;
         if (project.pdfFileName) {
-            window.open(project.websiteUrl, `assets/pdf/${project.pdfFileName}`);
+            window.open(`assets/pdf/${project.pdfFileName}`, '_blank');
+
         }
 
         else {title.addEventListener('click', () => {
